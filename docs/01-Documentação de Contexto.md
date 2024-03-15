@@ -15,22 +15,22 @@ Nesse momento, o grupo pode optar por fazer uso  de ferramentas como Design Thin
 > - [Brainstorming](https://www.euax.com.br/2018/09/brainstorming/)
 
 ## Objetivos
+O objetivo geral deste trabalho é o desenvolvimento de uma aplicação web interativa que permita, aos usuários, o acesso personalizado a notícias, conforme os seus respectivos interesses, de forma centralizada e eficiente.
 
-Aqui você deve descrever os objetivos do trabalho indicando que o objetivo geral é desenvolver um software para solucionar o problema apresentado acima. 
+Em síntese, os objetivos específicos do projeto são: 
 
-Apresente também alguns (pelo menos 2) objetivos específicos dependendo de onde você vai querer concentrar a sua prática investigativa, ou como você vai aprofundar no seu trabalho.
- 
-> **Links Úteis**:
-> - [Objetivo geral e objetivo específico: como fazer e quais verbos utilizar](https://blog.mettzer.com/diferenca-entre-objetivo-geral-e-objetivo-especifico/)
+  - Coletar, armazenar e integrar notícias (dados) oriundas de diversas páginas da web para posterior exibição, de forma personalizada, aos usuários;
+  - Fornecer funcionalidades que permitam a categorização do conteúdo personalizado recebido pelos usuários;
+  - Permitir que os usuários interajam, de forma intuitiva, com os diferentes mecanismos de busca e de filtragem disponíveis na aplicação.
+
+
 
 ## Justificativa
+De acordo com o relatório fornecido pela McKinsey & Company, intitulado "Next in Personalization 2021 Report", 71% dos consumidores demandam a oferta de experiências personalizadas pelas organizações, enquanto 76% reagem com frustração quando isso não ocorre.
 
-Descreva a importância ou a motivação para trabalhar com esta aplicação que você escolheu. Indique as razões pelas quais você escolheu seus objetivos específicos ou as razões para aprofundar em certos aspectos do software.
+Sendo assim, no contexto atual marcado pela era da informação, é imprescindível o oferecimento de notícias que estejam de acordo com os interesses e as necessidades de cada usuário.
 
-O grupo de trabalho pode fazer uso de questionários, entrevistas e dados estatísticos, que podem ser apresentados, com o objetivo de esclarecer detalhes do problema que será abordado pelo grupo.
 
-> **Links Úteis**:
-> - [Como montar a justificativa](https://guiadamonografia.com.br/como-montar-justificativa-do-tcc/)
 
 ## Público-Alvo
 
