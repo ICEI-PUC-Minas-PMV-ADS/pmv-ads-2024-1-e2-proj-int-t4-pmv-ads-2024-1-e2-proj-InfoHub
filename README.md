@@ -6,7 +6,7 @@
 
 `EIXO 2 - 2024`
 
-Escrever
+O objetivo geral deste trabalho é o desenvolvimento de uma aplicação web interativa que permita, aos usuários, o acesso personalizado a notícias em tempo real, conforme os seus respectivos interesses, de forma centralizada e eficiente.
 
 ## Integrantes
 
