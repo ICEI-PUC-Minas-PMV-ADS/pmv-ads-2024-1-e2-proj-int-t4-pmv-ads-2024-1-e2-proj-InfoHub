@@ -6,7 +6,7 @@
 
 `EIXO 2 - 2024`
 
-Com o crescimento exponencial da informação digital, manter-se atualizado se tornou essencial e desafiador. Os métodos tradicionais de consumo de notícias são ineficazes diante da vasta extensão de conteúdo online. Algumas plataformas de pesquisa podem não garantir a confiabilidade e relevância do conteúdo. Surge a necessidade de uma experiência de notícias mais simplificada e personalizada, que centralize informações em um único local, poupando tempo e esforço.
+Escrever
 
 ## Integrantes
 
