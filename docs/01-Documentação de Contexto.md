@@ -36,8 +36,3 @@ O público-alvo inclui jovens e adultos de todas as faixas etárias, com acesso 
 O aplicativo será projetado para atender às necessidades e preferências de usuários que buscam uma experiência de leitura otimizada e de alta qualidade.
 
 
-
-## Especificação do Projeto
-
-O projeto consistirá no desenvolvimento de uma aplicação web que permita aos usuários receberem notícias personalizadas de várias fontes da web. O aplicativo utilizará um crawler para coletar notícias de diferentes sites de notícias, agregando e organizando as informações de acordo com as preferências e interesses de cada usuário.
-
