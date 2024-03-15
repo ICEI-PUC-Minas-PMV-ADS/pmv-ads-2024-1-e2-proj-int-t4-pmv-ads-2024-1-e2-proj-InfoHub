@@ -34,10 +34,16 @@ Sendo assim, no contexto atual marcado pela era da informação, é imprescindí
 
 ## Público-Alvo
 
-Descreva quem serão as pessoas que usarão a sua aplicação indicando os diferentes perfis. O objetivo aqui não é definir quem serão os clientes ou quais serão os papéis dos usuários na aplicação. A ideia é, dentro do possível, conhecer um pouco mais sobre o perfil dos usuários: conhecimentos prévios, relação com a tecnologia, relações
-hierárquicas, etc.
+O público-alvo inclui jovens e adultos de todas as faixas etárias, com acesso à internet e interesse em receber informações relevantes de forma rápida e objetiva. Isso abrange profissionais ocupados, estudantes, entusiastas de tecnologia, e qualquer pessoa interessada em se manter atualizada sobre diversos tópicos, como notícias locais, nacionais, internacionais, esportes, entretenimento, ciência, tecnologia, entre outros. 
 
-Adicione informações sobre o público-alvo por meio de uma descrição textual, diagramas de personas e mapa de stakeholders.
+O aplicativo será projetado para atender às necessidades e preferências de usuários que buscam uma experiência de leitura otimizada e de alta qualidade.
+
+
+
+## Especificação do Projeto
+
+O projeto consistirá no desenvolvimento de uma aplicação web que permita aos usuários receberem notícias personalizadas de várias fontes da web. O aplicativo utilizará um crawler para coletar notícias de diferentes sites de notícias, agregando e organizando as informações de acordo com as preferências e interesses de cada usuário.
+
 
 > **Links Úteis**:
 > - [Público-alvo](https://blog.hotmart.com/pt-br/publico-alvo/)
