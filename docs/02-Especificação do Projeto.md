@@ -88,6 +88,6 @@ Enumere as restrições à sua solução. Lembre-se de que as restrições geral
 
 ## Diagrama de Casos de Uso
 
-!(img/diagrama-casosdeuso.jpeg)
+![Diagrama de Casos de Uso](img/diagrama-casosdeuso.jpeg)
 
 
