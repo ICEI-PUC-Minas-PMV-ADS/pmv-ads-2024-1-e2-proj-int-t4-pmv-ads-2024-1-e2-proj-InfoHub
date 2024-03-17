@@ -4,38 +4,69 @@ O projeto consistirá no desenvolvimento de uma aplicação web que permita aos 
 
 
 ## Personas
+As personas levantadas durante o processo de entendimento do problema são apresentadas como:
 
-Pedro Paulo tem 26 anos, é arquiteto recém-formado e autônomo. Pensa em se desenvolver profissionalmente através de um mestrado fora do país, pois adora viajar, é solteiro e sempre quis fazer um intercâmbio. Está buscando uma agência que o ajude a encontrar universidades na Europa que aceitem alunos estrangeiros.
+Nome: Anderson Moura
+Idade: 25 anos
+Ocupação: Estudante universitário
+Área de Estudo: Jornalismo e Comunicação
+Interesses:
+Notícias em Tempo Real: Anderson é apaixonado por estar atualizado com as últimas notícias. Ele gosta de saber o que está acontecendo no mundo, seja política, tecnologia, esportes ou cultura.
+Tecnologia: Anderson é um entusiasta da tecnologia. Ele acompanha blogs e podcasts sobre inovações, gadgets e tendências.
+Redes Sociais:  é ativo nas redes sociais, onde compartilha notícias interessantes e interage com outros estudantes e profissionais da área.
+Eventos e Debates: Ele participa de eventos, palestras e debates relacionados a jornalismo e mídia.
+Comportamento Online:segue várias fontes de notícias em suas redes sociais e usa aplicativos de notícias para receber atualizações em tempo real.
+Ele gosta de debater tópicos relevantes e compartilhar informações com seus colegas.
+também é crítico e avalia a credibilidade das fontes de notícias que consome.
+Desafios:
+Gerenciar o fluxo constante de informações e filtrar notícias relevantes.
+Manter-se atualizado com as mudanças rápidas no cenário de notícias.
+Encontrar fontes confiáveis e evitar notícias falsas.
+Objetivos:
+Se formar em Jornalismo e trabalhar como repórter ou editor.
+Contribuir para a sociedade informando e educando através do jornalismo.
+Desenvolver habilidades de escrita e comunicação.
 
-Enumere e detalhe as personas da sua solução. Para tanto, baseie-se tanto nos documentos disponibilizados na disciplina e/ou nos seguintes links:
+Nome: Giselle Silva
 
-> **Links Úteis**:
-> - [Rock Content](https://rockcontent.com/blog/personas/)
-> - [Hotmart](https://blog.hotmart.com/pt-br/como-criar-persona-negocio/)
-> - [O que é persona?](https://resultadosdigitais.com.br/blog/persona-o-que-e/)
-> - [Persona x Público-alvo](https://flammo.com.br/blog/persona-e-publico-alvo-qual-a-diferenca/)
-> - [Mapa de Empatia](https://resultadosdigitais.com.br/blog/mapa-da-empatia/)
-> - [Mapa de Stalkeholders](https://www.racecomunicacao.com.br/blog/como-fazer-o-mapeamento-de-stakeholders/)
->
-Lembre-se que você deve ser enumerar e descrever precisamente e personalizada todos os clientes ideais que sua solução almeja.
+Idade: 45 anos
+Ocupação: Advogada especializada em direito internacional
+Área de Atuação: Direito Corporativo e Relações Internacionais
+Interesses:
+Notícias Globais: Giselle é apaixonada por estar atualizada com as principais notícias do mundo. Ela acompanha eventos políticos, econômicos e sociais em diferentes países.
+Direito Internacional: Ela está sempre atenta a mudanças nas leis e regulamentos internacionais que possam afetar seus clientes ou suas negociações.
+Eventos e Conferências:Giselle participa de conferências e eventos relacionados a direito internacional para expandir sua rede de contatos e aprofundar seu conhecimento.
+Literatura Jurídica: Ela lê livros e artigos acadêmicos sobre direito internacional para se manter atualizada.
+Comportamento Online:
+Giselle segue fontes confiáveis de notícias internacionais, como agências de notícias, jornais e revistas especializadas.
+Ela também participa de fóruns e grupos online para debater questões legais e trocar ideias com outros profissionais.
+Giselle é crítica em relação a informações falsas e verifica a credibilidade das fontes antes de compartilhar notícias.
+Desafios:
+Gerenciar o volume de informações e filtrar notícias relevantes para sua área de atuação.
+Compreender nuances legais em diferentes contextos culturais e jurídicos.
+Manter-se atualizada com as mudanças rápidas no cenário global.
+Objetivos:
+Continuar aprimorando suas habilidades jurídicas e expandir sua atuação internacional.
+Representar clientes em casos complexos envolvendo disputas internacionais.
+Contribuir para a justiça e o entendimento mútuo entre diferentes nações.
 
+
+
+ 
 ## Histórias de Usuários
 
-Com base na análise das personas forma identificadas as seguintes histórias de usuários:
+Com base na análise das personas foram identificadas as seguintes histórias de usuários:
 
-|EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE` |PARA ... `MOTIVO/VALOR`                 |
-|--------------------|------------------------------------|----------------------------------------|
-|Usuário do sistema  | Registrar minhas tarefas           | Não esquecer de fazê-las               |
-|Administrador       | Alterar permissões                 | Permitir que possam administrar contas |
-
-Apresente aqui as histórias de usuário que são relevantes para o projeto de sua solução. As Histórias de Usuário consistem em uma ferramenta poderosa para a compreensão e elicitação dos requisitos funcionais e não funcionais da sua aplicação. Se possível, agrupe as histórias de usuário por contexto, para facilitar consultas recorrentes à essa parte do documento.
-
-> **Links Úteis**:
-> - [Histórias de usuários com exemplos e template](https://www.atlassian.com/br/agile/project-management/user-stories)
-> - [Como escrever boas histórias de usuário (User Stories)](https://medium.com/vertice/como-escrever-boas-users-stories-hist%C3%B3rias-de-usu%C3%A1rios-b29c75043fac)
-> - [User Stories: requisitos que humanos entendem](https://www.luiztools.com.br/post/user-stories-descricao-de-requisitos-que-humanos-entendem/)
-> - [Histórias de Usuários: mais exemplos](https://www.reqview.com/doc/user-stories-example.html)
-> - [9 Common User Story Mistakes](https://airfocus.com/blog/user-story-mistakes/)
+|EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE` |PARA ... `MOTIVO/VALOR`|
+|--------------------|------------------------------------|-----------------------|
+|Anderson Moura|Fazer comentários em notícias e expor minha opinião|Discutir com grupos de interesse comum|
+|Anderson Moura|Compartilhar notícias nas redes sociais em que faço parte|Poder discutir com os amigos e colegas de faculdade sobre temas de interesse|
+|Giselle Silva|Visualizar as notícias mais relevantes do momento|Tomar conhecimento dos fatos das áreas que atuo e que me interessam|
+|Anderson Moura|Ler notícias tanto no desktop quanto no celular|Ocupar o tempo quando estou esperando algo (ex: intervalos de aulas, ônibus/metrô)|
+|Giselle Silva|Visualizar notícias mais alinhadas com minha área de atuação|Gastar menos tempo lendo notícias e dar foco naquelas que estão relacionadas com o meu trabalho|
+|Giselle Silva|Manter um registro de notícias específicas de interesse particular|Visualizar depois e manter um histórico de notícias que possam ser compartilhadas posteriormente|
+|Giselle Silva|Poder realizar uma pesquisa sobre notícias acerca de um tema específico|Localizar tópicos específicos e conseguir maior objetividade em algumas leituras|
+|Anderson Moura|Saber a data e a fonte das notícias lidas|Confiar no conteúdo passado e na atualidade das notícias que recebo|
 
 ## Requisitos
 
