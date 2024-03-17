@@ -115,15 +115,27 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 
 |ID    | Descrição do Requisito  | Prioridade |
 |------|-----------------------------------------|----|
-|RF-001| A aplicação deve permitir que o usuário gerencie suas tarefas | ALTA | 
-|RF-002| A aplicação deve emitir um relatório de tarefas realizadas no mês   | MÉDIA |
+|RF-001| O site deve apresentar na página principal notícias dinâmicas obtidas por meio de canais de notícias da Internet (API) | ALTA | 
+|RF-002|  O site deve apresentar, para cada notícia, uma imagem correspondente ao assunto apresentado (thumbnail)  | MÉDIA |
+|RF-003| O site deve permitir ao usuário visualizar o texto completo da notícia com todos os detalhes da publicação | MÉDIA | 
+|RF-004|  O site deve oferecer um menu adicional que permita ao usuário visualizar notícias de fontes distintas (sources).  | MÉDIA |
+|RF-005|O site deve oferecer uma funcionalidade de filtro/pesquisa para permitir ao usuário localizar um texto específico que será informado na caixa de pesquisa.7,5 | ALTA | 
+|RF-006|  O site deve permitir visualizar as informações de contatos do mantenedor do site  | MÉDIA |
+|RF-007| O site deve permitir o compartilhamento de notícias visualizadas em plataformas de redes sociais | BAIXA | 
+|RF-008|  O site deve permitir salvar notícias preferidas  | BAIXA |
+|RF-009| O site deve permitir verificar as notícias salvas como preferidas | BAIXA | 
+|RF-010|  O site deve permitir que usuários possam comentar notícias  | BAIXA |
+|RF-011| O site deve exibir os comentários registrados juntamente com a notícia exibida | BAIXA | 
+
 
 ### Requisitos não Funcionais
 
 |ID     | Descrição do Requisito  |Prioridade |
 |-------|-------------------------|----|
-|RNF-001| A aplicação deve ser responsiva | MÉDIA | 
-|RNF-002| A aplicação deve processar requisições do usuário em no máximo 3s |  BAIXA | 
+|RNF-001| O site deve ser publicado em um ambiente acessível publicamente na Internet (Repl.it, GitHub Pages, Heroku);  | ALTA | 
+|RNF-002| O site deverá ser responsivo permitindo a visualização em um celular de forma adequada | ALTA | 
+|RNF-003|  O site deve ter bom nível de contraste entre os elementos da tela em conformidade  | MÉDIA | 
+|RNF-004| O site deve ser compatível com os principais navegadores do mercado (Google Chrome, Firefox, Microsoft Edge) |  ALTA | 
 
 Com base nas Histórias de Usuário, enumere os requisitos da sua solução. Classifique esses requisitos em dois grupos:
 
