@@ -1,15 +1,13 @@
 # Introdução
 
-Com o crescimento exponencial da informação digital, manter-se atualizado se tornou essencial e desafiador. Os métodos tradicionais de consumo de notícias são ineficazes diante da vasta extensão de conteúdo online. Algumas plataformas de pesquisa podem não garantir a confiabilidade e relevância do conteúdo. Surge a necessidade de uma experiência de notícias mais simplificada e personalizada, que centralize informações em um único local, poupando tempo e esforço.
+Numa época marcada pelo crescimento exponencial da informação digital, além de essencial, tornou-se desafiador manter-se atualizado com os últimos acontecimentos. Os métodos tradicionais de consumo de notícias têm-se revelado um tanto ineficazes no acesso eficiente a informações relevantes no meio da vasta extensão de conteúdo online.
+
+Embora algumas plataformas ofereçam funcionalidades de pesquisa, elas podem não selecionar ou verificar suficientemente o conteúdo recuperado, levando à falta de confiabilidade e relevância. 
+
+Exposto isso, reconhece-se a necessidade de uma experiência de notícias mais simplificada e personalizada, que permita centralizar notícias em um único local, economizando tempo e esforço que seriam gastos navegando em diferentes sites ou fontes de notícias.
 
 ## Problema
-Nesse momento você deve apresentar o problema que a sua aplicação deve  resolver. No entanto, não é a hora de comentar sobre a aplicação.
-
-Descreva também o contexto em que essa aplicação será usada, se  houver: empresa, tecnologias, etc. Novamente, descreva apenas o que de  fato existir, pois ainda não é a hora de apresentar requisitos  detalhados ou projetos.
-
-Nesse momento, o grupo pode optar por fazer uso  de ferramentas como Design Thinking, que permite um olhar de ponta a ponta para o problema.
-
-
+Conforme mencionado, o propósito deste projeto é atenuar as deficiências de canais tradicionais, oferecendo uma plataforma de agregação de notícias intuitiva e eficiente. Pois, apesar da abundância de fontes de notícias online, a busca por informações relevantes e adaptadas aos interesses individuais continua sendo uma tarefa desafiadora para os usuários.
 
 ## Objetivos
 O objetivo geral deste trabalho é o desenvolvimento de uma aplicação web interativa que permita, aos usuários, o acesso personalizado a notícias, conforme os seus respectivos interesses, de forma centralizada e eficiente.
