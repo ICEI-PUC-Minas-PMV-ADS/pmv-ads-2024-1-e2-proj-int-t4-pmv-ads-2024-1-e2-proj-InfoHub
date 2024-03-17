@@ -7,51 +7,74 @@ O projeto consistirá no desenvolvimento de uma aplicação web que permita aos 
 As personas levantadas durante o processo de entendimento do problema são apresentadas como:
 
 <figure> 
-  <img src="https://user-images.githubusercontent.com/146504095/271831604-71c88caf-1af0-4611-957f-79235cd843b8.png"width="800px"height="300px"
+  <img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-proj-int-t4-pmv-ads-2024-1-e2-proj-xxx/blob/main/docs/img/persona%20anderson.png?raw=true"width="250px"height="250px"
      
-    Figura 1 - Etiquetas GitHub
+    Figura 1 - Persona 1
  
  <figure>
+ 
+
 
 Nome: Anderson Moura
+
 Idade: 25 anos
+
 Ocupação: Estudante universitário
+
 Área de Estudo: Jornalismo e Comunicação
+
 Interesses:
 Notícias em Tempo Real: Anderson é apaixonado por estar atualizado com as últimas notícias. Ele gosta de saber o que está acontecendo no mundo, seja política, tecnologia, esportes ou cultura.
 Tecnologia: Anderson é um entusiasta da tecnologia. Ele acompanha blogs e podcasts sobre inovações, gadgets e tendências.
 Redes Sociais:  é ativo nas redes sociais, onde compartilha notícias interessantes e interage com outros estudantes e profissionais da área.
 Eventos e Debates: Ele participa de eventos, palestras e debates relacionados a jornalismo e mídia.
+
 Comportamento Online:segue várias fontes de notícias em suas redes sociais e usa aplicativos de notícias para receber atualizações em tempo real.
 Ele gosta de debater tópicos relevantes e compartilhar informações com seus colegas.
 também é crítico e avalia a credibilidade das fontes de notícias que consome.
+
 Desafios:
 Gerenciar o fluxo constante de informações e filtrar notícias relevantes.
 Manter-se atualizado com as mudanças rápidas no cenário de notícias.
 Encontrar fontes confiáveis e evitar notícias falsas.
+
 Objetivos:
 Se formar em Jornalismo e trabalhar como repórter ou editor.
 Contribuir para a sociedade informando e educando através do jornalismo.
 Desenvolver habilidades de escrita e comunicação.
 
+<figure> 
+  <img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-proj-int-t4-pmv-ads-2024-1-e2-proj-xxx/blob/main/persona%20giselle.png?raw=true"width="250px"height="250px"
+     
+    Figura 2 - Persona 2
+ 
+ <figure>
+
+
 Nome: Giselle Silva
 
 Idade: 45 anos
+
 Ocupação: Advogada especializada em direito internacional
+
 Área de Atuação: Direito Corporativo e Relações Internacionais
+
 Interesses:
 Notícias Globais: Giselle é apaixonada por estar atualizada com as principais notícias do mundo. Ela acompanha eventos políticos, econômicos e sociais em diferentes países.
 Direito Internacional: Ela está sempre atenta a mudanças nas leis e regulamentos internacionais que possam afetar seus clientes ou suas negociações.
 Eventos e Conferências:Giselle participa de conferências e eventos relacionados a direito internacional para expandir sua rede de contatos e aprofundar seu conhecimento.
 Literatura Jurídica: Ela lê livros e artigos acadêmicos sobre direito internacional para se manter atualizada.
+
 Comportamento Online:
 Giselle segue fontes confiáveis de notícias internacionais, como agências de notícias, jornais e revistas especializadas.
 Ela também participa de fóruns e grupos online para debater questões legais e trocar ideias com outros profissionais.
 Giselle é crítica em relação a informações falsas e verifica a credibilidade das fontes antes de compartilhar notícias.
+
 Desafios:
 Gerenciar o volume de informações e filtrar notícias relevantes para sua área de atuação.
 Compreender nuances legais em diferentes contextos culturais e jurídicos.
 Manter-se atualizada com as mudanças rápidas no cenário global.
+
 Objetivos:
 Continuar aprimorando suas habilidades jurídicas e expandir sua atuação internacional.
 Representar clientes em casos complexos envolvendo disputas internacionais.
