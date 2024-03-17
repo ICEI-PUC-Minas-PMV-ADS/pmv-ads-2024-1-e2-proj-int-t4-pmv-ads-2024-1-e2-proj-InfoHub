@@ -18,9 +18,9 @@ Nome: Anderson Moura
    
 Idade: 25 anos
 
-Ocupação: Estudante universitário
+Ocupação: Estudante universitário.
 
-Área de Estudo: Jornalismo e Comunicação
+Área de Estudo: Jornalismo e Comunicação.
 
 Interesses:
 <ul>
@@ -60,9 +60,9 @@ Nome: Giselle Silva
 
 Idade: 45 anos
 
-Ocupação: Advogada especializada em direito internacional
+Ocupação: Advogada especializada em direito internacional, gerencia o setor juridico de uma empresa Multinacional.
 
-Área de Atuação: Direito Corporativo e Relações Internacionais
+Área de Atuação: Direito Corporativo e Relações Internacionais.
 
 Interesses:
 <ul>
