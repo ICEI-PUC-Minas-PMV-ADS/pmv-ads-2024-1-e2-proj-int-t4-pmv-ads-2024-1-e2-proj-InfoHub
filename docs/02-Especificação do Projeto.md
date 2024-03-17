@@ -6,6 +6,13 @@ O projeto consistirá no desenvolvimento de uma aplicação web que permita aos 
 ## Personas
 As personas levantadas durante o processo de entendimento do problema são apresentadas como:
 
+<figure> 
+  <img src="https://user-images.githubusercontent.com/146504095/271831604-71c88caf-1af0-4611-957f-79235cd843b8.png"width="800px"height="300px"
+     
+    Figura 1 - Etiquetas GitHub
+ 
+ <figure>
+
 Nome: Anderson Moura
 Idade: 25 anos
 Ocupação: Estudante universitário
