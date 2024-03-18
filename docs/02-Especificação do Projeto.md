@@ -49,7 +49,7 @@ Objetivos:
 <li>Desenvolver habilidades de escrita e comunicação.</li>
 </ul>
 <figure> 
-  <img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-proj-int-t4-pmv-ads-2024-1-e2-proj-xxx/blob/main/persona%20giselle.png?raw=true"width="250px"height="250px"
+  <img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-proj-int-t4-pmv-ads-2024-1-e2-proj-InfoHub/blob/main/docs/img/persona%20giselle.png?raw=true"width="250px"height="250px"
      
     Figura 2 - Persona 2
  <figure>
