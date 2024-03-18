@@ -141,17 +141,14 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 
 O projeto está restrito pelos itens apresentados na tabela a seguir.
 
-|ID| Restrição                                             |
+|ID| Restrição                                            |
 |--|-------------------------------------------------------|
-|01| O projeto deverá ser entregue até o final do semestre |
-|02| Não pode ser desenvolvido um módulo de backend        |
+|RE-01| Uso de bibliotecas confiáveis para o crawler (e.g., BeautifulSoup, Scrapy). |
+|RE-02| Otimização do desempenho do crawler. |
+|RE-03| Autenticação de usuário para login/registro. |
+|RE-04| Interface de usuário limpa e intuitiva. |
+|RE-05| Uso eficiente do banco de dados para armazenar notícias coletadas e preferências do usuário. |
 
-
-Enumere as restrições à sua solução. Lembre-se de que as restrições geralmente limitam a solução candidata.
-
-> **Links Úteis**:
-> - [O que são Requisitos Funcionais e Requisitos Não Funcionais?](https://codificar.com.br/requisitos-funcionais-nao-funcionais/)
-> - [O que são requisitos funcionais e requisitos não funcionais?](https://analisederequisitos.com.br/requisitos-funcionais-e-requisitos-nao-funcionais-o-que-sao/)
 
 ## Diagrama de Casos de Uso
 
