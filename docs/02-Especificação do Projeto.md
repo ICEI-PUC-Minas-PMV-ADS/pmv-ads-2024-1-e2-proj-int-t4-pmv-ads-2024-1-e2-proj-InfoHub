@@ -115,27 +115,24 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 
 |ID    | Descrição do Requisito  | Prioridade |
 |------|-----------------------------------------|----|
-|RF-001| O site deve apresentar na página principal notícias dinâmicas obtidas por meio de canais de notícias da Internet (API) | ALTA | 
-|RF-002|  O site deve apresentar, para cada notícia, uma imagem correspondente ao assunto apresentado (thumbnail)  | MÉDIA |
-|RF-003| O site deve permitir ao usuário visualizar o texto completo da notícia com todos os detalhes da publicação | MÉDIA | 
-|RF-004|  O site deve oferecer um menu adicional que permita ao usuário visualizar notícias de fontes distintas (sources).  | MÉDIA |
-|RF-005|O site deve oferecer uma funcionalidade de filtro/pesquisa para permitir ao usuário localizar um texto específico que será informado na caixa de pesquisa.7,5 | ALTA | 
-|RF-006|  O site deve permitir visualizar as informações de contatos do mantenedor do site  | MÉDIA |
-|RF-007| O site deve permitir o compartilhamento de notícias visualizadas em plataformas de redes sociais | BAIXA | 
-|RF-008|  O site deve permitir salvar notícias preferidas  | BAIXA |
-|RF-009| O site deve permitir verificar as notícias salvas como preferidas | BAIXA | 
-|RF-010|  O site deve permitir que usuários possam comentar notícias  | BAIXA |
-|RF-011| O site deve exibir os comentários registrados juntamente com a notícia exibida | BAIXA | 
+|RF-001| A aplicação deve permitir ao usuário criar uma conta | ALTA | 
+|RF-002|  A aplicação deve permitir ao usuário realizar login  | ALTA |
+|RF-003| A aplicação deve ser capaz de rastrear automaticamente múltiplas fontes de notícias online para coletar novas histórias | ALTA | 
+|RF-004|  A aplicação deve oferecer a capacidade de personalizar as preferências de notícias de cada usuário, fornecendo um feed de notícias relevante com base em suas escolhas  | MÉDIA |
+|RF-005|A aplicação deve permitir que as notícias sejam categorizadas com base em tópicos relevantes, como política, tecnologia, esportes, etc., para que os usuários possam navegar facilmente por suas áreas de interesse | MÉDIA | 
+|RF-006|  A aplicação deve oferecer a opção de favoritar as notícias que gostou para vê-las posteriormente  | BAIXA |
+|RF-007| A aplicação deve ter mecanismos de busca, com filtros que considerem as preferências dos usuários | MÉDIA | 
+ 
 
 
 ### Requisitos não Funcionais
 
 |ID     | Descrição do Requisito  |Prioridade |
 |-------|-------------------------|----|
-|RNF-001| O site deve ser publicado em um ambiente acessível publicamente na Internet (Repl.it, GitHub Pages, Heroku);  | ALTA | 
-|RNF-002| O site deverá ser responsivo permitindo a visualização em um celular de forma adequada | ALTA | 
-|RNF-003|  O site deve ter bom nível de contraste entre os elementos da tela em conformidade  | MÉDIA | 
-|RNF-004| O site deve ser compatível com os principais navegadores do mercado (Google Chrome, Firefox, Microsoft Edge) |  ALTA | 
+|RNF-001| A aplicação deve ser capaz de lidar com grandes volumes de dados de forma eficiente  | ALTA | 
+|RNF-002| A aplicação deve garantir a segurança e a confidencialidade das informações pessoais e de contato fornecidas pelos usuários | ALTA | 
+|RNF-003|  A aplicação cumprirá a LGPD (Lei Geral de Proteção de Dados) para gestão dos dados cadastrados pelos usuários ou administradores  | ALTA | 
+|RNF-004| A aplicação deve ser responsiva e funcionar bem em dispositivos móveis, para acomodar usuários que acessam o site por meio de smartphones e tablets |  MÉDIA | 
 
 ## Restrições
 
