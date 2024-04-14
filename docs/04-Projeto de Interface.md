@@ -26,26 +26,27 @@ As referências abaixo irão auxiliá-lo na geração do artefato “Diagramas d
 > - [Fluxograma online: seis sites para fazer gráfico sem instalar nada | Produtividade | TechTudo](https://www.techtudo.com.br/listas/2019/03/fluxograma-online-seis-sites-para-fazer-grafico-sem-instalar-nada.ghtml)
 
 ## Wireframes
+![Captura de tela 2024-04-14 203949](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-proj-int-t4-pmv-ads-2024-1-e2-proj-InfoHub/assets/141197033/c70a4b16-a338-44b4-825d-a836ff938df3)
 
-![Captura de tela 2024-04-14 200657](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-proj-int-t4-pmv-ads-2024-1-e2-proj-InfoHub/assets/141197033/0f34dbae-d05a-4d88-aec8-4433d4c71987)
+![Captura de tela 2024-04-14 203942](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-proj-int-t4-pmv-ads-2024-1-e2-proj-InfoHub/assets/141197033/6ad27e34-fd43-47a3-8970-27d7cb0319c4)
 
-![Captura de tela 2024-04-14 200641](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-proj-int-t4-pmv-ads-2024-1-e2-proj-InfoHub/assets/141197033/3bb0dc30-188b-41ef-a837-f300526f42cd)
+![Captura de tela 2024-04-14 203932](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-proj-int-t4-pmv-ads-2024-1-e2-proj-InfoHub/assets/141197033/76b10ad9-56f3-4d37-945c-d685cf9cca10)
 
-![Captura de tela 2024-04-14 200614](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-proj-int-t4-pmv-ads-2024-1-e2-proj-InfoHub/assets/141197033/fdefec94-7c05-4ea6-a7f3-f552839997e3)
+![Captura de tela 2024-04-14 203924](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-proj-int-t4-pmv-ads-2024-1-e2-proj-InfoHub/assets/141197033/d9ced5c3-37a8-4c9a-bded-dcf345465097)
 
-![Captura de tela 2024-04-14 200603](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-proj-int-t4-pmv-ads-2024-1-e2-proj-InfoHub/assets/141197033/d815a2b8-7ef5-427d-b2ba-0a08efe0760d)
+![Captura de tela 2024-04-14 204026](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-proj-int-t4-pmv-ads-2024-1-e2-proj-InfoHub/assets/141197033/60e501e2-34b1-40cd-90f2-1046aa697012)
 
-![Captura de tela 2024-04-14 200731](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-proj-int-t4-pmv-ads-2024-1-e2-proj-InfoHub/assets/141197033/684ce645-c622-4553-8059-e1ed9b42c9b2)
+![Captura de tela 2024-04-14 204018](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-proj-int-t4-pmv-ads-2024-1-e2-proj-InfoHub/assets/141197033/977a2fed-082e-41df-9890-b97150dbbb9c)
 
-![Captura de tela 2024-04-14 200723](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-proj-int-t4-pmv-ads-2024-1-e2-proj-InfoHub/assets/141197033/8707d923-7233-41a4-8d1e-ace8fc0c9221)
+![Captura de tela 2024-04-14 204011](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-proj-int-t4-pmv-ads-2024-1-e2-proj-InfoHub/assets/141197033/8fde16d3-7a5a-493e-a8d4-8e7dd3b15da8)
 
-![Captura de tela 2024-04-14 200716](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-proj-int-t4-pmv-ads-2024-1-e2-proj-InfoHub/assets/141197033/17755032-b288-41b2-9585-84c71bb38dfa)
+![Captura de tela 2024-04-14 204004](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-proj-int-t4-pmv-ads-2024-1-e2-proj-InfoHub/assets/141197033/a5b8a8e3-6f8f-4d37-b440-aa050f9d0467)
 
-![Captura de tela 2024-04-14 200707](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-proj-int-t4-pmv-ads-2024-1-e2-proj-InfoHub/assets/141197033/915a4cdf-d52b-4352-b215-15844ae0f864)
+![Captura de tela 2024-04-14 203956](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-proj-int-t4-pmv-ads-2024-1-e2-proj-InfoHub/assets/141197033/0c6febd4-2c10-4d6e-a12d-49ae28e2130f)
 
 
-São protótipos usados em design de interface para sugerir a estrutura de um site web e seu relacionamentos entre suas páginas. Um wireframe web é uma ilustração semelhante do layout de elementos fundamentais na interface.
- 
+
+
 > **Links Úteis**:
 > - [Protótipos vs Wireframes](https://www.nngroup.com/videos/prototypes-vs-wireframes-ux-projects/)
 > - [Ferramentas de Wireframes](https://rockcontent.com/blog/wireframes/)
