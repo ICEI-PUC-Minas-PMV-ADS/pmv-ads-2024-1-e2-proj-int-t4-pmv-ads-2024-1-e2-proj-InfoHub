@@ -8,24 +8,39 @@ Não deixe de enumerar os casos de teste de forma sequencial e de garantir que o
 
 Por exemplo:
  
-| **Caso de Teste** 	| **CT-01 – Cadastrar perfil** 	|
+| **Caso de Teste** 	| **CT-01 – Cadastrar Usuário** 	|
 |:---:	|:---:	|
-|	Requisito Associado 	| RF-00X - A aplicação deve apresentar, na página principal, a funcionalidade de cadastro de usuários para que esses consigam criar e gerenciar seu perfil. |
+|	Requisito Associado 	| RF-01 - A aplicação deve permitir ao usuário criar uma conta. |
 | Objetivo do Teste 	| Verificar se o usuário consegue se cadastrar na aplicação. |
-| Passos 	| - Acessar o navegador <br> - Informar o endereço do site https://adota-pet.herokuapp.com/src/index.html<br> - Clicar em "Criar conta" <br> - Preencher os campos obrigatórios (e-mail, nome, sobrenome, celular, CPF, senha, confirmação de senha) <br> - Aceitar os termos de uso <br> - Clicar em "Registrar" |
+| Passos 	| - Acessar o navegador; <br> - Informar o endereço do site; <br> - Clicar em "Criar conta"; <br> - Preencher os campos obrigatórios (e-mail, nome, senha e confirmação de senha); <br> - Clicar em "Cadastre-se". |
 |Critério de Êxito | - O cadastro foi realizado com sucesso. |
 |  	|  	|
 | Caso de Teste 	| CT-02 – Efetuar login	|
-|Requisito Associado | RF-00Y	- A aplicação deve possuir opção de fazer login, sendo o login o endereço de e-mail. |
-| Objetivo do Teste 	| Verificar se o usuário consegue realizar login. |
-| Passos 	| - Acessar o navegador <br> - Informar o endereço do site https://adota-pet.herokuapp.com/src/index.html<br> - Clicar no botão "Entrar" <br> - Preencher o campo de e-mail <br> - Preencher o campo da senha <br> - Clicar em "Login" |
+|Requisito Associado | RF-02	- A aplicação deve permitir ao usuário ao usuário realizar login. |
+| Objetivo do Teste 	| Verificar se o usuário consegue efetuar login. |
+| Passos 	| - Acessar o navegador; <br> - Informar o endereço do site; <br> - Clicar em "Entrar"; <br> - Preencher o campo de e-mail; <br> - Preencher o campo da senha; <br> - Clicar em "Login". |
 |Critério de Êxito | - O login foi realizado com sucesso. |
-
+|  	|  	|
+| Caso de Teste 	| CT-03 – Categorizar Notícias |
+|Requisitos Associados | RF-05	- A aplicação deve permitir que as notícias sejam categorizadas com base em tópicos relevantes, como política, tecnologia, esportes etc., para que os | 
+|                      |  usuários possam navegar facilmente por suas áreas de interesse; <br>                                                                                       |
+|                      | RF-02	- A aplicação deve permitir ao usuário ao usuário realizar login.                                                                                     |
+| Objetivo do Teste 	| Verificar se o usuário consegue visualizar, por temas, as notícias de seu interesse. |
+| Passos 	| - Acessar o navegador; <br> - Informar o endereço do site; <br> - Clicar em "Entrar"; <br> - Preencher o campo de e-mail; <br> - Preencher o campo da senha; <br> - Clicar em "Login"; <br> - Filtrar por tema. |
+|Critério de Êxito | - As notícias devidamente categorizadas serão exibidas ao usuário. |
+|  	|  	|
+| Caso de Teste 	| CT-04 – Filtrar Notícias. |
+|Requisitos Associados | RF-07	- A aplicação deve ter mecanismos de busca, com filtros que considerem as preferências dos usuários; <br> | 
+|                      | RF-02	- A aplicação deve permitir ao usuário ao usuário realizar login.                                         |                                             
+| Objetivo do Teste 	| Verificar se o usuário consegue filtrar notícias, de acordo com as suas preferências. |
+| Passos 	| - Acessar o navegador; <br> - Informar o endereço do site; <br> - Clicar em "Entrar"; <br> - Preencher o campo de e-mail; <br> - Preencher o campo da senha; <br> - Clicar em "Login"; <br> - Clicar em "Pesquisa; <br> - Aplicar filtro. |
+|Critério de Êxito | - As notícias selecionadas serão exibidas ao usuário. |
+|  	|  	|
+| Caso de Teste 	| CT-05 – Favoritar Notícias. |
+|Requisitos Associados | RF-06	- A aplicação deve oferecer a opção de favoritar as notícias que gostou para vê-las posteriormente;; <br> | 
+|                      | RF-02	- A aplicação deve permitir ao usuário ao usuário realizar login.                                         |                                             
+| Objetivo do Teste 	| Verificar se o usuário consegue favoritar notícias. |
+| Passos 	| - Acessar o navegador; <br> - Informar o endereço do site; <br> - Clicar em "Entrar"; <br> - Preencher o campo de e-mail; <br> - Preencher o campo da senha; <br> - Clicar em "Login"; <br> - Clicar no ícone no formato de estrela; <br> - Clicar em "Favoritos". |
+|Critério de Êxito | - As notícias favoritadas serão exibidas ao usuário. |
  
-> **Links Úteis**:
-> - [IBM - Criação e Geração de Planos de Teste](https://www.ibm.com/developerworks/br/local/rational/criacao_geracao_planos_testes_software/index.html)
-> - [Práticas e Técnicas de Testes Ágeis](http://assiste.serpro.gov.br/serproagil/Apresenta/slides.pdf)
-> -  [Teste de Software: Conceitos e tipos de testes](https://blog.onedaytesting.com.br/teste-de-software/)
-> - [Criação e Geração de Planos de Teste de Software](https://www.ibm.com/developerworks/br/local/rational/criacao_geracao_planos_testes_software/index.html)
-> - [Ferramentas de Test para Java Script](https://geekflare.com/javascript-unit-testing/)
-> - [UX Tools](https://uxdesign.cc/ux-user-research-and-user-testing-tools-2d339d379dc7)
+
