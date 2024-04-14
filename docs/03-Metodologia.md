@@ -3,16 +3,10 @@
 
 <span style="color:red">Pré-requisitos: <a href="2-Especificação do Projeto.md"> Documentação de Especificação</a></span>
 
-Descreva aqui a metodologia de trabalho do grupo para atacar o problema. Definições sobre os ambiente de trabalho utilizados pela  equipe para desenvolver o projeto. Abrange a relação de ambientes utilizados, a estrutura para gestão do código fonte, além da definição do processo e ferramenta através dos quais a equipe se organiza (Gestão de Times).
+A metodologia contempla as definições de ferramental utilizado pela equipe tanto para a manutenção dos códigos e demais artefatos quanto para a organização do time na execução das tarefas do projeto.
 
-
-|ID| Restrição |                                |
-|--|-------------------------------------------------------|
-|RE-01| Uso de bibliotecas confiáveis para o crawler (e.g., BeautifulSoup, Scrapy). |
-|RE-02| Otimização do desempenho do crawler. |
-|RE-03| Autenticação de usuário para login/registro. |
-|RE-04| Interface de usuário limpa e intuitiva. |
-|RE-05| Uso eficiente do banco de dados para armazenar notícias coletadas e preferências do usuário. |
+# Metodologia
+Os artefatos do projeto são desenvolvidos a partir de diversas plataformas e a relação dos ambientes com seu respectivo propósito é apresentada na tabela que se segue. 
 
 ## Controle de Versão
 
