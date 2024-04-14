@@ -17,7 +17,7 @@ As referências abaixo irão auxiliá-lo na geração do artefato “Diagrama de
 
 O Modelo ER representa através de um diagrama como as entidades (coisas, objetos) se relacionam entre si na aplicação interativa.
 
-![Modelo Entidade Relacionamento Conceitual](img\mer-conceitual.png)
+![Modelo Entidade Relacionamento Conceitual](img/mer-conceitual.png)
 
 
 ## Projeto da Base de Dados
