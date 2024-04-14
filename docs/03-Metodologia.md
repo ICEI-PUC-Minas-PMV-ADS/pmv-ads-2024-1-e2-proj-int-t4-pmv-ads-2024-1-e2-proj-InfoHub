@@ -5,6 +5,14 @@ A metodologia contempla as definições de ferramental utilizado pela equipe tan
 # Relação de Ambientes de Trabalho
 Os artefatos do projeto são desenvolvidos a partir de diversas plataformas e a relação dos ambientes com seu respectivo propósito é apresentada na tabela que se segue. 
 
+| Ambiente | Plataforma | Link de Acesso |
+| ------------- | ------------- | -------------
+| Repositório de código fonte  | GitHub | [GitHub](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-proj-int-t4-pmv-ads-2024-1-e2-proj-InfoHub.git) |
+| Documentos do projeto  | Google Docs | [Google Docs](https://docs.google.com/document/d/1CUFskGWb7eC3LL1kh2X8etuYh4pKSSlmVeejPDd84tQ/edit?usp=sharing) | 
+| Projeto de Interface e  Wireframes | A preencher | A preencher |
+| Gerenciamento do Projeto | Trello  | [Trello](https://trello.com/invite/b/SsBO4WyN/ATTI34b0322b1204d9eac204cd8f8de0ba35362E6C9F/eixo-2-desenvolvimento-de-aplicacao-web-interativa) |
+
+
 ## Controle de Versão
 
 A ferramenta de controle de versão adotada no projeto foi o
