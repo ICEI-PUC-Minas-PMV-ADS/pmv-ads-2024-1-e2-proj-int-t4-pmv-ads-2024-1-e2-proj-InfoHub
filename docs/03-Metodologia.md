@@ -42,8 +42,8 @@ A equipe utiliza metodologias ágeis, tendo escolhido o Scrum como base para def
 
 A equipe está organizada da seguinte maneira:
 
-- `Scrum Master:` Luana Aparecida
-- `Product Owner:` Renan Azevedo
+- `Scrum Master`: Luana Aparecida
+- `Product Owner`: Renan Azevedo
 - `Equipe de Back-End`
 - Nicholas Deway
 - João Victor Oliveira
@@ -51,15 +51,18 @@ A equipe está organizada da seguinte maneira:
 - `Equipe de Front-End`
 - Rogério Rodrigues Mendes
 
-### Processo
+## Organização e destribuições das tarefas
 
-Coloque  informações sobre detalhes da implementação do Scrum seguido pelo grupo. O grupo poderá fazer uso de ferramentas on-line para acompanhar o andamento do projeto, a execução das tarefas e o status de desenvolvimento da solução.
- 
-> **Links Úteis**:
-> - [Project management, made simple](https://github.com/features/project-management/)
-> - [Sobre quadros de projeto](https://docs.github.com/pt/github/managing-your-work-on-github/about-project-boards)
-> - [Como criar Backlogs no Github](https://www.youtube.com/watch?v=RXEy6CFu9Hk)
-> - [Tutorial Slack](https://slack.com/intl/en-br/)
+Para organização e distribuição das tarefas do projeto, a equipe está utilizando o Trello estruturado com as seguintes listas: 
+
+- **Etiquetas:** Essa lista mantém um template de tarefas recorrentes com as configurações padronizadas que todos devem seguir. O objetivo é permitir a cópia destes templates para agilizar a criação de novos cartões.
+- **Backlog:** Recebe as tarefas a serem trabalhadas e representa o Product Backlog. Todas as atividades identificadas no decorrer do projeto também devem ser incorporadas a essa lista.
+- **To do:** Essa lista representa o Sprint Backlog, algo que ainda está pendente ou ainda não foi iniciada. Este é o Sprint atual que estamos trabalhando.
+- **Doing:**  Essa lista representa as tarefas da etapa que estamos trabalhando no momento e que foram inicializadas.
+- **Code Review:** Revisamos  o código fonte por outros membros da equipe para identificar erros, bugs e oportunidades de melhoria antes da integração no projeto principal, via GitHub.
+- **Test:** Checagem de Qualidade. Quando as tarefas são concluídas, elas são movidas para o "CQ". No final da semana, verificamos essa lista novamente para garantir que tudo saiu perfeito.
+- **Done:** Nessa lista são colocadas as tarefas que passaram pelos testes e controle de qualidade e estão prontas para serem entregues ao usuário. Não há mais edições ou revisões necessárias, elas estão agendadas e prontas para a ação.
+- **Locked:** Quando alguma coisa impede a conclusão da tarefa, ela é movida para essa lista juntamente com um comentário sobre o que está travando a tarefa.
 
 ### Ferramentas
 
