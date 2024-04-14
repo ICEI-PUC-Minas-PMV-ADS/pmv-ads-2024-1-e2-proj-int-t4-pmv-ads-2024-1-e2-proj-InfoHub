@@ -5,6 +5,15 @@
 
 Descreva aqui a metodologia de trabalho do grupo para atacar o problema. Definições sobre os ambiente de trabalho utilizados pela  equipe para desenvolver o projeto. Abrange a relação de ambientes utilizados, a estrutura para gestão do código fonte, além da definição do processo e ferramenta através dos quais a equipe se organiza (Gestão de Times).
 
+
+|ID| Restrição  |  Teste  |                                |
+|--|-------------------------------------------------------|
+|RE-01| Uso de bibliotecas confiáveis para o crawler (e.g., BeautifulSoup, Scrapy). |
+|RE-02| Otimização do desempenho do crawler. |
+|RE-03| Autenticação de usuário para login/registro. |
+|RE-04| Interface de usuário limpa e intuitiva. |
+|RE-05| Uso eficiente do banco de dados para armazenar notícias coletadas e preferências do usuário. |
+
 ## Controle de Versão
 
 A ferramenta de controle de versão adotada no projeto foi o
