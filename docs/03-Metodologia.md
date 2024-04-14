@@ -2,7 +2,7 @@
 # Metodologia
 A metodologia contempla as definições de ferramental utilizado pela equipe tanto para a manutenção dos códigos e demais artefatos quanto para a organização do time na execução das tarefas do projeto.
 
-# Relação de Ambientes de Trabalho
+## Relação de Ambientes de Trabalho
 Os artefatos do projeto são desenvolvidos a partir de diversas plataformas e a relação dos ambientes com seu respectivo propósito é apresentada na tabela que se segue. 
 
 | Ambiente | Plataforma | Link de Acesso |
@@ -64,22 +64,20 @@ Para organização e distribuição das tarefas do projeto, a equipe está utili
 - **Done:** Nessa lista são colocadas as tarefas que passaram pelos testes e controle de qualidade e estão prontas para serem entregues ao usuário. Não há mais edições ou revisões necessárias, elas estão agendadas e prontas para a ação.
 - **Locked:** Quando alguma coisa impede a conclusão da tarefa, ela é movida para essa lista juntamente com um comentário sobre o que está travando a tarefa.
 
-### Ferramentas
+## Projeto de Interface
 
-As ferramentas empregadas no projeto são:
+Dentre as preocupações para a montagem da interface do sistema, estamos estabelecendo foco em questões como agilidade, acessibilidade e usabilidade. Desta forma, o projeto tem uma identidade visual padronizada em todas as telas que são projetadas para funcionamento em desktops e dispositivos móveis.
 
-- Editor de código.
-- Ferramentas de comunicação
-- Ferramentas de desenho de tela (_wireframing_)
+### Diagrama de Classes
+![Diagrama de Classes](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-proj-int-t4-pmv-ads-2024-1-e2-proj-InfoHub/assets/65633444/048ff756-f395-423f-9ee5-29a49df639a5)
 
-O editor de código foi escolhido porque ele possui uma integração com o
-sistema de versão. As ferramentas de comunicação utilizadas possuem
-integração semelhante e por isso foram selecionadas. Por fim, para criar
-diagramas utilizamos essa ferramenta por melhor captar as
-necessidades da nossa solução.
+### Diagrama Modelo Entidade Relacionamento
+![Diagrama Modelo Entidade Relacionamento](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-proj-int-t4-pmv-ads-2024-1-e2-proj-InfoHub/assets/65633444/994a7767-1716-4d2d-8dc7-66dbaa4fb796)
 
-Liste quais ferramentas foram empregadas no desenvolvimento do projeto, justificando a escolha delas, sempre que possível.
- 
-> **Possíveis Ferramentas que auxiliarão no gerenciamento**: 
-> - [Slack](https://slack.com/)
-> - [Github](https://github.com/)
+### Gestão de Código Fonte
+O diagrama de fluxo, também conhecido como fluxograma, é uma representação visual que mapeia o movimento e interação do usuário com um sistema interativo. Ele não se concentra no design detalhado das telas, mas sim nas etapas e relações entre elas. Ao destacar as interações-chave, o diagrama permite um planejamento preciso das interações, influenciando diretamente a qualidade do wireframe interativo subsequente. Geralmente, é composto por "boxes" que contêm elementos de interface e funcionalidades essenciais, como a página inicial, login, pesquisas e seus filtros, conectados por setas que representam o fluxo de interação.
+
+Veja o nosso exemplo de estrutura básica de um diagrama de fluxo centrado nas ações dos usuários:
+![Diagrama de fluxo 2](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-proj-int-t4-pmv-ads-2024-1-e2-proj-InfoHub/assets/65633444/2dc880a5-ec4c-4c66-9ea0-16dacd26373d)
+
+
