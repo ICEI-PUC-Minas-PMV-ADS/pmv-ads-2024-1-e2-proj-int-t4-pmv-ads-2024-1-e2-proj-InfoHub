@@ -17,6 +17,12 @@ Veja o nosso exemplo de estrutura básica de um diagrama de fluxo centrado nas a
 
 
 ## Wireframes
+
+As telas do sistema apresentam uma estrutura comum que é apresentada na Figura X. Nesta estrutura, existem 3 grandes blocos, descritos a seguir. São eles:
+Cabeçalho - local onde são dispostos elementos fixos de identidade (logo) e navegação principal do site (menu de navegação);
+Conteúdo - apresenta o conteúdo da tela em questão;
+Rodapé - apresenta informações adicionais e facilita o acesso a informações de contato, links de navegação, direitos autorais e redes sociais.
+
 ![Captura de tela 2024-04-14 203949](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-proj-int-t4-pmv-ads-2024-1-e2-proj-InfoHub/assets/141197033/c70a4b16-a338-44b4-825d-a836ff938df3)
 
 ![Captura de tela 2024-04-14 203942](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-proj-int-t4-pmv-ads-2024-1-e2-proj-InfoHub/assets/141197033/6ad27e34-fd43-47a3-8970-27d7cb0319c4)
