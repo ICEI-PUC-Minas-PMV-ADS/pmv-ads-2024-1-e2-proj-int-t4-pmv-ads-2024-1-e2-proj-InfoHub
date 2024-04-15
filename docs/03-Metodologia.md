@@ -9,7 +9,7 @@ Os artefatos do projeto são desenvolvidos a partir de diversas plataformas e a 
 | ------------- | ------------- | -------------
 | Repositório de código fonte  | GitHub | [GitHub](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-proj-int-t4-pmv-ads-2024-1-e2-proj-InfoHub.git) |
 | Documentos do projeto  | Google Docs | [Google Docs](https://docs.google.com/document/d/1CUFskGWb7eC3LL1kh2X8etuYh4pKSSlmVeejPDd84tQ/edit?usp=sharing) | 
-| Projeto de Interface e  Wireframes | A preencher | A preencher |
+| Projeto de Interface e  Wireframes | PowerPoint | [PowerPoint](https://onedrive.live.com/view.aspx?resid=B7FF77BCFB184F33%218386&authkey=!AGW3K48mQhttL2s) |
 | Gerenciamento do Projeto | Trello  | [Trello](https://trello.com/invite/b/SsBO4WyN/ATTI34b0322b1204d9eac204cd8f8de0ba35362E6C9F/eixo-2-desenvolvimento-de-aplicacao-web-interativa) |
 
 
