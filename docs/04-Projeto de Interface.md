@@ -5,21 +5,16 @@
 
 Visão geral da interação do usuário pelas telas do sistema e protótipo interativo das telas com as funcionalidades que fazem parte do sistema (wireframes).
 
- Apresente as principais interfaces da plataforma. Discuta como ela foi elaborada de forma a atender os requisitos funcionais, não funcionais e histórias de usuário abordados nas <a href="2-Especificação do Projeto.md"> Documentação de Especificação</a>.
-
 
 ## Diagrama de Fluxo
 
-O diagrama apresenta o estudo do fluxo de interação do usuário com o sistema interativo e  muitas vezes sem a necessidade do desenho do design das telas da interface. Isso permite que o design das interações seja bem planejado e gere impacto na qualidade no design do wireframe interativo que será desenvolvido logo em seguida.
+O diagrama de fluxo, também conhecido como fluxograma, é uma representação visual que mapeia o movimento e interação do usuário com um sistema interativo. Ele não se concentra no design detalhado das telas, mas sim nas etapas e relações entre elas. Ao destacar as interações-chave, o diagrama permite um planejamento preciso das interações, influenciando diretamente a qualidade do wireframe interativo subsequente. Geralmente, é composto por "boxes" que contêm elementos de interface e funcionalidades essenciais, como a página inicial, login, pesquisas e seus filtros, conectados por setas que representam o fluxo de interação.
 
-O diagrama de fluxo pode ser desenvolvido com “boxes” que possuem internamente a indicação dos principais elementos de interface - tais como menus e acessos - e funcionalidades, tais como editar, pesquisar, filtrar, configurar - e a conexão entre esses boxes a partir do processo de interação. Você pode ver mais explicações e exemplos https://www.lucidchart.com/blog/how-to-make-a-user-flow-diagram.
+Veja o nosso exemplo de estrutura básica de um diagrama de fluxo centrado nas ações dos usuários:
 
-![Exemplo de Diagrama de Fluxo](img/diagramafluxo2.jpg)
+![Diagrama de fluxo 2](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-proj-int-t4-pmv-ads-2024-1-e2-proj-InfoHub/assets/65633444/2dc880a5-ec4c-4c66-9ea0-16dacd26373d)
 
-As referências abaixo irão auxiliá-lo na geração do artefato “Diagramas de Fluxo”.
 
-> **Links Úteis**:
-> - [Fluxograma online: seis sites para fazer gráfico sem instalar nada | Produtividade | TechTudo](https://www.techtudo.com.br/listas/2019/03/fluxograma-online-seis-sites-para-fazer-grafico-sem-instalar-nada.ghtml)
 
 ## Wireframes
 ![Captura de tela 2024-04-14 203949](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-proj-int-t4-pmv-ads-2024-1-e2-proj-InfoHub/assets/141197033/c70a4b16-a338-44b4-825d-a836ff938df3)
@@ -42,12 +37,3 @@ As referências abaixo irão auxiliá-lo na geração do artefato “Diagramas d
 
 
 
-
-> **Links Úteis**:
-> - [Protótipos vs Wireframes](https://www.nngroup.com/videos/prototypes-vs-wireframes-ux-projects/)
-> - [Ferramentas de Wireframes](https://rockcontent.com/blog/wireframes/)
-> - [MarvelApp](https://marvelapp.com/developers/documentation/tutorials/)
-> - [Figma](https://www.figma.com/)
-> - [Adobe XD](https://www.adobe.com/br/products/xd.html#scroll)
-> - [Axure](https://www.axure.com/edu) (Licença Educacional)
-> - [InvisionApp](https://www.invisionapp.com/) (Licença Educacional)
