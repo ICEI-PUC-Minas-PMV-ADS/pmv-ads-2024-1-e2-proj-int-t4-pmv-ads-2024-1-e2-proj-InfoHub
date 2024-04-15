@@ -69,20 +69,5 @@ Para organização e distribuição das tarefas do projeto, a equipe está utili
 
 
 
-## Projeto de Interface
-
-Dentre as preocupações para a montagem da interface do sistema, estamos estabelecendo foco em questões como agilidade, acessibilidade e usabilidade. Desta forma, o projeto tem uma identidade visual padronizada em todas as telas que são projetadas para funcionamento em desktops e dispositivos móveis.
-
-### Diagrama de Classes
-![Diagrama de Classes](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-proj-int-t4-pmv-ads-2024-1-e2-proj-InfoHub/assets/65633444/048ff756-f395-423f-9ee5-29a49df639a5)
-
-### Diagrama Modelo Entidade Relacionamento
-![Diagrama Modelo Entidade Relacionamento](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-proj-int-t4-pmv-ads-2024-1-e2-proj-InfoHub/assets/65633444/994a7767-1716-4d2d-8dc7-66dbaa4fb796)
-
-### Gestão de Código Fonte
-O diagrama de fluxo, também conhecido como fluxograma, é uma representação visual que mapeia o movimento e interação do usuário com um sistema interativo. Ele não se concentra no design detalhado das telas, mas sim nas etapas e relações entre elas. Ao destacar as interações-chave, o diagrama permite um planejamento preciso das interações, influenciando diretamente a qualidade do wireframe interativo subsequente. Geralmente, é composto por "boxes" que contêm elementos de interface e funcionalidades essenciais, como a página inicial, login, pesquisas e seus filtros, conectados por setas que representam o fluxo de interação.
-
-Veja o nosso exemplo de estrutura básica de um diagrama de fluxo centrado nas ações dos usuários:
-![Diagrama de fluxo 2](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-proj-int-t4-pmv-ads-2024-1-e2-proj-InfoHub/assets/65633444/2dc880a5-ec4c-4c66-9ea0-16dacd26373d)
 
 
