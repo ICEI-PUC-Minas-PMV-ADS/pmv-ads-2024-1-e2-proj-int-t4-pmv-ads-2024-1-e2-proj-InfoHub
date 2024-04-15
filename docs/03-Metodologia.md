@@ -66,6 +66,7 @@ Para organização e distribuição das tarefas do projeto, a equipe está utili
   
 ![Captura de tela 2024-04-14 201834](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-proj-int-t4-pmv-ads-2024-1-e2-proj-InfoHub/assets/144181666/db9e5644-39d9-4911-9be4-ce7354cb7f4e)
 ![Captura de tela 2024-04-14 201922](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-proj-int-t4-pmv-ads-2024-1-e2-proj-InfoHub/assets/144181666/0b709bf7-2f10-4836-ba17-df9b80b24b33)
+![Etiquetas](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-proj-int-t4-pmv-ads-2024-1-e2-proj-InfoHub/assets/144181666/fee3839d-08cf-49b3-a79a-10d0567673b9)
 
 
 
