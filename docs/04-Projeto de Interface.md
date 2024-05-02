@@ -44,8 +44,7 @@ A tela de notícias de categoria apresenta, no Bloco de Conteúdo, as notícias 
 
 
 
-Figura 4 - Tela de site redirecionado
-Redirecionamento - Leitura de Notícias no site criador da notícia
+Figura 4 - Tela de site redirecionado - Leitura de Notícias no site criador da notícia
 
 ![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-proj-int-t4-pmv-ads-2024-1-e2-proj-InfoHub/assets/141197033/42001944-e115-48b2-beb9-b3c73d4dcd97)
 
