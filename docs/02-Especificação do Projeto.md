@@ -115,24 +115,17 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 
 |ID    | Descrição do Requisito  | Prioridade |
 |------|-----------------------------------------|----|
-|RF-001| A aplicação deve permitir ao usuário criar uma conta | ALTA | 
-|RF-002|  A aplicação deve permitir ao usuário realizar login  | ALTA |
-|RF-003| A aplicação deve ser capaz de rastrear automaticamente múltiplas fontes de notícias online para coletar novas histórias | ALTA | 
-|RF-004|  A aplicação deve oferecer a capacidade de personalizar as preferências de notícias de cada usuário, fornecendo um feed de notícias relevante com base em suas escolhas  | MÉDIA |
-|RF-005|A aplicação deve permitir que as notícias sejam categorizadas com base em tópicos relevantes, como política, tecnologia, esportes, etc., para que os usuários possam navegar facilmente por suas áreas de interesse | MÉDIA | 
-|RF-006|  A aplicação deve oferecer a opção de favoritar as notícias que gostou para vê-las posteriormente  | BAIXA |
-|RF-007| A aplicação deve ter mecanismos de busca, com filtros que considerem as preferências dos usuários | MÉDIA | 
+|RF-001| A aplicação deve ser capaz de rastrear automaticamente múltiplas fontes de notícias online para coletar novas histórias | ALTA | 
+|RF-002| A aplicação deve permitir que as notícias sejam categorizadas com base em tópicos relevantes, como política, tecnologia, esportes, etc., para que os usuários possam navegar facilmente por suas áreas de interesse | MÉDIA | 
+|RF-003| A aplicação deve ter mecanismos de busca, com filtros que considerem as preferências dos usuários | MÉDIA | 
  
-
 
 ### Requisitos não Funcionais
 
 |ID     | Descrição do Requisito  |Prioridade |
 |-------|-------------------------|----|
 |RNF-001| A aplicação deve ser capaz de lidar com grandes volumes de dados de forma eficiente  | ALTA | 
-|RNF-002| A aplicação deve garantir a segurança e a confidencialidade das informações pessoais e de contato fornecidas pelos usuários | ALTA | 
-|RNF-003|  A aplicação cumprirá a LGPD (Lei Geral de Proteção de Dados) para gestão dos dados cadastrados pelos usuários ou administradores  | ALTA | 
-|RNF-004| A aplicação deve ser responsiva e funcionar bem em dispositivos móveis, para acomodar usuários que acessam o site por meio de smartphones e tablets |  MÉDIA | 
+|RNF-002| A aplicação deve ser responsiva e funcionar bem em dispositivos móveis, para acomodar usuários que acessam o site por meio de smartphones e tablets |  MÉDIA | 
 
 ## Restrições
 
@@ -142,9 +135,8 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 |--|-------------------------------------------------------|
 |RE-01| Uso de bibliotecas confiáveis para o crawler (e.g., BeautifulSoup, Scrapy). |
 |RE-02| Otimização do desempenho do crawler. |
-|RE-03| Autenticação de usuário para login/registro. |
-|RE-04| Interface de usuário limpa e intuitiva. |
-|RE-05| Uso eficiente do banco de dados para armazenar notícias coletadas e preferências do usuário. |
+|RE-03| Interface de usuário limpa e intuitiva. |
+|RE-04| Uso eficiente do banco de dados para armazenar notícias coletadas e preferências do usuário. |
 
 
 ## Diagrama de Casos de Uso
