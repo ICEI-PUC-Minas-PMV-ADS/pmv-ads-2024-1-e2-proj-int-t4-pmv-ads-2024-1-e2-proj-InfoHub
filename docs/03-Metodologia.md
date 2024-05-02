@@ -63,9 +63,9 @@ Para organização e distribuição das tarefas do projeto, a equipe está utili
 - **Test:** Checagem de Qualidade. Quando as tarefas são concluídas, elas são movidas para o "CQ". No final da semana, verificamos essa lista novamente para garantir que tudo saiu perfeito.
 - **Done:** Nessa lista são colocadas as tarefas que passaram pelos testes e controle de qualidade e estão prontas para serem entregues ao usuário. Não há mais edições ou revisões necessárias, elas estão agendadas e prontas para a ação.
 - **Locked:** Quando alguma coisa impede a conclusão da tarefa, ela é movida para essa lista juntamente com um comentário sobre o que está travando a tarefa.
-  
-![Captura de tela 2024-04-14 201834](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-proj-int-t4-pmv-ads-2024-1-e2-proj-InfoHub/assets/144181666/db9e5644-39d9-4911-9be4-ce7354cb7f4e)
-![Captura de tela 2024-04-14 201922](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-proj-int-t4-pmv-ads-2024-1-e2-proj-InfoHub/assets/144181666/0b709bf7-2f10-4836-ba17-df9b80b24b33)
+
+
+![Trello](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-proj-int-t4-pmv-ads-2024-1-e2-proj-InfoHub/assets/65633444/0cbac68a-8b80-4763-af43-d7989a468fa9)
 ![Etiquetas](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-proj-int-t4-pmv-ads-2024-1-e2-proj-InfoHub/assets/144181666/fee3839d-08cf-49b3-a79a-10d0567673b9)
 
 
