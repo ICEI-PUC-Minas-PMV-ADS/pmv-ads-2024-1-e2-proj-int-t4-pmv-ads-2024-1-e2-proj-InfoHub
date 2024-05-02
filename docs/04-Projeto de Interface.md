@@ -12,8 +12,7 @@ O diagrama de fluxo, também conhecido como fluxograma, é uma representação v
 
 Veja o nosso exemplo de estrutura básica de um diagrama de fluxo centrado nas ações dos usuários:
 
-![Diagrama de fluxo 2](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-proj-int-t4-pmv-ads-2024-1-e2-proj-InfoHub/assets/65633444/2dc880a5-ec4c-4c66-9ea0-16dacd26373d)
-
+![Diagrama sem nome drawio](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e2-proj-int-t4-pmv-ads-2024-1-e2-proj-InfoHub/assets/65633444/a0a696bb-f57b-41e2-95ae-82135af515e2)
 
 
 ## Wireframe Interativo
