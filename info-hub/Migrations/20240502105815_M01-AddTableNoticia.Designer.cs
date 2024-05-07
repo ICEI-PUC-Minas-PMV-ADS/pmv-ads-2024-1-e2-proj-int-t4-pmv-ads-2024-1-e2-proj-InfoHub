@@ -28,18 +28,18 @@ namespace info_hub.Migrations
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
-                        .HasColumnType("int");
+                        .HasColumnType("string");
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
 
-                    b.Property<int>("DataPublicacao")
-                        .HasColumnType("int");
+                    b.Property<string>("DataPublicacao")
+                        .HasColumnType("string");
 
-                    b.Property<int>("Tema")
-                        .HasColumnType("int");
+                    b.Property<string>("Tema")
+                        .HasColumnType("string");
 
-                    b.Property<int>("Titulo")
-                        .HasColumnType("int");
+                    b.Property<string>("Titulo")
+                        .HasColumnType("string");
 
                     b.HasKey("Id");
 

@@ -554,3 +554,4 @@ C:\Users\luana\Documents\info-hub\info-hub\bin\Debug\net8.0\runtimes\win\lib\net
 C:\Users\luana\Documents\info-hub\info-hub\bin\Debug\net8.0\runtimes\win\lib\net7.0\System.Drawing.Common.dll
 C:\Users\luana\Documents\info-hub\info-hub\bin\Debug\net8.0\runtimes\win\lib\net7.0\System.Security.Cryptography.ProtectedData.dll
 C:\Users\luana\Documents\info-hub\info-hub\bin\Debug\net8.0\runtimes\win\lib\net7.0\System.Windows.Extensions.dll
+C:\Users\luana\Documents\info-hub\info-hub\obj\Debug\net8.0\info-hub.sourcelink.json

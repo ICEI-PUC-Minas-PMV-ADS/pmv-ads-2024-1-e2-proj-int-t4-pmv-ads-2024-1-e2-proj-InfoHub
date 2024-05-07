@@ -3,8 +3,39 @@
   "WorkspaceRootPath": "C:\\Users\\luana\\Documents\\info-hub\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{74B20960-418D-4B3D-A67C-7370A57F595E}|info-hub\\info-hub.csproj|c:\\users\\luana\\documents\\info-hub\\info-hub\\info-hub.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{74B20960-418D-4B3D-A67C-7370A57F595E}|info-hub\\info-hub.csproj|solutionrelative:info-hub\\info-hub.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+      "AbsoluteMoniker": "D:0:0:{74B20960-418D-4B3D-A67C-7370A57F595E}|info-hub\\info-hub.csproj|c:\\users\\luana\\documents\\info-hub\\info-hub\\views\\noticias\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{74B20960-418D-4B3D-A67C-7370A57F595E}|info-hub\\info-hub.csproj|solutionrelative:info-hub\\views\\noticias\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{74B20960-418D-4B3D-A67C-7370A57F595E}|info-hub\\info-hub.csproj|c:\\users\\luana\\documents\\info-hub\\info-hub\\controllers\\noticiascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{74B20960-418D-4B3D-A67C-7370A57F595E}|info-hub\\info-hub.csproj|solutionrelative:info-hub\\controllers\\noticiascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{74B20960-418D-4B3D-A67C-7370A57F595E}|info-hub\\info-hub.csproj|c:\\users\\luana\\documents\\info-hub\\info-hub\\views\\noticias\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{74B20960-418D-4B3D-A67C-7370A57F595E}|info-hub\\info-hub.csproj|solutionrelative:info-hub\\views\\noticias\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{74B20960-418D-4B3D-A67C-7370A57F595E}|info-hub\\info-hub.csproj|c:\\users\\luana\\documents\\info-hub\\info-hub\\views\\noticias\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{74B20960-418D-4B3D-A67C-7370A57F595E}|info-hub\\info-hub.csproj|solutionrelative:info-hub\\views\\noticias\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{74B20960-418D-4B3D-A67C-7370A57F595E}|info-hub\\info-hub.csproj|c:\\users\\luana\\documents\\info-hub\\info-hub\\models\\noticia.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{74B20960-418D-4B3D-A67C-7370A57F595E}|info-hub\\info-hub.csproj|solutionrelative:info-hub\\models\\noticia.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/info_hub/True/SqlTable/dbo.Noticias.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{74B20960-418D-4B3D-A67C-7370A57F595E}|info-hub\\info-hub.csproj|c:\\users\\luana\\documents\\info-hub\\info-hub\\migrations\\20240502105815_m01-addtablenoticia.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{74B20960-418D-4B3D-A67C-7370A57F595E}|info-hub\\info-hub.csproj|solutionrelative:info-hub\\migrations\\20240502105815_m01-addtablenoticia.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{74B20960-418D-4B3D-A67C-7370A57F595E}|info-hub\\info-hub.csproj|c:\\users\\luana\\documents\\info-hub\\info-hub\\migrations\\20240502105815_m01-addtablenoticia.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{74B20960-418D-4B3D-A67C-7370A57F595E}|info-hub\\info-hub.csproj|solutionrelative:info-hub\\migrations\\20240502105815_m01-addtablenoticia.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{74B20960-418D-4B3D-A67C-7370A57F595E}|info-hub\\info-hub.csproj|c:\\users\\luana\\documents\\info-hub\\info-hub\\migrations\\20240505234630_m01-updatetablenoticia.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{74B20960-418D-4B3D-A67C-7370A57F595E}|info-hub\\info-hub.csproj|solutionrelative:info-hub\\migrations\\20240505234630_m01-updatetablenoticia.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -19,15 +50,108 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "info-hub",
-              "DocumentMoniker": "C:\\Users\\luana\\Documents\\info-hub\\info-hub\\info-hub.csproj",
-              "RelativeDocumentMoniker": "info-hub\\info-hub.csproj",
-              "ToolTip": "C:\\Users\\luana\\Documents\\info-hub\\info-hub\\info-hub.csproj",
-              "RelativeToolTip": "info-hub\\info-hub.csproj",
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\luana\\Documents\\info-hub\\info-hub\\Views\\Noticias\\Delete.cshtml",
+              "RelativeDocumentMoniker": "info-hub\\Views\\Noticias\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\luana\\Documents\\info-hub\\info-hub\\Views\\Noticias\\Delete.cshtml",
+              "RelativeToolTip": "info-hub\\Views\\Noticias\\Delete.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-05-05T05:04:25.297Z",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-06T05:22:22.157Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\luana\\Documents\\info-hub\\info-hub\\Views\\Noticias\\Details.cshtml",
+              "RelativeDocumentMoniker": "info-hub\\Views\\Noticias\\Details.cshtml",
+              "ToolTip": "C:\\Users\\luana\\Documents\\info-hub\\info-hub\\Views\\Noticias\\Details.cshtml",
+              "RelativeToolTip": "info-hub\\Views\\Noticias\\Details.cshtml",
+              "ViewState": "AQIAABIAAAAAAAAAAAAAAA4AAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-06T05:06:48.453Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\luana\\Documents\\info-hub\\info-hub\\Views\\Noticias\\Edit.cshtml",
+              "RelativeDocumentMoniker": "info-hub\\Views\\Noticias\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\luana\\Documents\\info-hub\\info-hub\\Views\\Noticias\\Edit.cshtml",
+              "RelativeToolTip": "info-hub\\Views\\Noticias\\Edit.cshtml",
+              "ViewState": "AQIAABUAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-06T04:46:14.565Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "NoticiasController.cs",
+              "DocumentMoniker": "C:\\Users\\luana\\Documents\\info-hub\\info-hub\\Controllers\\NoticiasController.cs",
+              "RelativeDocumentMoniker": "info-hub\\Controllers\\NoticiasController.cs",
+              "ToolTip": "C:\\Users\\luana\\Documents\\info-hub\\info-hub\\Controllers\\NoticiasController.cs",
+              "RelativeToolTip": "info-hub\\Controllers\\NoticiasController.cs",
+              "ViewState": "AQIAAD4AAAAAAAAAAAAiwEcAAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-06T04:23:32.7Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "dbo.Noticias [Dados]",
+              "DocumentMoniker": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/info_hub/True/SqlTable/dbo.Noticias.sql",
+              "ToolTip": "dbo.Noticias [Dados]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2024-05-05T23:47:48.514Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "20240505234630_M01-UpdateTableNoticia.cs",
+              "DocumentMoniker": "C:\\Users\\luana\\Documents\\info-hub\\info-hub\\Migrations\\20240505234630_M01-UpdateTableNoticia.cs",
+              "RelativeDocumentMoniker": "info-hub\\Migrations\\20240505234630_M01-UpdateTableNoticia.cs",
+              "ToolTip": "C:\\Users\\luana\\Documents\\info-hub\\info-hub\\Migrations\\20240505234630_M01-UpdateTableNoticia.cs",
+              "RelativeToolTip": "info-hub\\Migrations\\20240505234630_M01-UpdateTableNoticia.cs",
+              "ViewState": "AQIAADkAAAAAAAAAAAAAAEEAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-05T23:46:30.741Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Noticia.cs",
+              "DocumentMoniker": "C:\\Users\\luana\\Documents\\info-hub\\info-hub\\Models\\Noticia.cs",
+              "RelativeDocumentMoniker": "info-hub\\Models\\Noticia.cs",
+              "ToolTip": "C:\\Users\\luana\\Documents\\info-hub\\info-hub\\Models\\Noticia.cs",
+              "RelativeToolTip": "info-hub\\Models\\Noticia.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-05T23:42:49.089Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "20240502105815_M01-AddTableNoticia.cs",
+              "DocumentMoniker": "C:\\Users\\luana\\Documents\\info-hub\\info-hub\\Migrations\\20240502105815_M01-AddTableNoticia.cs",
+              "RelativeDocumentMoniker": "info-hub\\Migrations\\20240502105815_M01-AddTableNoticia.cs",
+              "ToolTip": "C:\\Users\\luana\\Documents\\info-hub\\info-hub\\Migrations\\20240502105815_M01-AddTableNoticia.cs",
+              "RelativeToolTip": "info-hub\\Migrations\\20240502105815_M01-AddTableNoticia.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAlwB0AAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-05T23:39:28.262Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "20240502105815_M01-AddTableNoticia.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\luana\\Documents\\info-hub\\info-hub\\Migrations\\20240502105815_M01-AddTableNoticia.Designer.cs",
+              "RelativeDocumentMoniker": "info-hub\\Migrations\\20240502105815_M01-AddTableNoticia.Designer.cs",
+              "ToolTip": "C:\\Users\\luana\\Documents\\info-hub\\info-hub\\Migrations\\20240502105815_M01-AddTableNoticia.Designer.cs",
+              "RelativeToolTip": "info-hub\\Migrations\\20240502105815_M01-AddTableNoticia.Designer.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB4AAAAuAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-05T23:38:51.048Z"
             }
           ]
         }
