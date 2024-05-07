@@ -16,9 +16,9 @@ namespace info_hub.Migrations
                 {
                     Id = table.Column<int>(type: "int", nullable: false)
                         .Annotation("SqlServer:Identity", "1, 1"),
-                    Tema = table.Column<string>(type: "string", nullable: false),
-                    Titulo = table.Column<string>(type: "string", nullable: false),
-                    DataPublicacao = table.Column<string>(type: "string", nullable: false)
+                    Tema = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    Titulo = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    DataPublicacao = table.Column<string>(type: "nvarchar(max)", nullable: false)
                 },
                 constraints: table =>
                 {

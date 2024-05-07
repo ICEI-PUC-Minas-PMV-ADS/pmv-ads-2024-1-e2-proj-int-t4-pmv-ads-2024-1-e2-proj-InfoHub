@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\luana\\Documents\\info-hub\\info-hub\\info-hub.csproj": {}
+    "C:\\Users\\roger\\OneDrive\\Área de Trabalho\\InfoHub\\pmv-ads-2024-1-e2-proj-int-t4-pmv-ads-2024-1-e2-proj-InfoHub\\info-hub\\info-hub.csproj": {}
   },
   "projects": {
-    "C:\\Users\\luana\\Documents\\info-hub\\info-hub\\info-hub.csproj": {
+    "C:\\Users\\roger\\OneDrive\\Área de Trabalho\\InfoHub\\pmv-ads-2024-1-e2-proj-int-t4-pmv-ads-2024-1-e2-proj-InfoHub\\info-hub\\info-hub.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\luana\\Documents\\info-hub\\info-hub\\info-hub.csproj",
+        "projectUniqueName": "C:\\Users\\roger\\OneDrive\\Área de Trabalho\\InfoHub\\pmv-ads-2024-1-e2-proj-int-t4-pmv-ads-2024-1-e2-proj-InfoHub\\info-hub\\info-hub.csproj",
         "projectName": "info-hub",
-        "projectPath": "C:\\Users\\luana\\Documents\\info-hub\\info-hub\\info-hub.csproj",
-        "packagesPath": "C:\\Users\\luana\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\luana\\Documents\\info-hub\\info-hub\\obj\\",
+        "projectPath": "C:\\Users\\roger\\OneDrive\\Área de Trabalho\\InfoHub\\pmv-ads-2024-1-e2-proj-int-t4-pmv-ads-2024-1-e2-proj-InfoHub\\info-hub\\info-hub.csproj",
+        "packagesPath": "C:\\Users\\roger\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\roger\\OneDrive\\Área de Trabalho\\InfoHub\\pmv-ads-2024-1-e2-proj-int-t4-pmv-ads-2024-1-e2-proj-InfoHub\\info-hub\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\luana\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\roger\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
