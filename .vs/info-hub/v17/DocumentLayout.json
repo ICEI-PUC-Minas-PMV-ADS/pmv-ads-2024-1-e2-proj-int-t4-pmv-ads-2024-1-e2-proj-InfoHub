@@ -1,89 +1,42 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\roger\\OneDrive\\\u00C1rea de Trabalho\\InfoHub\\pmv-ads-2024-1-e2-proj-int-t4-pmv-ads-2024-1-e2-proj-InfoHub\\",
+  "WorkspaceRootPath": "C:\\Users\\LENOVO\\Desktop\\pmv-ads-2024-1-e2-proj-int-t4-pmv-ads-2024-1-e2-proj-InfoHub\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{74B20960-418D-4B3D-A67C-7370A57F595E}|info-hub\\info-hub.csproj|c:\\users\\roger\\onedrive\\\u00E1rea de trabalho\\infohub\\pmv-ads-2024-1-e2-proj-int-t4-pmv-ads-2024-1-e2-proj-infohub\\info-hub\\models\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{74B20960-418D-4B3D-A67C-7370A57F595E}|info-hub\\info-hub.csproj|solutionrelative:info-hub\\models\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{74B20960-418D-4B3D-A67C-7370A57F595E}|info-hub\\info-hub.csproj|c:\\users\\lenovo\\desktop\\pmv-ads-2024-1-e2-proj-int-t4-pmv-ads-2024-1-e2-proj-infohub\\info-hub\\views\\fontes\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{74B20960-418D-4B3D-A67C-7370A57F595E}|info-hub\\info-hub.csproj|solutionrelative:info-hub\\views\\fontes\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{74B20960-418D-4B3D-A67C-7370A57F595E}|info-hub\\info-hub.csproj|c:\\users\\roger\\onedrive\\\u00E1rea de trabalho\\infohub\\pmv-ads-2024-1-e2-proj-int-t4-pmv-ads-2024-1-e2-proj-infohub\\info-hub\\models\\tema.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{74B20960-418D-4B3D-A67C-7370A57F595E}|info-hub\\info-hub.csproj|solutionrelative:info-hub\\models\\tema.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{74B20960-418D-4B3D-A67C-7370A57F595E}|info-hub\\info-hub.csproj|c:\\users\\lenovo\\desktop\\pmv-ads-2024-1-e2-proj-int-t4-pmv-ads-2024-1-e2-proj-infohub\\info-hub\\views\\fontes\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{74B20960-418D-4B3D-A67C-7370A57F595E}|info-hub\\info-hub.csproj|solutionrelative:info-hub\\views\\fontes\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{74B20960-418D-4B3D-A67C-7370A57F595E}|info-hub\\info-hub.csproj|c:\\users\\roger\\onedrive\\\u00E1rea de trabalho\\infohub\\pmv-ads-2024-1-e2-proj-int-t4-pmv-ads-2024-1-e2-proj-infohub\\info-hub\\controllers\\temascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{74B20960-418D-4B3D-A67C-7370A57F595E}|info-hub\\info-hub.csproj|solutionrelative:info-hub\\controllers\\temascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{74B20960-418D-4B3D-A67C-7370A57F595E}|info-hub\\info-hub.csproj|c:\\users\\lenovo\\desktop\\pmv-ads-2024-1-e2-proj-int-t4-pmv-ads-2024-1-e2-proj-infohub\\info-hub\\views\\fontes\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{74B20960-418D-4B3D-A67C-7370A57F595E}|info-hub\\info-hub.csproj|solutionrelative:info-hub\\views\\fontes\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{74B20960-418D-4B3D-A67C-7370A57F595E}|info-hub\\info-hub.csproj|c:\\users\\roger\\onedrive\\\u00E1rea de trabalho\\infohub\\pmv-ads-2024-1-e2-proj-int-t4-pmv-ads-2024-1-e2-proj-infohub\\info-hub\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{74B20960-418D-4B3D-A67C-7370A57F595E}|info-hub\\info-hub.csproj|solutionrelative:info-hub\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{74B20960-418D-4B3D-A67C-7370A57F595E}|info-hub\\info-hub.csproj|c:\\users\\lenovo\\desktop\\pmv-ads-2024-1-e2-proj-int-t4-pmv-ads-2024-1-e2-proj-infohub\\info-hub\\controllers\\fontescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{74B20960-418D-4B3D-A67C-7370A57F595E}|info-hub\\info-hub.csproj|solutionrelative:info-hub\\controllers\\fontescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{74B20960-418D-4B3D-A67C-7370A57F595E}|info-hub\\info-hub.csproj|c:\\users\\roger\\onedrive\\\u00E1rea de trabalho\\infohub\\pmv-ads-2024-1-e2-proj-int-t4-pmv-ads-2024-1-e2-proj-infohub\\info-hub\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{74B20960-418D-4B3D-A67C-7370A57F595E}|info-hub\\info-hub.csproj|solutionrelative:info-hub\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{74B20960-418D-4B3D-A67C-7370A57F595E}|info-hub\\info-hub.csproj|c:\\users\\roger\\onedrive\\\u00E1rea de trabalho\\infohub\\pmv-ads-2024-1-e2-proj-int-t4-pmv-ads-2024-1-e2-proj-infohub\\info-hub\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{74B20960-418D-4B3D-A67C-7370A57F595E}|info-hub\\info-hub.csproj|solutionrelative:info-hub\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{74B20960-418D-4B3D-A67C-7370A57F595E}|info-hub\\info-hub.csproj|c:\\users\\roger\\onedrive\\\u00E1rea de trabalho\\infohub\\pmv-ads-2024-1-e2-proj-int-t4-pmv-ads-2024-1-e2-proj-infohub\\info-hub\\views\\temas\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{74B20960-418D-4B3D-A67C-7370A57F595E}|info-hub\\info-hub.csproj|solutionrelative:info-hub\\views\\temas\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{74B20960-418D-4B3D-A67C-7370A57F595E}|info-hub\\info-hub.csproj|c:\\users\\roger\\onedrive\\\u00E1rea de trabalho\\infohub\\pmv-ads-2024-1-e2-proj-int-t4-pmv-ads-2024-1-e2-proj-infohub\\info-hub\\views\\temas\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{74B20960-418D-4B3D-A67C-7370A57F595E}|info-hub\\info-hub.csproj|solutionrelative:info-hub\\views\\temas\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{74B20960-418D-4B3D-A67C-7370A57F595E}|info-hub\\info-hub.csproj|c:\\users\\roger\\onedrive\\\u00E1rea de trabalho\\infohub\\pmv-ads-2024-1-e2-proj-int-t4-pmv-ads-2024-1-e2-proj-infohub\\info-hub\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{74B20960-418D-4B3D-A67C-7370A57F595E}|info-hub\\info-hub.csproj|solutionrelative:info-hub\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{74B20960-418D-4B3D-A67C-7370A57F595E}|info-hub\\info-hub.csproj|c:\\users\\roger\\onedrive\\\u00E1rea de trabalho\\infohub\\pmv-ads-2024-1-e2-proj-int-t4-pmv-ads-2024-1-e2-proj-infohub\\info-hub\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{74B20960-418D-4B3D-A67C-7370A57F595E}|info-hub\\info-hub.csproj|c:\\users\\lenovo\\desktop\\pmv-ads-2024-1-e2-proj-int-t4-pmv-ads-2024-1-e2-proj-infohub\\info-hub\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{74B20960-418D-4B3D-A67C-7370A57F595E}|info-hub\\info-hub.csproj|solutionrelative:info-hub\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{74B20960-418D-4B3D-A67C-7370A57F595E}|info-hub\\info-hub.csproj|c:\\users\\roger\\onedrive\\\u00E1rea de trabalho\\infohub\\pmv-ads-2024-1-e2-proj-int-t4-pmv-ads-2024-1-e2-proj-infohub\\info-hub\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{74B20960-418D-4B3D-A67C-7370A57F595E}|info-hub\\info-hub.csproj|solutionrelative:info-hub\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{74B20960-418D-4B3D-A67C-7370A57F595E}|info-hub\\info-hub.csproj|c:\\users\\lenovo\\desktop\\pmv-ads-2024-1-e2-proj-int-t4-pmv-ads-2024-1-e2-proj-infohub\\info-hub\\views\\fontes\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{74B20960-418D-4B3D-A67C-7370A57F595E}|info-hub\\info-hub.csproj|solutionrelative:info-hub\\views\\fontes\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{74B20960-418D-4B3D-A67C-7370A57F595E}|info-hub\\info-hub.csproj|c:\\users\\roger\\onedrive\\\u00E1rea de trabalho\\infohub\\pmv-ads-2024-1-e2-proj-int-t4-pmv-ads-2024-1-e2-proj-infohub\\info-hub\\views\\noticias\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{74B20960-418D-4B3D-A67C-7370A57F595E}|info-hub\\info-hub.csproj|solutionrelative:info-hub\\views\\noticias\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{74B20960-418D-4B3D-A67C-7370A57F595E}|info-hub\\info-hub.csproj|c:\\users\\lenovo\\desktop\\pmv-ads-2024-1-e2-proj-int-t4-pmv-ads-2024-1-e2-proj-infohub\\info-hub\\models\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{74B20960-418D-4B3D-A67C-7370A57F595E}|info-hub\\info-hub.csproj|solutionrelative:info-hub\\models\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{74B20960-418D-4B3D-A67C-7370A57F595E}|info-hub\\info-hub.csproj|c:\\users\\roger\\onedrive\\\u00E1rea de trabalho\\infohub\\pmv-ads-2024-1-e2-proj-int-t4-pmv-ads-2024-1-e2-proj-infohub\\info-hub\\migrations\\20240502105815_m01-addtablenoticia.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{74B20960-418D-4B3D-A67C-7370A57F595E}|info-hub\\info-hub.csproj|solutionrelative:info-hub\\migrations\\20240502105815_m01-addtablenoticia.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{74B20960-418D-4B3D-A67C-7370A57F595E}|info-hub\\info-hub.csproj|c:\\users\\lenovo\\desktop\\pmv-ads-2024-1-e2-proj-int-t4-pmv-ads-2024-1-e2-proj-infohub\\info-hub\\models\\fonte.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{74B20960-418D-4B3D-A67C-7370A57F595E}|info-hub\\info-hub.csproj|solutionrelative:info-hub\\models\\fonte.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{74B20960-418D-4B3D-A67C-7370A57F595E}|info-hub\\info-hub.csproj|c:\\users\\roger\\onedrive\\\u00E1rea de trabalho\\infohub\\pmv-ads-2024-1-e2-proj-int-t4-pmv-ads-2024-1-e2-proj-infohub\\info-hub\\migrations\\20240502105815_m01-addtablenoticia.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{74B20960-418D-4B3D-A67C-7370A57F595E}|info-hub\\info-hub.csproj|solutionrelative:info-hub\\migrations\\20240502105815_m01-addtablenoticia.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{74B20960-418D-4B3D-A67C-7370A57F595E}|info-hub\\info-hub.csproj|c:\\users\\roger\\onedrive\\\u00E1rea de trabalho\\infohub\\pmv-ads-2024-1-e2-proj-int-t4-pmv-ads-2024-1-e2-proj-infohub\\info-hub\\views\\noticias\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{74B20960-418D-4B3D-A67C-7370A57F595E}|info-hub\\info-hub.csproj|solutionrelative:info-hub\\views\\noticias\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{74B20960-418D-4B3D-A67C-7370A57F595E}|info-hub\\info-hub.csproj|c:\\users\\roger\\onedrive\\\u00E1rea de trabalho\\infohub\\pmv-ads-2024-1-e2-proj-int-t4-pmv-ads-2024-1-e2-proj-infohub\\info-hub\\controllers\\noticiascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{74B20960-418D-4B3D-A67C-7370A57F595E}|info-hub\\info-hub.csproj|solutionrelative:info-hub\\controllers\\noticiascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{74B20960-418D-4B3D-A67C-7370A57F595E}|info-hub\\info-hub.csproj|c:\\users\\roger\\onedrive\\\u00E1rea de trabalho\\infohub\\pmv-ads-2024-1-e2-proj-int-t4-pmv-ads-2024-1-e2-proj-infohub\\info-hub\\views\\noticias\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{74B20960-418D-4B3D-A67C-7370A57F595E}|info-hub\\info-hub.csproj|solutionrelative:info-hub\\views\\noticias\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{74B20960-418D-4B3D-A67C-7370A57F595E}|info-hub\\info-hub.csproj|c:\\users\\roger\\onedrive\\\u00E1rea de trabalho\\infohub\\pmv-ads-2024-1-e2-proj-int-t4-pmv-ads-2024-1-e2-proj-infohub\\info-hub\\views\\noticias\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{74B20960-418D-4B3D-A67C-7370A57F595E}|info-hub\\info-hub.csproj|solutionrelative:info-hub\\views\\noticias\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{74B20960-418D-4B3D-A67C-7370A57F595E}|info-hub\\info-hub.csproj|c:\\users\\roger\\onedrive\\\u00E1rea de trabalho\\infohub\\pmv-ads-2024-1-e2-proj-int-t4-pmv-ads-2024-1-e2-proj-infohub\\info-hub\\models\\noticia.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{74B20960-418D-4B3D-A67C-7370A57F595E}|info-hub\\info-hub.csproj|solutionrelative:info-hub\\models\\noticia.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/info_hub/True/SqlTable/dbo.Noticias.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\roger\\OneDrive\\\u00C1rea de Trabalho\\InfoHub\\pmv-ads-2024-1-e2-proj-int-t4-pmv-ads-2024-1-e2-proj-InfoHub\\info-hub\\Migrations\\20240505234630_M01-UpdateTableNoticia.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:info-hub\\Migrations\\20240505234630_M01-UpdateTableNoticia.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{74B20960-418D-4B3D-A67C-7370A57F595E}|info-hub\\info-hub.csproj|c:\\users\\lenovo\\desktop\\pmv-ads-2024-1-e2-proj-int-t4-pmv-ads-2024-1-e2-proj-infohub\\info-hub\\views\\fontes\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{74B20960-418D-4B3D-A67C-7370A57F595E}|info-hub\\info-hub.csproj|solutionrelative:info-hub\\views\\fontes\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -93,262 +46,118 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\roger\\OneDrive\\\u00C1rea de Trabalho\\InfoHub\\pmv-ads-2024-1-e2-proj-int-t4-pmv-ads-2024-1-e2-proj-InfoHub\\info-hub\\Program.cs",
-              "RelativeDocumentMoniker": "info-hub\\Program.cs",
-              "ToolTip": "C:\\Users\\roger\\OneDrive\\\u00C1rea de Trabalho\\InfoHub\\pmv-ads-2024-1-e2-proj-int-t4-pmv-ads-2024-1-e2-proj-InfoHub\\info-hub\\Program.cs",
-              "RelativeToolTip": "info-hub\\Program.cs",
-              "ViewState": "AQIAABAAAAAAAAAAAAAgwAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-09T01:54:13.819Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "_ViewImports.cshtml",
-              "DocumentMoniker": "C:\\Users\\roger\\OneDrive\\\u00C1rea de Trabalho\\InfoHub\\pmv-ads-2024-1-e2-proj-int-t4-pmv-ads-2024-1-e2-proj-InfoHub\\info-hub\\Views\\_ViewImports.cshtml",
-              "RelativeDocumentMoniker": "info-hub\\Views\\_ViewImports.cshtml",
-              "ToolTip": "C:\\Users\\roger\\OneDrive\\\u00C1rea de Trabalho\\InfoHub\\pmv-ads-2024-1-e2-proj-int-t4-pmv-ads-2024-1-e2-proj-InfoHub\\info-hub\\Views\\_ViewImports.cshtml",
-              "RelativeToolTip": "info-hub\\Views\\_ViewImports.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "DocumentIndex": 2,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\pmv-ads-2024-1-e2-proj-int-t4-pmv-ads-2024-1-e2-proj-InfoHub\\info-hub\\Views\\Fontes\\Edit.cshtml",
+              "RelativeDocumentMoniker": "info-hub\\Views\\Fontes\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\LENOVO\\Desktop\\pmv-ads-2024-1-e2-proj-int-t4-pmv-ads-2024-1-e2-proj-InfoHub\\info-hub\\Views\\Fontes\\Edit.cshtml",
+              "RelativeToolTip": "info-hub\\Views\\Fontes\\Edit.cshtml",
+              "ViewState": "AQIAABQAAAAAAAAAAAAAABsAAABIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-05-09T01:54:04.022Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "_ViewStart.cshtml",
-              "DocumentMoniker": "C:\\Users\\roger\\OneDrive\\\u00C1rea de Trabalho\\InfoHub\\pmv-ads-2024-1-e2-proj-int-t4-pmv-ads-2024-1-e2-proj-InfoHub\\info-hub\\Views\\_ViewStart.cshtml",
-              "RelativeDocumentMoniker": "info-hub\\Views\\_ViewStart.cshtml",
-              "ToolTip": "C:\\Users\\roger\\OneDrive\\\u00C1rea de Trabalho\\InfoHub\\pmv-ads-2024-1-e2-proj-int-t4-pmv-ads-2024-1-e2-proj-InfoHub\\info-hub\\Views\\_ViewStart.cshtml",
-              "RelativeToolTip": "info-hub\\Views\\_ViewStart.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-05-09T01:53:57.095Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Create.cshtml",
-              "DocumentMoniker": "C:\\Users\\roger\\OneDrive\\\u00C1rea de Trabalho\\InfoHub\\pmv-ads-2024-1-e2-proj-int-t4-pmv-ads-2024-1-e2-proj-InfoHub\\info-hub\\Views\\Temas\\Create.cshtml",
-              "RelativeDocumentMoniker": "info-hub\\Views\\Temas\\Create.cshtml",
-              "ToolTip": "C:\\Users\\roger\\OneDrive\\\u00C1rea de Trabalho\\InfoHub\\pmv-ads-2024-1-e2-proj-int-t4-pmv-ads-2024-1-e2-proj-InfoHub\\info-hub\\Views\\Temas\\Create.cshtml",
-              "RelativeToolTip": "info-hub\\Views\\Temas\\Create.cshtml",
-              "ViewState": "AQIAADwAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-05-09T01:53:29.263Z"
+              "WhenOpened": "2024-05-09T01:21:44.168Z",
+              "IsPinned": true
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "AppDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\roger\\OneDrive\\\u00C1rea de Trabalho\\InfoHub\\pmv-ads-2024-1-e2-proj-int-t4-pmv-ads-2024-1-e2-proj-InfoHub\\info-hub\\Models\\AppDbContext.cs",
-              "RelativeDocumentMoniker": "info-hub\\Models\\AppDbContext.cs",
-              "ToolTip": "C:\\Users\\roger\\OneDrive\\\u00C1rea de Trabalho\\InfoHub\\pmv-ads-2024-1-e2-proj-int-t4-pmv-ads-2024-1-e2-proj-InfoHub\\info-hub\\Models\\AppDbContext.cs",
-              "RelativeToolTip": "info-hub\\Models\\AppDbContext.cs",
-              "ViewState": "AQIAAAoAAAAAAAAAAAAowAIAAAAZAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-09T00:26:40.429Z",
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\pmv-ads-2024-1-e2-proj-int-t4-pmv-ads-2024-1-e2-proj-InfoHub\\info-hub\\Views\\Fontes\\Delete.cshtml",
+              "RelativeDocumentMoniker": "info-hub\\Views\\Fontes\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\LENOVO\\Desktop\\pmv-ads-2024-1-e2-proj-int-t4-pmv-ads-2024-1-e2-proj-InfoHub\\info-hub\\Views\\Fontes\\Delete.cshtml",
+              "RelativeToolTip": "info-hub\\Views\\Fontes\\Delete.cshtml",
+              "ViewState": "AQIAABsAAAAAgsrZLfwcwB0AAAAxAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-09T01:59:27.125Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\roger\\OneDrive\\\u00C1rea de Trabalho\\InfoHub\\pmv-ads-2024-1-e2-proj-int-t4-pmv-ads-2024-1-e2-proj-InfoHub\\info-hub\\Views\\Temas\\Index.cshtml",
-              "RelativeDocumentMoniker": "info-hub\\Views\\Temas\\Index.cshtml",
-              "ToolTip": "C:\\Users\\roger\\OneDrive\\\u00C1rea de Trabalho\\InfoHub\\pmv-ads-2024-1-e2-proj-int-t4-pmv-ads-2024-1-e2-proj-InfoHub\\info-hub\\Views\\Temas\\Index.cshtml",
-              "RelativeToolTip": "info-hub\\Views\\Temas\\Index.cshtml",
-              "ViewState": "AQIAADkAAAAAAAAAAAAAAGoAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-05-08T02:24:37.488Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 4,
               "Title": "_Layout.cshtml",
-              "DocumentMoniker": "C:\\Users\\roger\\OneDrive\\\u00C1rea de Trabalho\\InfoHub\\pmv-ads-2024-1-e2-proj-int-t4-pmv-ads-2024-1-e2-proj-InfoHub\\info-hub\\Views\\Shared\\_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\pmv-ads-2024-1-e2-proj-int-t4-pmv-ads-2024-1-e2-proj-InfoHub\\info-hub\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "info-hub\\Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "C:\\Users\\roger\\OneDrive\\\u00C1rea de Trabalho\\InfoHub\\pmv-ads-2024-1-e2-proj-int-t4-pmv-ads-2024-1-e2-proj-InfoHub\\info-hub\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\LENOVO\\Desktop\\pmv-ads-2024-1-e2-proj-int-t4-pmv-ads-2024-1-e2-proj-InfoHub\\info-hub\\Views\\Shared\\_Layout.cshtml",
               "RelativeToolTip": "info-hub\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAmwDIAAAAAAAAA",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAgwBkAAAB6AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-05-08T02:09:41.509Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "TemasController.cs",
-              "DocumentMoniker": "C:\\Users\\roger\\OneDrive\\\u00C1rea de Trabalho\\InfoHub\\pmv-ads-2024-1-e2-proj-int-t4-pmv-ads-2024-1-e2-proj-InfoHub\\info-hub\\Controllers\\TemasController.cs",
-              "RelativeDocumentMoniker": "info-hub\\Controllers\\TemasController.cs",
-              "ToolTip": "C:\\Users\\roger\\OneDrive\\\u00C1rea de Trabalho\\InfoHub\\pmv-ads-2024-1-e2-proj-int-t4-pmv-ads-2024-1-e2-proj-InfoHub\\info-hub\\Controllers\\TemasController.cs",
-              "RelativeToolTip": "info-hub\\Controllers\\TemasController.cs",
-              "ViewState": "AQIAAIkAAAAAAAAAAAAAAJQAAAABAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-08T01:52:46.576Z"
+              "WhenOpened": "2024-05-09T01:39:43.418Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Tema.cs",
-              "DocumentMoniker": "C:\\Users\\roger\\OneDrive\\\u00C1rea de Trabalho\\InfoHub\\pmv-ads-2024-1-e2-proj-int-t4-pmv-ads-2024-1-e2-proj-InfoHub\\info-hub\\Models\\Tema.cs",
-              "RelativeDocumentMoniker": "info-hub\\Models\\Tema.cs",
-              "ToolTip": "C:\\Users\\roger\\OneDrive\\\u00C1rea de Trabalho\\InfoHub\\pmv-ads-2024-1-e2-proj-int-t4-pmv-ads-2024-1-e2-proj-InfoHub\\info-hub\\Models\\Tema.cs",
-              "RelativeToolTip": "info-hub\\Models\\Tema.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAFQAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-08T01:18:03.063Z",
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\pmv-ads-2024-1-e2-proj-int-t4-pmv-ads-2024-1-e2-proj-InfoHub\\info-hub\\Views\\Fontes\\Create.cshtml",
+              "RelativeDocumentMoniker": "info-hub\\Views\\Fontes\\Create.cshtml",
+              "ToolTip": "C:\\Users\\LENOVO\\Desktop\\pmv-ads-2024-1-e2-proj-int-t4-pmv-ads-2024-1-e2-proj-InfoHub\\info-hub\\Views\\Fontes\\Create.cshtml",
+              "RelativeToolTip": "info-hub\\Views\\Fontes\\Create.cshtml",
+              "ViewState": "AQIAABQAAAAAAAAAAAAgwBoAAABIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-09T00:31:12.506Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\roger\\OneDrive\\\u00C1rea de Trabalho\\InfoHub\\pmv-ads-2024-1-e2-proj-int-t4-pmv-ads-2024-1-e2-proj-InfoHub\\info-hub\\Views\\Noticias\\Index.cshtml",
-              "RelativeDocumentMoniker": "info-hub\\Views\\Noticias\\Index.cshtml",
-              "ToolTip": "C:\\Users\\roger\\OneDrive\\\u00C1rea de Trabalho\\InfoHub\\pmv-ads-2024-1-e2-proj-int-t4-pmv-ads-2024-1-e2-proj-InfoHub\\info-hub\\Views\\Noticias\\Index.cshtml",
-              "RelativeToolTip": "info-hub\\Views\\Noticias\\Index.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "DocumentIndex": 3,
+              "Title": "FontesController.cs",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\pmv-ads-2024-1-e2-proj-int-t4-pmv-ads-2024-1-e2-proj-InfoHub\\info-hub\\Controllers\\FontesController.cs",
+              "RelativeDocumentMoniker": "info-hub\\Controllers\\FontesController.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\Desktop\\pmv-ads-2024-1-e2-proj-int-t4-pmv-ads-2024-1-e2-proj-InfoHub\\info-hub\\Controllers\\FontesController.cs",
+              "RelativeToolTip": "info-hub\\Controllers\\FontesController.cs",
+              "ViewState": "AQIAAFMAAAAAAAAAAAAAAFYAAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-08T23:41:18.375Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\pmv-ads-2024-1-e2-proj-int-t4-pmv-ads-2024-1-e2-proj-InfoHub\\info-hub\\Views\\Fontes\\Details.cshtml",
+              "RelativeDocumentMoniker": "info-hub\\Views\\Fontes\\Details.cshtml",
+              "ToolTip": "C:\\Users\\LENOVO\\Desktop\\pmv-ads-2024-1-e2-proj-int-t4-pmv-ads-2024-1-e2-proj-InfoHub\\info-hub\\Views\\Fontes\\Details.cshtml",
+              "RelativeToolTip": "info-hub\\Views\\Fontes\\Details.cshtml",
+              "ViewState": "AQIAABAAAAAAAAAAAAAAABwAAAA9AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-05-07T20:31:38.936Z"
+              "WhenOpened": "2024-05-09T01:38:27.396Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 8,
-              "Title": "HomeController.cs",
-              "DocumentMoniker": "C:\\Users\\roger\\OneDrive\\\u00C1rea de Trabalho\\InfoHub\\pmv-ads-2024-1-e2-proj-int-t4-pmv-ads-2024-1-e2-proj-InfoHub\\info-hub\\Controllers\\HomeController.cs",
-              "RelativeDocumentMoniker": "info-hub\\Controllers\\HomeController.cs",
-              "ToolTip": "C:\\Users\\roger\\OneDrive\\\u00C1rea de Trabalho\\InfoHub\\pmv-ads-2024-1-e2-proj-int-t4-pmv-ads-2024-1-e2-proj-InfoHub\\info-hub\\Controllers\\HomeController.cs",
-              "RelativeToolTip": "info-hub\\Controllers\\HomeController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-07T20:27:26.404Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "Privacy.cshtml",
-              "DocumentMoniker": "C:\\Users\\roger\\OneDrive\\\u00C1rea de Trabalho\\InfoHub\\pmv-ads-2024-1-e2-proj-int-t4-pmv-ads-2024-1-e2-proj-InfoHub\\info-hub\\Views\\Home\\Privacy.cshtml",
-              "RelativeDocumentMoniker": "info-hub\\Views\\Home\\Privacy.cshtml",
-              "ToolTip": "C:\\Users\\roger\\OneDrive\\\u00C1rea de Trabalho\\InfoHub\\pmv-ads-2024-1-e2-proj-int-t4-pmv-ads-2024-1-e2-proj-InfoHub\\info-hub\\Views\\Home\\Privacy.cshtml",
-              "RelativeToolTip": "info-hub\\Views\\Home\\Privacy.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAA6AAAA",
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\pmv-ads-2024-1-e2-proj-int-t4-pmv-ads-2024-1-e2-proj-InfoHub\\info-hub\\Views\\Fontes\\Index.cshtml",
+              "RelativeDocumentMoniker": "info-hub\\Views\\Fontes\\Index.cshtml",
+              "ToolTip": "C:\\Users\\LENOVO\\Desktop\\pmv-ads-2024-1-e2-proj-int-t4-pmv-ads-2024-1-e2-proj-InfoHub\\info-hub\\Views\\Fontes\\Index.cshtml",
+              "RelativeToolTip": "info-hub\\Views\\Fontes\\Index.cshtml",
+              "ViewState": "AQIAABoAAAAAAAAAAAArwCQAAABkAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-05-07T20:09:59.672Z"
+              "WhenOpened": "2024-05-08T23:55:08.886Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "Delete.cshtml",
-              "DocumentMoniker": "C:\\Users\\roger\\OneDrive\\\u00C1rea de Trabalho\\InfoHub\\pmv-ads-2024-1-e2-proj-int-t4-pmv-ads-2024-1-e2-proj-InfoHub\\info-hub\\Views\\Noticias\\Delete.cshtml",
-              "RelativeDocumentMoniker": "info-hub\\Views\\Noticias\\Delete.cshtml",
-              "ToolTip": "C:\\Users\\roger\\OneDrive\\\u00C1rea de Trabalho\\InfoHub\\pmv-ads-2024-1-e2-proj-int-t4-pmv-ads-2024-1-e2-proj-InfoHub\\info-hub\\Views\\Noticias\\Delete.cshtml",
-              "RelativeToolTip": "info-hub\\Views\\Noticias\\Delete.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-05-06T05:22:22.157Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "Details.cshtml",
-              "DocumentMoniker": "C:\\Users\\roger\\OneDrive\\\u00C1rea de Trabalho\\InfoHub\\pmv-ads-2024-1-e2-proj-int-t4-pmv-ads-2024-1-e2-proj-InfoHub\\info-hub\\Views\\Noticias\\Details.cshtml",
-              "RelativeDocumentMoniker": "info-hub\\Views\\Noticias\\Details.cshtml",
-              "ToolTip": "C:\\Users\\roger\\OneDrive\\\u00C1rea de Trabalho\\InfoHub\\pmv-ads-2024-1-e2-proj-int-t4-pmv-ads-2024-1-e2-proj-InfoHub\\info-hub\\Views\\Noticias\\Details.cshtml",
-              "RelativeToolTip": "info-hub\\Views\\Noticias\\Details.cshtml",
-              "ViewState": "AQIAABIAAAAAAAAAAAAAAA4AAAANAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-05-06T05:06:48.453Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "Edit.cshtml",
-              "DocumentMoniker": "C:\\Users\\roger\\OneDrive\\\u00C1rea de Trabalho\\InfoHub\\pmv-ads-2024-1-e2-proj-int-t4-pmv-ads-2024-1-e2-proj-InfoHub\\info-hub\\Views\\Noticias\\Edit.cshtml",
-              "RelativeDocumentMoniker": "info-hub\\Views\\Noticias\\Edit.cshtml",
-              "ToolTip": "C:\\Users\\roger\\OneDrive\\\u00C1rea de Trabalho\\InfoHub\\pmv-ads-2024-1-e2-proj-int-t4-pmv-ads-2024-1-e2-proj-InfoHub\\info-hub\\Views\\Noticias\\Edit.cshtml",
-              "RelativeToolTip": "info-hub\\Views\\Noticias\\Edit.cshtml",
-              "ViewState": "AQIAABUAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-05-06T04:46:14.565Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "NoticiasController.cs",
-              "DocumentMoniker": "C:\\Users\\roger\\OneDrive\\\u00C1rea de Trabalho\\InfoHub\\pmv-ads-2024-1-e2-proj-int-t4-pmv-ads-2024-1-e2-proj-InfoHub\\info-hub\\Controllers\\NoticiasController.cs",
-              "RelativeDocumentMoniker": "info-hub\\Controllers\\NoticiasController.cs",
-              "ToolTip": "C:\\Users\\roger\\OneDrive\\\u00C1rea de Trabalho\\InfoHub\\pmv-ads-2024-1-e2-proj-int-t4-pmv-ads-2024-1-e2-proj-InfoHub\\info-hub\\Controllers\\NoticiasController.cs",
-              "RelativeToolTip": "info-hub\\Controllers\\NoticiasController.cs",
-              "ViewState": "AQIAAD4AAAAAAAAAAAAiwEcAAAArAAAA",
+              "DocumentIndex": 7,
+              "Title": "Fonte.cs",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\pmv-ads-2024-1-e2-proj-int-t4-pmv-ads-2024-1-e2-proj-InfoHub\\info-hub\\Models\\Fonte.cs",
+              "RelativeDocumentMoniker": "info-hub\\Models\\Fonte.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\Desktop\\pmv-ads-2024-1-e2-proj-int-t4-pmv-ads-2024-1-e2-proj-InfoHub\\info-hub\\Models\\Fonte.cs",
+              "RelativeToolTip": "info-hub\\Models\\Fonte.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-06T04:23:32.7Z"
+              "WhenOpened": "2024-05-08T14:01:19.662Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "Noticia.cs",
-              "DocumentMoniker": "C:\\Users\\roger\\OneDrive\\\u00C1rea de Trabalho\\InfoHub\\pmv-ads-2024-1-e2-proj-int-t4-pmv-ads-2024-1-e2-proj-InfoHub\\info-hub\\Models\\Noticia.cs",
-              "RelativeDocumentMoniker": "info-hub\\Models\\Noticia.cs",
-              "ToolTip": "C:\\Users\\roger\\OneDrive\\\u00C1rea de Trabalho\\InfoHub\\pmv-ads-2024-1-e2-proj-int-t4-pmv-ads-2024-1-e2-proj-InfoHub\\info-hub\\Models\\Noticia.cs",
-              "RelativeToolTip": "info-hub\\Models\\Noticia.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAnAAAA",
+              "DocumentIndex": 6,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\pmv-ads-2024-1-e2-proj-int-t4-pmv-ads-2024-1-e2-proj-InfoHub\\info-hub\\Models\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "info-hub\\Models\\AppDbContext.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\Desktop\\pmv-ads-2024-1-e2-proj-int-t4-pmv-ads-2024-1-e2-proj-InfoHub\\info-hub\\Models\\AppDbContext.cs",
+              "RelativeToolTip": "info-hub\\Models\\AppDbContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-05T23:42:49.089Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "20240502105815_M01-AddTableNoticia.cs",
-              "DocumentMoniker": "C:\\Users\\roger\\OneDrive\\\u00C1rea de Trabalho\\InfoHub\\pmv-ads-2024-1-e2-proj-int-t4-pmv-ads-2024-1-e2-proj-InfoHub\\info-hub\\Migrations\\20240502105815_M01-AddTableNoticia.cs",
-              "RelativeDocumentMoniker": "info-hub\\Migrations\\20240502105815_M01-AddTableNoticia.cs",
-              "ToolTip": "C:\\Users\\roger\\OneDrive\\\u00C1rea de Trabalho\\InfoHub\\pmv-ads-2024-1-e2-proj-int-t4-pmv-ads-2024-1-e2-proj-InfoHub\\info-hub\\Migrations\\20240502105815_M01-AddTableNoticia.cs",
-              "RelativeToolTip": "info-hub\\Migrations\\20240502105815_M01-AddTableNoticia.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAACIAAAAFAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-05T23:39:28.262Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "20240502105815_M01-AddTableNoticia.Designer.cs",
-              "DocumentMoniker": "C:\\Users\\roger\\OneDrive\\\u00C1rea de Trabalho\\InfoHub\\pmv-ads-2024-1-e2-proj-int-t4-pmv-ads-2024-1-e2-proj-InfoHub\\info-hub\\Migrations\\20240502105815_M01-AddTableNoticia.Designer.cs",
-              "RelativeDocumentMoniker": "info-hub\\Migrations\\20240502105815_M01-AddTableNoticia.Designer.cs",
-              "ToolTip": "C:\\Users\\roger\\OneDrive\\\u00C1rea de Trabalho\\InfoHub\\pmv-ads-2024-1-e2-proj-int-t4-pmv-ads-2024-1-e2-proj-InfoHub\\info-hub\\Migrations\\20240502105815_M01-AddTableNoticia.Designer.cs",
-              "RelativeToolTip": "info-hub\\Migrations\\20240502105815_M01-AddTableNoticia.Designer.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB4AAAAuAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-05T23:38:51.048Z"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "20240505234630_M01-UpdateTableNoticia.cs",
-              "DocumentMoniker": "C:\\Users\\roger\\OneDrive\\\u00C1rea de Trabalho\\InfoHub\\pmv-ads-2024-1-e2-proj-int-t4-pmv-ads-2024-1-e2-proj-InfoHub\\info-hub\\Migrations\\20240505234630_M01-UpdateTableNoticia.cs",
-              "RelativeDocumentMoniker": "info-hub\\Migrations\\20240505234630_M01-UpdateTableNoticia.cs",
-              "ToolTip": "C:\\Users\\roger\\OneDrive\\\u00C1rea de Trabalho\\InfoHub\\pmv-ads-2024-1-e2-proj-int-t4-pmv-ads-2024-1-e2-proj-InfoHub\\info-hub\\Migrations\\20240505234630_M01-UpdateTableNoticia.cs",
-              "RelativeToolTip": "info-hub\\Migrations\\20240505234630_M01-UpdateTableNoticia.cs",
-              "ViewState": "AQIAADkAAAAAAAAAAAAAAEEAAAABAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-05T23:46:30.741Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "dbo.Noticias [Dados]",
-              "DocumentMoniker": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/info_hub/True/SqlTable/dbo.Noticias.sql",
-              "ToolTip": "dbo.Noticias [Dados]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
-              "WhenOpened": "2024-05-05T23:47:48.514Z"
+              "WhenOpened": "2024-05-08T00:31:55.042Z"
             }
           ]
         }
