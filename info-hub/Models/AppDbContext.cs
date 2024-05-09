@@ -5,6 +5,7 @@ namespace info_hub.Models
     public class AppDbContext(DbContextOptions<AppDbContext> options) : DbContext(options)
     {
         public DbSet<Noticia> Noticias { get; set; }
+<<<<<<< HEAD
 
         public DbSet<Tema> Politica { get; set; }
 
@@ -31,5 +32,9 @@ namespace info_hub.Models
 
         public DbSet<Tema> Esporte { get; set; }
         public object Temas { get; internal set; }
+=======
+        
+        public DbSet<Fonte> Fontes { get; set; }
+>>>>>>> 7030967da6cb5b4053d4f82e235a74d787f5cbb4
     }
 }
