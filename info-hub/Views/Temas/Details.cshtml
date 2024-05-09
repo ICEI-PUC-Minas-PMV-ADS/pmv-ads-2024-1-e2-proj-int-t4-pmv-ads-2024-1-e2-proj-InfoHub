@@ -1,0 +1,78 @@
+﻿@model info_hub.Models.Tema
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<h1>Details</h1>
+
+<div>
+    <h4>Tema</h4>
+    <hr />
+    <dl class="row">
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Politica)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Politica)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Mundo)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Mundo)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Economia)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Economia)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Tecnologia)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Tecnologia)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Negócios)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Negócios)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Viagens)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Viagens)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Clima)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Clima)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Moda)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Moda)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Comida)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Comida)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Esporte)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Esporte)
+        </dd>
+    </dl>
+</div>
+<div>
+    <a asp-action="Edit" asp-route-id="@Model?.Id">Edit</a> |
+    <a asp-action="Index">Back to List</a>
+</div>

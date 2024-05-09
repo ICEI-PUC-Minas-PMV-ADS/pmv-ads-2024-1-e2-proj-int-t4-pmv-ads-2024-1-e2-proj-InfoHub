@@ -1,0 +1,132 @@
+﻿@model IEnumerable<info_hub.Models.Tema>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Index</h1>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Politica)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Mundo)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Economia)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Tecnologia)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Negócios)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Viagens)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Clima)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Moda)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Comida)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Esporte)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Politica)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Mundo)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Economia)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Tecnologia)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Negócios)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Viagens)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Clima)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Moda)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Comida)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Esporte)
+            </td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.Id">Edit</a> |
+                <a asp-action="Details" asp-route-id="@item.Id">Details</a> |
+                <a asp-action="Delete" asp-route-id="@item.Id">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>
+
+
+
+
+
+using System;
+using System.Collections.Generic;
+using System.Linq;
+
+namespace CategorizacaoDeNoticias
+{
+    class Noticia
+    {
+        public string Titulo { get; set; }
+        public string Conteudo { get; set; }
+        public string Tema { get; set; }
+    }
+
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            // Criando algumas notícias de exemplo
+            var noticias = new List<Noticia>
+    {
+    new Noticia { Titulo = "Política: Eleições 2024", Conteudo = "Candidatos debatem propostas para a cidade", Tema = "Política" },
+    new Noticia { Titulo = "Esportes: Final do Campeonato", Conteudo = "Time A vence o time B por 2 a 1", Tema = "Esportes" },
+    new Noticia { Titulo = "Tecnologia: Lançamento do Smartphone X", Conteudo = "Novo modelo promete câmera revolucionária", Tema = "Tecnologia" },
+    new Noticia { Titulo = "Cultura: Exposição de Arte Moderna", Conteudo = "Obras de artistas renomados em exibição", Tema = "Cultura" }
+    };
+
+    // Filtrando notícias por tema (exemplo: "Esportes")
+    var temaDesejado = "Esportes";
+    var noticiasFiltradas = noticias.Where(n => n.Tema == temaDesejado);
+
+    Console.WriteLine($"Notícias sobre o tema '{temaDesejado}':");
+    foreach (var noticia in noticiasFiltradas)
+    {
+    Console.WriteLine($"- {noticia.Titulo}: {noticia.Conteudo}");
+    }
+    }
+    }
+    }
