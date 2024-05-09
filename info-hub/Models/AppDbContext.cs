@@ -30,5 +30,6 @@ namespace info_hub.Models
         public DbSet<Tema> Comida { get; set; }
 
         public DbSet<Tema> Esporte { get; set; }
+        public object Temas { get; internal set; }
     }
 }
