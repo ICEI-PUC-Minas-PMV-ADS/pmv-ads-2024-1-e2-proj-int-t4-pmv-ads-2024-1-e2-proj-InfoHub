@@ -26,6 +26,26 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes = true
 build_property.MSBuildProjectDirectory = C:\Users\LENOVO\Desktop\pmv-ads-2024-1-e2-proj-int-t4-pmv-ads-2024-1-e2-proj-InfoHub\info-hub
 build_property._RazorSourceGeneratorDebug = 
 
+[C:/Users/LENOVO/Desktop/pmv-ads-2024-1-e2-proj-int-t4-pmv-ads-2024-1-e2-proj-InfoHub/info-hub/Views/Fontes/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRm9udGVzXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/LENOVO/Desktop/pmv-ads-2024-1-e2-proj-int-t4-pmv-ads-2024-1-e2-proj-InfoHub/info-hub/Views/Fontes/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRm9udGVzXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/LENOVO/Desktop/pmv-ads-2024-1-e2-proj-int-t4-pmv-ads-2024-1-e2-proj-InfoHub/info-hub/Views/Fontes/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRm9udGVzXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/LENOVO/Desktop/pmv-ads-2024-1-e2-proj-int-t4-pmv-ads-2024-1-e2-proj-InfoHub/info-hub/Views/Fontes/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRm9udGVzXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/LENOVO/Desktop/pmv-ads-2024-1-e2-proj-int-t4-pmv-ads-2024-1-e2-proj-InfoHub/info-hub/Views/Fontes/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRm9udGVzXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/LENOVO/Desktop/pmv-ads-2024-1-e2-proj-int-t4-pmv-ads-2024-1-e2-proj-InfoHub/info-hub/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
