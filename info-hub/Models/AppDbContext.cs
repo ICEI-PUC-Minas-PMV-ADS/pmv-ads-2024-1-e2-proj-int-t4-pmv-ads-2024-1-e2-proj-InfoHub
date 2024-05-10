@@ -7,5 +7,7 @@ namespace info_hub.Models
         public DbSet<Noticia> Noticias { get; set; }
         
         public DbSet<Fonte> Fontes { get; set; }
+
+        public DbSet<Tema> Temas { get; set; }
     }
 }

@@ -1,4 +1,5 @@
-﻿using System.ComponentModel.DataAnnotations;
+﻿using System.Collections.ObjectModel;
+using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
 namespace info_hub.Models
@@ -17,5 +18,7 @@ namespace info_hub.Models
 
         [Required(ErrorMessage = "Error! Obrigatório informar a data de publicação")]
         public required string DataPublicacao { get; set; }
+
+        public ICollection<Tema> Temas { get; set; }
     }
 }
