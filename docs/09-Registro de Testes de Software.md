@@ -10,4 +10,4 @@
    tema politica
    
    ![Captura de Tela - Parte 3](img/CT01-tela3.jpg)
-   criação do tema política
+   tema política criado.
