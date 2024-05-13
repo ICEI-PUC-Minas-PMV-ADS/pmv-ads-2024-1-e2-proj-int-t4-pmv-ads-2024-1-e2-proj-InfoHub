@@ -7996,19 +7996,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\luana\\.nuget\\packages\\": {}
+    "C:\\Users\\morat\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\luana\\pmv-ads-2024-1-e2-proj-int-t4-pmv-ads-2024-1-e2-proj-InfoHub\\info-hub\\info-hub.csproj",
+      "projectUniqueName": "C:\\Users\\morat\\OneDrive\\Área de Trabalho\\ProjetoAtual\\pmv-ads-2024-1-e2-proj-int-t4-pmv-ads-2024-1-e2-proj-InfoHub\\info-hub\\info-hub.csproj",
       "projectName": "info-hub",
-      "projectPath": "C:\\Users\\luana\\pmv-ads-2024-1-e2-proj-int-t4-pmv-ads-2024-1-e2-proj-InfoHub\\info-hub\\info-hub.csproj",
-      "packagesPath": "C:\\Users\\luana\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\luana\\pmv-ads-2024-1-e2-proj-int-t4-pmv-ads-2024-1-e2-proj-InfoHub\\info-hub\\obj\\",
+      "projectPath": "C:\\Users\\morat\\OneDrive\\Área de Trabalho\\ProjetoAtual\\pmv-ads-2024-1-e2-proj-int-t4-pmv-ads-2024-1-e2-proj-InfoHub\\info-hub\\info-hub.csproj",
+      "packagesPath": "C:\\Users\\morat\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\morat\\OneDrive\\Área de Trabalho\\ProjetoAtual\\pmv-ads-2024-1-e2-proj-int-t4-pmv-ads-2024-1-e2-proj-InfoHub\\info-hub\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "C:\\Users\\luana\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\morat\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -8016,6 +8021,7 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {

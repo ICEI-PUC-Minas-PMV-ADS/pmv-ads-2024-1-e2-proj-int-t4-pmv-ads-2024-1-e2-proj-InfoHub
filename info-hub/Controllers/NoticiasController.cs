@@ -6,6 +6,20 @@ namespace info_hub.Controllers
 {
     public class NoticiasController(AppDbContext context) : Controller
     {
+        public class HomeController : Controller
+        {
+            // Ação para a página inicial
+            public ActionResult Index()
+            {
+                return View("Index");
+            }
+
+            // Ação para exibir as notícias
+            public ActionResult Noticias()
+            {
+                return View("~/Views/Noticias/Index.cshtml");
+            }
+        }
         public async Task<IActionResult> Index()
         {
             var news_data = await context.Noticias.ToListAsync();

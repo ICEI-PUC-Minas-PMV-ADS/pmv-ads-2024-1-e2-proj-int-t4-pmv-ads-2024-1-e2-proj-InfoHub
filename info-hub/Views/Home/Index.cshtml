@@ -2,7 +2,21 @@
     ViewData["Title"] = "Home Page";
 }
 
-<div class="text-center">
-    <h1 class="display-4">Info-Hub</h1>
-    <p>Learn about <a href="https://learn.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
-</div>
+
+<section class="grid3">
+    <div class="grid3-item">
+        <img src="https://s.rfi.fr/media/display/cd557334-0959-11ef-9d1c-005056a97e36/w:980/p:16x9/2024-05-03T063841Z_197843337_RC2TH7AIWI27_RTRMADP_3_BRAZIL-RAINS.JPG">
+        <p>Com nova chuva, Guaíba volta a subir e pode passar dos 5 metros</p>
+    </div>
+
+    <div class="grid3-item">
+        <img src="https://discord.com/channels/1214379996676620318/1214585429890699325/1239409852845916180"/>
+        <p>“Vocês não estão sozinhas”, diz Lula em vídeo às mães do Rio Grande do Sul</p>
+    </div>
+
+    <div class="grid3-item">
+        <img src="https://conteudo.imguol.com.br/c/noticias/59/2024/05/02/chuvas-no-rs-4-1714686787248_v2_900x506.jpg"/>
+        <p>Em barco, repórter da CNN mostra bairros vazios e alagados em Pelotas (RS); assista</p>
+    </div>
+</section>
+<a href="@Url.Action("Index", "Noticias")">Ver Notícias</a>
