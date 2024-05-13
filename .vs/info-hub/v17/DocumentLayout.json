@@ -1,0 +1,89 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\morat\\OneDrive\\\u00C1rea de Trabalho\\ProjetoAtual\\pmv-ads-2024-1-e2-proj-int-t4-pmv-ads-2024-1-e2-proj-InfoHub\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{74B20960-418D-4B3D-A67C-7370A57F595E}|info-hub\\info-hub.csproj|c:\\users\\morat\\onedrive\\\u00E1rea de trabalho\\projetoatual\\pmv-ads-2024-1-e2-proj-int-t4-pmv-ads-2024-1-e2-proj-infohub\\info-hub\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{74B20960-418D-4B3D-A67C-7370A57F595E}|info-hub\\info-hub.csproj|solutionrelative:info-hub\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{74B20960-418D-4B3D-A67C-7370A57F595E}|info-hub\\info-hub.csproj|c:\\users\\morat\\onedrive\\\u00E1rea de trabalho\\projetoatual\\pmv-ads-2024-1-e2-proj-int-t4-pmv-ads-2024-1-e2-proj-infohub\\info-hub\\wwwroot\\css\\footer.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{74B20960-418D-4B3D-A67C-7370A57F595E}|info-hub\\info-hub.csproj|solutionrelative:info-hub\\wwwroot\\css\\footer.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{74B20960-418D-4B3D-A67C-7370A57F595E}|info-hub\\info-hub.csproj|c:\\users\\morat\\onedrive\\\u00E1rea de trabalho\\projetoatual\\pmv-ads-2024-1-e2-proj-int-t4-pmv-ads-2024-1-e2-proj-infohub\\info-hub\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{74B20960-418D-4B3D-A67C-7370A57F595E}|info-hub\\info-hub.csproj|solutionrelative:info-hub\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{74B20960-418D-4B3D-A67C-7370A57F595E}|info-hub\\info-hub.csproj|c:\\users\\morat\\onedrive\\\u00E1rea de trabalho\\projetoatual\\pmv-ads-2024-1-e2-proj-int-t4-pmv-ads-2024-1-e2-proj-infohub\\info-hub\\controllers\\noticiascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{74B20960-418D-4B3D-A67C-7370A57F595E}|info-hub\\info-hub.csproj|solutionrelative:info-hub\\controllers\\noticiascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "footer.css",
+              "DocumentMoniker": "C:\\Users\\morat\\OneDrive\\\u00C1rea de Trabalho\\ProjetoAtual\\pmv-ads-2024-1-e2-proj-int-t4-pmv-ads-2024-1-e2-proj-InfoHub\\info-hub\\wwwroot\\css\\footer.css",
+              "RelativeDocumentMoniker": "info-hub\\wwwroot\\css\\footer.css",
+              "ToolTip": "C:\\Users\\morat\\OneDrive\\\u00C1rea de Trabalho\\ProjetoAtual\\pmv-ads-2024-1-e2-proj-int-t4-pmv-ads-2024-1-e2-proj-InfoHub\\info-hub\\wwwroot\\css\\footer.css",
+              "RelativeToolTip": "info-hub\\wwwroot\\css\\footer.css",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAABMAAAAOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-05-13T02:51:58.941Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "NoticiasController.cs",
+              "DocumentMoniker": "C:\\Users\\morat\\OneDrive\\\u00C1rea de Trabalho\\ProjetoAtual\\pmv-ads-2024-1-e2-proj-int-t4-pmv-ads-2024-1-e2-proj-InfoHub\\info-hub\\Controllers\\NoticiasController.cs",
+              "RelativeDocumentMoniker": "info-hub\\Controllers\\NoticiasController.cs",
+              "ToolTip": "C:\\Users\\morat\\OneDrive\\\u00C1rea de Trabalho\\ProjetoAtual\\pmv-ads-2024-1-e2-proj-int-t4-pmv-ads-2024-1-e2-proj-InfoHub\\info-hub\\Controllers\\NoticiasController.cs",
+              "RelativeToolTip": "info-hub\\Controllers\\NoticiasController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-13T02:44:25.726Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\morat\\OneDrive\\\u00C1rea de Trabalho\\ProjetoAtual\\pmv-ads-2024-1-e2-proj-int-t4-pmv-ads-2024-1-e2-proj-InfoHub\\info-hub\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "info-hub\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\morat\\OneDrive\\\u00C1rea de Trabalho\\ProjetoAtual\\pmv-ads-2024-1-e2-proj-int-t4-pmv-ads-2024-1-e2-proj-InfoHub\\info-hub\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "info-hub\\Views\\Home\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAIwAMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-13T02:40:21.955Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\morat\\OneDrive\\\u00C1rea de Trabalho\\ProjetoAtual\\pmv-ads-2024-1-e2-proj-int-t4-pmv-ads-2024-1-e2-proj-InfoHub\\info-hub\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "info-hub\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\morat\\OneDrive\\\u00C1rea de Trabalho\\ProjetoAtual\\pmv-ads-2024-1-e2-proj-int-t4-pmv-ads-2024-1-e2-proj-InfoHub\\info-hub\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "info-hub\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAADAAAAAAAAAAAAAAAI0AAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-13T02:31:04.714Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
