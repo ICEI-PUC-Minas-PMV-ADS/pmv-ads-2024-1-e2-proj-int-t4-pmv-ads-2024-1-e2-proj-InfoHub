@@ -1,0 +1,119 @@
+﻿/* custom.css */
+
+#titulosTabelas {
+    display: none;
+}
+/* Estilo para o botão Adicionar Notícia */
+#addNoticia {
+    background-color: #04594D;
+    color: white;
+    border-color: #04594D;
+    margin-right: 10px;
+}
+
+    #addNoticia:hover {
+        background-color: #03433A;
+        border-color: #03433A;
+    }
+
+
+/* Estilo para o botão Voltar */
+#botaoVoltar {
+    margin-left: 10px;
+}
+
+/* Espaçamento entre botões de ação */
+#botoesTabelas a {
+    margin-right: 5px;
+}
+
+.btn-info {
+    background-color: #7FFFD4;
+    color: black;
+}
+
+/* Centralizar e definir largura máxima da tabela */
+.centered-table {
+    display: flex;
+    justify-content: center;
+}
+
+.table-responsive {
+    max-width: 80%;
+    margin: 0 auto;
+}
+
+/* Bordas na tabela */
+.table-bordered {
+    border: 1px solid #dee2e6;
+}
+
+    .table-bordered th,
+    .table-bordered td {
+        border: 1px solid #dee2e6;
+    }
+
+/* Estilos adicionais para formulário de exclusão */
+form .btn {
+    margin: 0 5px;
+}
+
+#btnExcluirDel {
+    background-color: #dc3545;
+    border-color: #dc3545;
+}
+
+h1#tituloUm {
+    text-align: center;
+    color: #03433A;
+}
+
+/* Adições de estilo para a página de edição */
+form .form-group {
+    margin-bottom: 20px;
+}
+
+    form .form-group label {
+        font-weight: bold;
+    }
+
+.form-group.d-flex.justify-content-center {
+    margin-top: 20px;
+}
+
+/* Estilo para o botão Salvar */
+#btnEdit.custom-btn-primary {
+    background-color: #04594D;
+    border-color: #04594D;
+    color: #fff;
+}
+
+    #btnEdit.custom-btn-primary:hover {
+        background-color: #024935;
+        border-color: #024935;
+    }
+
+/* Estilos adicionais para a página de criação */
+form .form-group {
+    margin-bottom: 20px;
+}
+
+    form .form-group label {
+        font-weight: bold;
+    }
+
+.form-group.d-flex.justify-content-center {
+    margin-top: 20px;
+}
+
+/* Estilo para o botão Editar em Detalhes */
+#btnDetalhes.custom-btn-primary {
+    background-color: #ffc107;
+    border-color: #ffc107;
+    color: #fff;
+}
+
+    #btnDetalhes.custom-btn-primary:hover {
+        background-color: #ffc107;
+        border-color: #ffc107;
+    }
