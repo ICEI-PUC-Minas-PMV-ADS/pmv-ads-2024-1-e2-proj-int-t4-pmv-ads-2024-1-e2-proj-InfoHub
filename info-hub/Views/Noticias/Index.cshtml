@@ -4,44 +4,45 @@
     ViewData["Title"] = "Index";
 }
 
-<h1>Index</h1>
+<!-- Inclua o CSS personalizado -->
+<link rel="stylesheet" href="~/css/custom.css" />
 
-<p>
-    <a asp-action="Create">Create New</a>
-</p>
-<table class="table">
-    <thead>
-        <tr>
-            <th>
-                @Html.DisplayNameFor(model => model.Tema)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Titulo)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.DataPublicacao)
-            </th>
-            <th></th>
-        </tr>
-    </thead>
-    <tbody>
-@foreach (var item in Model) {
-        <tr>
-            <td>
-                @Html.DisplayFor(modelItem => item.Tema)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Titulo)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.DataPublicacao)
-            </td>
-            <td>
-                <a asp-action="Edit" asp-route-id="@item.Id">Edit</a> |
-                <a asp-action="Details" asp-route-id="@item.Id">Details</a> |
-                <a asp-action="Delete" asp-route-id="@item.Id">Delete</a>
-            </td>
-        </tr>
-}
-    </tbody>
-</table>
+<section class="d-flex justify-content-between my-3">
+
+</section>
+
+<h1 class="text-center my-4" id="tituloUm">Notícias publicadas</h1>
+
+<div class="table-responsive">
+    <table class="table table-striped table-bordered mx-auto">
+        <thead class="thead-dark">
+            <tr>
+                <th><h6 id="titulosTabelas">@Html.DisplayNameFor(model => model.Tema)</h6>Tema</th>
+                <th><h6 id="titulosTabelas">@Html.DisplayNameFor(model => model.Titulo)</h6>Título</th>
+                <th><h6 id="titulosTabelas">@Html.DisplayNameFor(model => model.DataPublicacao)</h6>Data da publicação</th>
+                <th>Ações</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>@Html.DisplayFor(modelItem => item.Tema)</td>
+                    <td>@Html.DisplayFor(modelItem => item.Titulo)</td>
+                    <td>@Html.DisplayFor(modelItem => item.DataPublicacao)</td>
+                    <td>
+                        <div id="botoesTabelas" class="btn-group" role="group">
+                            <a asp-action="Edit" asp-route-id="@item.Id" class="btn btn-warning btn-sm">Editar</a>
+                            <a asp-action="Details" asp-route-id="@item.Id" class="btn btn-info btn-sm">Detalhes</a>
+                            <a asp-action="Delete" asp-route-id="@item.Id" class="btn btn-danger btn-sm">Excluir</a>
+                        </div>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+        <div class="form-group d-flex justify-content-center">
+            <a asp-action="Create" id="addNoticia" class="btn">Adicionar notícias</a>
+            <a href="@Url.Action("Index", "Home")" id="botaoVoltar" class="btn btn-secondary">Voltar</a>
+            
+        </div>

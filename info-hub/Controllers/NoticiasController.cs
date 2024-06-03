@@ -12,6 +12,7 @@ namespace info_hub.Controllers
             return View(news_data);
         }
 
+
         public IActionResult Create()
         {
             return View();
@@ -43,7 +44,8 @@ namespace info_hub.Controllers
         }
 
         [HttpPost]
-        public async Task<IActionResult> Edit(int id, Noticia noicia) {
+        public async Task<IActionResult> Edit(int id, Noticia noicia)
+        {
             if (id != noicia.Id)
                 return NotFound();
 
@@ -59,7 +61,7 @@ namespace info_hub.Controllers
 
         public async Task<IActionResult> Details(int? id)
         {
-            if (id == null) 
+            if (id == null)
                 return NotFound();
 
             var news_data = await context.Noticias.FindAsync(id);
