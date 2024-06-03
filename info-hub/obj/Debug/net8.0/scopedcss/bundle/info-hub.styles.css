@@ -14,13 +14,13 @@ a[b-z4bm0kt9rd] {
 
 .btn-primary[b-z4bm0kt9rd] {
   color: #fff;
-  background-color: #1b6ec2;
+  background-color: black;
   border-color: #1861ac;
 }
 
 .nav-pills .nav-link.active[b-z4bm0kt9rd], .nav-pills .show > .nav-link[b-z4bm0kt9rd] {
   color: #fff;
-  background-color: #1b6ec2;
+  background-color: black;
   border-color: #1861ac;
 }
 
@@ -41,6 +41,7 @@ button.accept-policy[b-z4bm0kt9rd] {
 }
 
 .footer[b-z4bm0kt9rd] {
+    background-color: black;
   position: absolute;
   bottom: 0;
   width: 100%;

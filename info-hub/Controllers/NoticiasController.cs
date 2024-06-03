@@ -12,6 +12,7 @@ namespace info_hub.Controllers
             return View(news_data);
         }
 
+
         public IActionResult Create()
         {
             return View();

@@ -1,0 +1,74 @@
+﻿namespace info_hub.wwwroot.css {
+    public class indexHome
+}
+
+
+
+a {
+    color: #4b515c;
+}
+
+/* Estilizando a página principal */
+#pagPrincipal {
+    display: flex;
+    justify-content: center;
+    padding: 0 20px; /* Adicionando espaços nas laterais */
+}
+
+/* Estilizando a div ntcPrincipal */
+#ntcPrincipal {
+    padding: 3px;
+    width: 450px; /* Define a largura */
+    position: relative; /* Permite posicionar a div interna */
+    height: 300px;
+}
+
+/* Estilizando a div textoPrincipal */
+#textoPrincipal {
+    position: absolute;
+    bottom: 5px;
+    left: 12px;
+    width: 430px;
+    height: 30%;
+    background-color: rgba(192, 192, 192, 0.8); /* Cinza claro com 80% de opacidade */
+    padding: 10px;
+}
+
+/* Estilizando a div blocoLateral */
+#blocoLateral {
+    width: 377px; /* Cerca de 1/3 da largura da pagPrincipal */
+    margin-left: 15px; /* Espaço entre a ntcPrincipal e a blocoLateral */
+}
+
+/* Estilizando a div talvezGoste */
+#talvezGoste {
+    text-align: center; /* Centralizando o texto */
+    margin-bottom: 10px; /* Espaço abaixo */
+}
+
+/* Estilizando as divs ntcLateral */
+#blocoLateral > #ntcLateral {
+    margin-bottom: 2px; /* Espaço entre as ntcLateral */
+    background-color: rgba(192, 192, 192, 0.8); /* Cinza claro com 80% de opacidade */
+}
+
+    /* Estilizando as imagens dentro das ntcLateral */
+    #blocoLateral > #ntcLateral > #imgLatFirst > img {
+        width: 100px; /* Tamanho da imagem */
+        height: 100px;
+    }
+
+    /* Estilizando o texto dentro das ntcLateral */
+    #blocoLateral > #ntcLateral > #textoLateral {
+        padding: 10px; /* Espaçamento interno */
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+    }
+
+        /* Estilizando o link dentro das ntcLateral */
+        #blocoLateral > #ntcLateral > #textoLateral > a {
+            color: black; /* Cor do link */
+            text-decoration: none; /* Removendo sublinhado */
+        }
