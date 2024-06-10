@@ -1,0 +1,34 @@
+﻿@model info_hub.Models.Noticia
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<!-- Inclua o CSS personalizado -->
+<link rel="stylesheet" href="~/css/custom.css" />
+
+<h1 class="text-center my-4" id="tituloUm">Detalhes da Notícia</h1>
+
+<div class="table-responsive">
+    <table class="table table-striped table-bordered mx-auto">
+        <thead class="thead-dark">
+            <tr>
+                <th><h6 id="titulosTabelas">@Html.DisplayNameFor(model => model.Tema)</h6>Tema</th>
+                <th><h6 id="titulosTabelas">@Html.DisplayNameFor(model => model.Titulo)</h6>Título</th>
+                <th><h6 id="titulosTabelas">@Html.DisplayNameFor(model => model.DataPublicacao)</h6>Data da Publicação</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>@Html.DisplayFor(model => model.Tema)</td>
+                <td>@Html.DisplayFor(model => model.Titulo)</td>
+                <td>@Html.DisplayFor(model => model.DataPublicacao)</td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+
+<form asp-action="Edit" asp-route-id="@Model?.Id" class="d-flex justify-content-center my-4">
+    <input type="submit" value="Editar" class="btn custom-btn-primary mx-4" id="btnDetalhes" />
+    <a asp-action="Index" class="btn btn-secondary mx-2">Voltar</a>
+</form>

@@ -1,0 +1,47 @@
+﻿@model info_hub.Models.Noticia
+
+@{
+    ViewData["Title"] = "Edit";
+}
+
+<!-- Inclua o CSS personalizado -->
+<link rel="stylesheet" href="~/css/custom.css" />
+
+<h1 class="text-center my-4" id="tituloUm">Editar notícia</h1>
+
+<div class="row justify-content-center">
+    <div class="col-md-4">
+        <form asp-action="Edit">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <input type="hidden" asp-for="Id" />
+            <div class="form-group">
+                <label asp-for="Tema" class="control-label" id="titulosTabelas"></label>
+                <H6>Tema</H6>
+                <input asp-for="Tema" class="form-control" />
+                <span asp-validation-for="Tema" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Titulo" class="control-label" id="titulosTabelas"></label>
+                <H6>Título</H6>
+                <input asp-for="Titulo" class="form-control" />
+                <span asp-validation-for="Titulo" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DataPublicacao" class="control-label" id="titulosTabelas"></label>
+                <H6>Data de publicação</H6>
+                <input asp-for="DataPublicacao" class="form-control" />
+                <span asp-validation-for="DataPublicacao" class="text-danger"></span>
+            </div>
+            <div class="form-group d-flex justify-content-center">
+                <input type="submit" value="Salvar" class="btn custom-btn-primary mx-4" id="btnEdit" />
+                <a asp-action="Index" class="btn btn-secondary mx-2">Descartar Alterações</a>
+            </div>
+        </form>
+    </div>
+</div>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}
