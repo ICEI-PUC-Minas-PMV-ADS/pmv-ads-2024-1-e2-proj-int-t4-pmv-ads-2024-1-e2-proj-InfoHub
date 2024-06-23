@@ -1,119 +1,217 @@
-﻿/* custom.css */
-
-#titulosTabelas {
-    display: none;
-}
-/* Estilo para o botão Adicionar Notícia */
-#addNoticia {
-    background-color: #04594D;
-    color: white;
-    border-color: #04594D;
-    margin-right: 10px;
+﻿/* CSS Global */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
 
-    #addNoticia:hover {
-        background-color: #03433A;
-        border-color: #03433A;
-    }
-
-
-/* Estilo para o botão Voltar */
-#botaoVoltar {
-    margin-left: 10px;
+html, body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
 }
 
-/* Espaçamento entre botões de ação */
-#botoesTabelas a {
-    margin-right: 5px;
+.container-body {
+    width: 100%;
+    min-height: 100vh; /* Use min-height para garantir que o conteúdo ocupe a altura total da tela */
+    background: rgb(255, 255, 255);
+    opacity: 1;
+    position: relative;
+    overflow: hidden;
 }
 
-.btn-info {
-    background-color: #7FFFD4;
-    color: black;
-}
-
-/* Centralizar e definir largura máxima da tabela */
-.centered-table {
-    display: flex;
-    justify-content: center;
-}
-
-.table-responsive {
-    max-width: 80%;
-    margin: 0 auto;
-}
-
-/* Bordas na tabela */
-.table-bordered {
-    border: 1px solid #dee2e6;
-}
-
-    .table-bordered th,
-    .table-bordered td {
-        border: 1px solid #dee2e6;
-    }
-
-/* Estilos adicionais para formulário de exclusão */
-form .btn {
-    margin: 0 5px;
-}
-
-#btnExcluirDel {
-    background-color: #dc3545;
-    border-color: #dc3545;
-}
-
-h1#tituloUm {
+.page-title {
+    font-family: 'Georgia', serif;
+    font-size: 40px;
     text-align: center;
-    color: #03433A;
+    margin-top: 300px;
+    margin-bottom: 100px;
+    color: #333;
 }
 
-/* Adições de estilo para a página de edição */
-form .form-group {
+/* News Container */
+.news-container {
+    background-color: white;
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.news-column {
+    flex: 0 1 calc(33.33% - 40px); /* Três colunas lado a lado */
     margin-bottom: 20px;
+    height: 300px; /* Altura fixa para cada container de notícia */
+    overflow: hidden; /* Para cortar o conteúdo extra se necessário */
 }
-
-    form .form-group label {
+.news-item {
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    height: 100%; /* Ocupa toda a altura do container */
+    display: flex;
+    flex-direction: column;
+}
+    .news-item .news-title {
+        font-size: 16px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
         font-weight: bold;
+        color: #084C4F;
+        text-align: left;
+        margin-bottom: 10px;
+        max-width: 200px; /* Define a largura máxima */
+        width: 100%;
     }
 
-.form-group.d-flex.justify-content-center {
-    margin-top: 20px;
+.news-meta {
+    font-size: 22px;
+    color: #666;
+    margin-top: auto;
+    width: 100%;
 }
 
-/* Estilo para o botão Salvar */
-#btnEdit.custom-btn-primary {
-    background-color: #04594D;
-    border-color: #04594D;
-    color: #fff;
+.news-date {
+    text-align: right;
+    padding: 35px;
 }
 
-    #btnEdit.custom-btn-primary:hover {
-        background-color: #024935;
-        border-color: #024935;
+.news-meta span {
+    margin: 5px 0;
+    font-size: 16px;
+}
+.news-divider {
+    border: none;
+    border-top: 1px solid #e0e0e0;
+    margin: 10px 0;
+}
+
+.news-content {
+    font-size: 16px;
+    color: rgba(4, 89, 77, 1);
+    text-align: justify;
+}
+
+#verMaisBtn {
+    margin-top: 20px; /* Espaçamento superior */
+    padding: 10px 30px; /* Espaçamento interno */
+    font-size: 24px; /* Tamanho da fonte */
+    font-family: Georgia;
+    background-color: rgba(4, 89, 77, 1); /* Cor de fundo */
+    color: #fff; 
+    cursor: pointer; /* Cursor ao passar */
+    transition: background-color 0.3s ease; /* Transição suave da cor de fundo */
+}
+
+    #verMaisBtn:hover {
+        background-color: rgba(3, 73, 63, 1); /* Cor de fundo ao passar o mouse */
     }
 
-/* Estilos adicionais para a página de criação */
-form .form-group {
-    margin-bottom: 20px;
-}
+/* Consultas de Mídia */
 
-    form .form-group label {
-        font-weight: bold;
+/* Dispositivos pequenos (telefones) */
+@media (max-width: 600px) {
+    .container-header {
+        flex-direction: column;
+        align-items: center;
     }
 
-.form-group.d-flex.justify-content-center {
-    margin-top: 20px;
-}
-
-/* Estilo para o botão Editar em Detalhes */
-#btnDetalhes.custom-btn-primary {
-    background-color: #ffc107;
-    border-color: #ffc107;
-    color: #fff;
-}
-
-    #btnDetalhes.custom-btn-primary:hover {
-        background-color: #ffc107;
-        border-color: #ffc107;
+    .container-logo {
+        margin-bottom: 10px;
     }
+
+    .search-container {
+        width: calc(100% - 20px);
+        margin: 10px;
+    }
+
+    .news-container {
+        padding: 10px;
+    }
+
+    .news-title {
+        font-size: 18px;
+        
+    }
+
+    .news-meta {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+        .news-meta span {
+            margin: 5px 0;
+        }
+}
+
+/* Dispositivos médios (tablets) */
+@media (min-width: 601px) and (max-width: 1024px) {
+    .container-header {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .container-logo {
+        margin-left: 20px;
+    }
+
+    .search-container {
+        width: 100%;
+        max-width: 600px;
+    }
+
+    .news-container {
+        padding: 15px;
+    }
+
+    .news-title {
+        font-size: 20px;
+    }
+
+    .news-meta {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+        .news-meta span {
+            margin: 5px 0;
+        }
+}
+
+/* Dispositivos grandes (desktops) */
+@media (min-width: 1025px) {
+    .container-header {
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 105px 0;
+    }
+
+    .container-logo {
+        margin-left: 340px;
+    }
+
+    .search-container {
+        width: 750px;
+        margin: 0 auto;
+    }
+
+    .news-container {
+        padding: 20px;
+        max-width: 1200px;
+    }
+
+    .news-title {
+        font-size: 20px;
+    }
+
+    .news-meta {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+        .news-meta span {
+            margin: 5px 0;
+        }
+}
