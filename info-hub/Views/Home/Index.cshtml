@@ -1,215 +1,127 @@
-﻿<!DOCTYPE html>
-<html>
+﻿@model IEnumerable<info_hub.Models.Noticia>
 
-<head>
-    <link href="https://fonts.googleapis.com/css?family=Georgia&display=swap" rel="stylesheet" />
-    <link href="./css/main.css" rel="stylesheet" />
-    <title>Document</title>
-</head>
+<!-- Inclua o CSS personalizado -->
+@{
+    ViewData["Title"] = "Home";
+    Layout = "~/Views/Shared/_Layout.cshtml"; // Certifique-se de que seu layout está configurado corretamente
+}
 
-<body>
-    <div class="container-body">
-        <div class="container-header"></div>
-        <div class="search-container">
-            <form action="/search" method="get">
-                <input type="text" placeholder="Digite sua busca..." name="search">
-                <button type="submit">BUSCAR</button>
-            </form>
+<link href="https://fonts.googleapis.com/css?family=Georgia&display=swap" rel="stylesheet" />
+<link href="./css/home.css" rel="stylesheet" />
+
+
+<div class="container-background-header-news"></div>
+        
+<div class="container-header-rigth-news">
+    <div class="news-container">
+        <span class="news-title">Mais aeroportos usarão uma abordagem de ‘deslizamento’ mais ecológica para pouso</span>
+        <div class="news-meta">
+            <span class="news-author">Por G1</span>
+            <span class="news-date">Feb. 4, 2023</span>
         </div>
 
-        <div class="container-background-header-news"></div>
-        <div class="container-header-rigth-news">
-            <div class="news-container">
-                <span class="news-title">Mais aeroportos usarão uma abordagem de ‘deslizamento’ mais ecológica para pouso</span>
-                <div class="news-meta">
-                    <span class="news-author">Por G1</span>
-                    <span class="news-date">Feb. 4, 2023</span>
-                </div>
-                <hr class="news-divider">
-                <p class="news-content">A Lei de Interrupção dos Problemas Improdutivos do Trabalho do Home Office (MOSTRAR, entendeu?) De 2023 foi aprovada pela Câmara dos Representantes dos EUA, de maioria republicana, em uma votação próxima da linha partidária...</p>
-            </div>
-        </div>
-
-        <div class="container-categorias">
-            <ul class="menu">
-                <li class="menu-item"><a href="#">Política</a></li>
-                <li class="menu-item ativo"><a href="#">Mundo</a></li>
-                <li class="menu-item"><a href="#">Economia</a></li>
-                <li class="menu-item"><a href="#">Tecnologia</a></li>
-                <li class="menu-item"><a href="#">Negócios</a></li>
-                <li class="menu-item"><a href="#">Viagens</a></li>
-                <li class="menu-item"><a href="#">Clima</a></li>
-                <li class="menu-item"><a href="#">Moda</a></li>
-                <li class="menu-item"><a href="#">Comida</a></li>
-                <li class="menu-item"><a href="#">Esporte</a></li>
-            </ul>
-        </div>
-
-        <div class="v1552_266"></div>
-
-        <div class="container-noticia-01">
-            <img src="images\v1552_269.png" width="100%" height="100%">
-            <span>
-                Democrats Overhaul Party’s Primary Calendar, Upending a Political Tradition
-            </span>
-        </div>
-
-        <div class="container-noticia-02-background"></div>
-        <div class="container-noticia-02">
-            <img src="images\v1552_269.png" width="100%" height="100%">
-            <span>
-                O secretário de Estado Antony J. Blinken cancelou na sexta-feira uma viagem de fim de semana a Pequim depois que um balão espião chinês foi avistado
-            </span>
-        </div>
-
-        <div class="container-noticia-03">
-            <img src="images/v1552_276.png" width="100%" height="100%">
-            <span>Balloon’s Journey</span>
-        </div>
-
-        <span class="container-ultimas-noticias">
-            Últimas notícias
-        </span>
-
-        <div class="v1552_280"></div><span class="v1552_281">
-            Furor com balão espião chinês leva a crise
-            diplomática
-        </span>
-
-
-        <div class="v1552_313">
-            <div class="container-noticia-06">
-                <div class="v1552_315">
-                    <span class="titulo">
-                        Londres a Istambul de trem: esta aventura ferroviária de 10 dias é o sonho de qualquer viajante lento
-                    </span>
-                    <span class="autor">Por G1</span>
-                    <span class="data">Feb. 4, 2023</span>
-                </div>
-            </div>
-            <span class="container-noticia-06-descricao">
-                As viagens românticas de trem através da Europa são há muito associadas ao
-                Expresso do Oriente. Mas você não precisa mais desembolsar milhares para fazer esta jornada lendária.
-
-                Da Byway à Tailor Made Rail, empresas estão surgindo para atender à nova demanda por viagens de trem de
-                longa distância.
-
-                Uma viagem épica com este último leva você até o fim...
-            </span>
-        </div>
-
-        <div class="container-noticia-07">
-            <div class="v1552_332">
-                <div class="v1552_333">
-                    <span class="v1552_334">
-                        Mais aeroportos usarão uma abordagem de ‘deslizamento’
-                        mais ecológica para pouso
-                    </span>
-                    <div class="v1552_335">
-                        <span class="v1552_336">Por G1</span><span class="v1552_337">
-                            Feb. 4,
-                            2023
-                        </span>
-                    </div>
-                </div>
-                <div class="v1552_338"></div>
-            </div><span class="v1552_339">
-                Mais onze aeroportos dos EUA planeiam adoptar uma nova forma de aterragem de
-                aviões que reduza as emissões e o ruído - tudo isto fazendo com que os aviões que chegam desliguem os
-                seus motores e deslizem para a pista como um parapente.
-
-                A Administração Federal de Aviação anunciou na segunda-feira que aviões com destino a Orlando, Flórida;
-                Cidade de Kansas, Missouri; Omaha, Nebraska; Base Aérea de Nebraska Offutt; Reno, Nevada;
-            </span>
-        </div>
-
-        <div class="container-noticia-04">
-            <img src="images\v1552_340.png" width="100%" height="100%">
-            <span class="titulo">
-                Pervez Musharraf, ex-governante militar do Paquistão, morre aos 79 anos
-            </span>
-            <span class="autor">Por G1</span>
-            <span class="data">Feb. 4, 2023</span>
-        </div>
-
-        <div class="container-noticia-05">
-            <img src="images\v1552_360.png" width="100%" height="100%">
-            <span class="titulo">
-                Aumentam os temores em torno do caso “catastrófico” de pílulas abortivas à medida que a decisão se aproxima
-            </span>
-            <span class="autor">Por G1</span>
-            <span class="data">Feb. 4, 2023</span>
-        </div>
-
-        <div class="btn-ver-mais"></div>
-        <span class="ver-mais">Ver mais</span>
-        <span class="v1552_368">Notícias populares</span>
-
-        <div class="container-noticias-lateral">
-            <div class="container-noticia-lateral-01">
-                <div class="container-lateral">
-                    <div class="container-noticia-lateral-01-img"></div>
-
-                    <div class="container-noticia-lateral-info">
-                        <div class="v1552_376">
-                            <span class="v1552_377">
-                                EUA derrubam suposto balão espião chinês na costa
-                                do Atlântico
-                            </span><span class="v1552_378">
-                                A China classificou o abate do navio como
-                                “uma reação excessiva” e disse que “retém o direito de responder ainda mais”.
-                            </span>
-                        </div>
-                        <div class="v1552_379">
-                            <span class="v1552_380">Por G1</span><span class="v1552_381">
-                                Feb. 5,
-                                2023
-                            </span>
-                        </div>
-                    </div>
-                </div>
-                <div class="v1552_382"></div>
-            </div>
-
-
-            <div class="container-noticia-lateral-02">
-                <div class="container-lateral">
-                    <div class="container-noticia-lateral-01-img"></div>
-                    <div class="container-noticia-lateral-info">
-                        <div class="v1552_387">
-                            <span class="v1552_388">
-                                Retrato misterioso pode ser um Rafael, sugere
-                                inteligência artificial
-                            </span><span class="v1552_389">
-                                Um misterioso retrato da Virgem
-                                Maria e de Jesus pode ter sido pintado pelo mestre Rafael, descobriu o reconhecimento
-                                facial. Mas muitos historiadores da arte rejeitam a afirmação.
-                            </span>
-                        </div>
-                        <div class="v1552_390">
-                            <span class="v1552_391">Por CNN</span><span class="v1552_392">
-                                Feb. 5,
-                                2023
-                            </span>
-                        </div>
-                    </div>
-                </div>
-                <div class="v1552_393"></div>
-            </div>
-        </div>
-
-
-        <div class="v1552_459">
-            <div class="v1552_460">
-                <span class="v1552_462">Philomena Cunk é estranha o suficiente para conquistar o mundo</span>
-                <span class="v1552_463">O novo programa da Netflix, “Cunk on Earth”. </span>
-            </div>
-            <div class="v1552_464"></div>
-        </div>
-
-        <div class="v1552_475"><span class="v1552_476">Ver mais</span></div>
-        <div class="container-logo"></div>
     </div>
+</div>
+        
 
-</body>
-</html>
+<div class="v1552_266"></div>
+
+
+<div class="container-noticia-01">
+    <img src="images\v1552_269.png" width="100%" height="100%">
+    <span>
+        Democrats Overhaul Party’s Primary Calendar, Upending a Political Tradition
+    </span>
+</div>
+
+       
+
+<div class="container-noticia-02-background"></div>
+<div class="container-noticia-02">
+    <img src="images\v1552_269.png" width="100%" height="100%">
+    <span>
+        O secretário de Estado Antony J. Blinken cancelou na sexta-feira uma viagem de fim de semana a Pequim depois que um balão espião chinês foi avistado
+    </span>
+</div>
+
+
+<div class="container-noticia-03">
+    <img src="images/v1552_276.png" width="100%" height="100%">
+    <span>Balloon’s Journey</span>
+</div>
+
+<span class="container-ultimas-noticias">
+    Últimas notícias <hr />
+</span>
+
+<div class="v1552_280">
+
+
+<div class="v1552_313">
+    <div class="container-noticia-06">
+                
+            <span class="titulo">
+                Londres a Istambul de trem: esta aventura ferroviária de 10 dias é o sonho de qualquer viajante lento
+            </span>
+            <span class="autor">Por G1</span>
+            <span class="data">Feb. 4, 2023</span>
+                
+    </div>
+            
+</div>
+
+<div class="container-noticia-07">
+    <div class="v1552_332">
+               
+            <span class="v1552_334">
+                Mais aeroportos usarão uma abordagem de ‘deslizamento’
+                mais ecológica para pouso
+            </span>
+                    
+                <span class="v1552_336">Por G1</span><span class="v1552_337">
+                    Feb. 4,
+                    2023
+                </span>
+                    
+                
+        <div class="v1552_338"></div>
+    </div>
+</div>
+
+<div class="container-noticia-04">
+    <img src="images\v1552_340.png" width="100%" height="100%">
+    <span class="titulo">
+        Pervez Musharraf, ex-governante militar do Paquistão, morre aos 79 anos
+    </span>
+    <span class="autor">Por G1</span>
+    <span class="data">Feb. 4, 2023</span>
+</div>
+
+<div class="container-noticia-05">
+    <img src="images\v1552_360.png" width="100%" height="100%">
+    <span class="titulo">
+        Aumentam os temores em torno do caso “catastrófico” de pílulas abortivas à medida que a decisão se aproxima
+    </span>
+    <span class="autor">Por G1</span>
+    <span class="data">Feb. 4, 2023</span>
+</div>
+
+<div class="btn-ver-mais">
+    <span>Ver mais</span>
+</div>
+        
+<span class="v1552_368">Notícias populares</span>
+
+
+<div class="container-noticias-lateral">
+    @for (var i = 0; i < 8; i++)
+    {
+        <div class="container-lateral">
+            <img src="text.png">
+            <div class="container-noticia-lateral-info">
+                    <span class="titulo">teste</span>
+                    <span class="date">teste</span>
+            </div>
+        </div>
+    }
+</div>
