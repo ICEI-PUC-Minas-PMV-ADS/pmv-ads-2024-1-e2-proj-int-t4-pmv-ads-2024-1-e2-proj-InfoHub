@@ -16,6 +16,14 @@ internal class Program
 
         var app = builder.Build();
 
+        // Configure the HTTP request pipeline
+        if (!app.Environment.IsDevelopment())
+        {
+            app.UseExceptionHandler("/Home/Error");
+            // The default HSTS value is 30 days. You may want to change this for production scenarios, see https://aka.ms/aspnetcore-hsts.
+            app.UseHsts();
+        }
+
         // Configure the HTTP request pipeline.
         if (!app.Environment.IsDevelopment())
         {
@@ -30,6 +38,12 @@ internal class Program
         app.UseRouting();
 
         app.UseAuthorization();
+
+        // Configure routes
+        app.MapControllerRoute(
+            name: "search",
+            pattern: "search",
+            defaults: new { controller = "SearchController", action = "Searched" });
 
         app.MapControllerRoute(
             name: "default",

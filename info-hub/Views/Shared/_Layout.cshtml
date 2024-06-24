@@ -7,66 +7,37 @@
     <title>@ViewData["Title"] - info_hub</title>
     <link rel="stylesheet" href="~/css/footer.css" asp-append-version="true" />
     <link rel="stylesheet" href="~/css/header.css" asp-append-version="true" />
-    <link rel="stylesheet" href="~/css/style.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/css/home.css" asp-append-version="true" />
     <link rel="stylesheet" href="~/css/noticias.css" asp-append-version="true" />
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 </head>
 <body>
     <header>
-        <!-- Header / CABEÇALHO DA PÁGINA -->
-        <div id="header_content">
-            <div id="header_logo">
-                <a href="@Url.Action("Index", "Home")">
-                    <img src="~/logo.png" alt="Logo InfoHub" width="80px">
-                </a>
+       
+        <div class="container-header"></div>
+        <div class="container-parent">
+            <div class="search-container">
+                <form action="/search" method="get">
+                    <input type="text" placeholder="Digite sua busca..." name="search">
+                    <button type="submit">BUSCAR</button>
+                </form>
             </div>
 
-            <div class="container">
-                <!-- Placeholder = Barra de pesquisa -->
-                <input checked="" class="checkbox" type="checkbox">
-                <div class="mainbox">
-                    <div class="iconContainer">
-                        <svg viewBox="0 0 512 512" height="1em" xmlns="http://www.w3.org/2000/svg" class="search_icon"><path d="M416 208c0 45.9-14.9 88.3-40 122.7L502.6 457.4c12.5 12.5 12.5 32.8 0 45.3s-32.8 12.5-45.3 0L330.7 376c-34.4 25.2-76.8 40-122.7 40C93.1 416 0 322.9 0 208S93.1 0 208 0S416 93.1 416 208zM208 352a144 144 0 1 0 0-288 144 144 0 1 0 0 288z"></path></svg>
-                    </div>
-                    <input class="search_input" placeholder="Digite algo..." type="text">
-                </div>
+            <div class="container-categorias">
+                <ul class="menu">
+                    <li class="menu-item"><a href="#">Política</a></li>
+                    <li class="menu-item ativo"><a href="#">Mundo</a></li>
+                    <li class="menu-item"><a href="#">Economia</a></li>
+                    <li class="menu-item"><a href="#">Tecnologia</a></li>
+                    <li class="menu-item"><a href="#">Negócios</a></li>
+                    <li class="menu-item"><a href="#">Viagens</a></li>
+                    <li class="menu-item"><a href="#">Clima</a></li>
+                    <li class="menu-item"><a href="#">Moda</a></li>
+                    <li class="menu-item"><a href="#">Comida</a></li>
+                    <li class="menu-item"><a href="#">Esporte</a></li>
+                </ul>
             </div>
-        </div>
-
-        <!-- Lista horizontal header -->
-        <div id="lista_horizontal">
-            <ul class="lista-horizontal">
-                <li>
-                    <a href="#" class="header-link">Política</a>
-                </li>
-                <li>
-                    <a href="#" class="header-link">Mundo</a>
-                </li>
-                <li>
-                    <a href="#" class="header-link">Economia</a>
-                </li>
-                <li>
-                    <a href="#" class="header-link">Tecnologia</a>
-                </li>
-                <li>
-                    <a href="#" class="header-link">Negócios</a>
-                </li>
-                <li>
-                    <a href="#" class="header-link">Viagens</a>
-                </li>
-                <li>
-                    <a href="#" class="header-link">Clima</a>
-                </li>
-                <li>
-                    <a href="#" class="header-link">Moda</a>
-                </li>
-                <li>
-                    <a href="#" class="header-link">Comida</a>
-                </li>
-                <li>
-                    <a href="#" class="header-link">Esporte</a>
-                </li>
-            </ul>
         </div>
     </header>
 

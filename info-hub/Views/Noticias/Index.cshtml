@@ -1,48 +1,101 @@
 ﻿@model IEnumerable<info_hub.Models.Noticia>
 
+<!-- Inclua o CSS personalizado -->
+
+
 @{
-    ViewData["Title"] = "Index";
+    ViewData["Title"] = "Notícias Publicadas";
+    Layout = "~/Views/Shared/_Layout.cshtml"; // Certifique-se de que seu layout está configurado corretamente
+}
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+
+<link href="https://fonts.googleapis.com/css?family=Georgia&display=swap" rel="stylesheet" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<h1 class="page-title">Notícias Publicadas</h1>
+
+<div class="news-container">
+    @foreach (var item in Model)
+    {
+        <div class="news-column">
+            <div class="news-item">
+                <h2 class="news-title">@item.Titulo</h2>
+                <p class="news-summary">@item.Tema</p>
+                <div class="news-meta">
+                    <span class="news-author">Por G1 noticias</span>
+                    <span class="news-date">@item.DataPublicacao</span>
+                </div>
+                <hr />
+            </div>
+        </div>
+        <hr>
+    }
+</div>
+
+@if (ViewBag.TotalCount > (ViewBag.CurrentPage * ViewBag.PageSize))
+{
+    <div class="text-center">
+        <button id="verMaisBtn" class="btn btn-primary mt-4">Ver mais</button>
+    </div>
 }
 
-<!-- Inclua o CSS personalizado -->
-<link rel="stylesheet" href="~/css/custom.css" />
+<script>
+    document.addEventListener('DOMContentLoaded', function () {
+        var currentPage = @ViewBag.CurrentPage;
+        var pageSize = @ViewBag.PageSize;
+        var totalCount = @ViewBag.TotalCount;
 
-<section class="d-flex justify-content-between my-3">
+        var verMaisBtn = document.getElementById('verMaisBtn');
+        verMaisBtn.addEventListener('click', function () {
+            fetch('/Noticias/LoadMore?page=' + (currentPage + 1) + '&pageSize=' + pageSize)
+                .then(response => response.json())
+                .then(data => {
+                    if (data.length > 0) {
+                        data.forEach(item => {
+                            var newsHtml = `
+                                    <div class="news-column">
+                                        <div class="news-item">
+                                            <h2 class="news-title">${item.Titulo}</h2>
+                                            <p class="news-summary">${item.Tema}</p>
+                                            <div class="news-meta">
+                                                <span class="news-author">Por G1 noticias</span>
+                                                <span class="news-date">${new Date(item.DataPublicacao).toLocaleDateString()}</span>
+                                            </div>
+                                        </div>
+                                    </div>`;
+                            document.querySelector('.news-container').insertAdjacentHTML('beforeend', newsHtml);
+                        });
+                        currentPage++;
+                        if (currentPage * pageSize >= totalCount) {
+                            verMaisBtn.style.display = 'none';
+                        }
+                    } else {
+                        verMaisBtn.style.display = 'none';
+                    }
+                })
+                .catch(error => console.error('Erro ao carregar mais notícias:', error));
+        });
+    });
+</script>
 
-</section>
+<!-- Script de Filtragem de Categorias -->
+<script>
+    $(document).ready(function () {
+        $('.menu-item a').click(function (e) {
+            e.preventDefault();
+            $('.menu-item').removeClass('ativo');
+            $(this).parent().addClass('ativo');
+            var categoria = $(this).text().toLowerCase();
+            $('.container-noticia').each(function () {
+                var noticiaCategoria = $(this).data('categoria');
+                if (categoria === 'todas' || noticiaCategoria === categoria) {
+                    $(this).show();
+                } else {
+                    $(this).hide();
+                }
+            });
+        });
 
-<h1 class="text-center my-4" id="tituloUm">Notícias publicadas</h1>
-
-<div class="table-responsive">
-    <table class="table table-striped table-bordered mx-auto">
-        <thead class="thead-dark">
-            <tr>
-                <th><h6 id="titulosTabelas">@Html.DisplayNameFor(model => model.Tema)</h6>Tema</th>
-                <th><h6 id="titulosTabelas">@Html.DisplayNameFor(model => model.Titulo)</h6>Título</th>
-                <th><h6 id="titulosTabelas">@Html.DisplayNameFor(model => model.DataPublicacao)</h6>Data da publicação</th>
-                <th>Ações</th>
-            </tr>
-        </thead>
-        <tbody>
-            @foreach (var item in Model)
-            {
-                <tr>
-                    <td>@Html.DisplayFor(modelItem => item.Tema)</td>
-                    <td>@Html.DisplayFor(modelItem => item.Titulo)</td>
-                    <td>@Html.DisplayFor(modelItem => item.DataPublicacao)</td>
-                    <td>
-                        <div id="botoesTabelas" class="btn-group" role="group">
-                            <a asp-action="Edit" asp-route-id="@item.Id" class="btn btn-warning btn-sm">Editar</a>
-                            <a asp-action="Details" asp-route-id="@item.Id" class="btn btn-info btn-sm">Detalhes</a>
-                            <a asp-action="Delete" asp-route-id="@item.Id" class="btn btn-danger btn-sm">Excluir</a>
-                        </div>
-                    </td>
-                </tr>
-            }
-        </tbody>
-    </table>
-        <div class="form-group d-flex justify-content-center">
-            <a asp-action="Create" id="addNoticia" class="btn">Adicionar notícias</a>
-            <a href="@Url.Action("Index", "Home")" id="botaoVoltar" class="btn btn-secondary">Voltar</a>
-            
-        </div>
+        $('.menu-item.ativo a').trigger('click');
+    });
+</script>

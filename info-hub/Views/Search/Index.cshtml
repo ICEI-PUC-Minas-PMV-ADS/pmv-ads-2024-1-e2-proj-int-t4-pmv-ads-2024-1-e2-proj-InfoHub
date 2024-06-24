@@ -1,0 +1,30 @@
+﻿@model IEnumerable<info_hub.Models.Noticia>
+
+@{
+    ViewData["Title"] = "Resultados da Pesquisa";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Resultados da Pesquisa para "@ViewBag.SearchTerm"</h2>
+
+<div class="news-container">
+    @foreach (var item in Model)
+    {
+        <div class="news-column">
+            <div class="news-item">
+                <h2 class="news-title">@item.Titulo</h2>
+                <p class="news-summary">@item.Tema</p>
+                <div class="news-meta">
+                    <span class="news-author">Por G1 Notícias</span>
+                    <span class="news-date">@item.DataPublicacao.ToShortDateString()</span>
+                </div>
+                <hr />
+            </div>
+        </div>
+    }
+
+    @if (!Model.Any())
+    {
+        <p>Nenhum resultado encontrado para "@ViewBag.SearchTerm".</p>
+    }
+</div>
