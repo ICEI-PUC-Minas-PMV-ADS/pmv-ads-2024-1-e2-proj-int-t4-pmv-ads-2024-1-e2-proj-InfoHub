@@ -17,6 +17,10 @@ namespace info_hub.Controllers
         {
             return View();
         }
+        public IActionResult Politica()
+        {
+            return View();
+        }
 
         // Nova ação para a página "Mundo"
         public IActionResult Mundo()
