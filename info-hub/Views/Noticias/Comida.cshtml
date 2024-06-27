@@ -1,0 +1,105 @@
+﻿@model IEnumerable<info_hub.Models.Noticia>
+
+@{
+    ViewData["Title"] = "Comida";
+
+}
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+
+<link href="https://fonts.googleapis.com/css?family=Georgia&display=swap" rel="stylesheet" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<h1 class="page-title">Comida</h1>
+
+<div class="news-container">
+    @foreach (var item in Model)
+    {
+        <div class="news-column">
+            <div class="news-item">
+                <a href="@item.Url" class="news-link" target="_blank">
+                    <h2 class="news-title">@item.Titulo</h2>
+                </a>
+                <p class="news-summary">@item.Tema</p>
+                <div class="news-meta">
+                    <span class="news-author">@item.Autor</span>
+                    <span class="news-date">@item.DataPublicacao</span>
+                </div>
+                <hr />
+            </div>
+        </div>
+        <hr>
+    }
+</div>
+
+
+<!--
+@if (ViewBag.TotalCount > (ViewBag.CurrentPage * ViewBag.PageSize))
+{
+        <div class="text-center">
+            <button id="verMaisBtn" class="btn btn-primary mt-4">Ver mais</button>
+        </div>
+}
+
+<script>
+    document.addEventListener('DOMContentLoaded', function () {
+        var currentPage = @ViewBag.CurrentPage;
+        var pageSize = @ViewBag.PageSize;
+        var totalCount = @ViewBag.TotalCount;
+
+        var verMaisBtn = document.getElementById('verMaisBtn');
+        console.log("Current item:");
+        verMaisBtn.addEventListener('click', function () {
+            fetch('/Noticias/LoadMore?page=' + (currentPage + 1) + '&pageSize=' + pageSize)
+                .then(response => response.json())
+                .then(data => {
+                    if (data.length > 0) {
+                        data.forEach(item => {
+                            console.log("Current item:", item);
+                            var newsHtml = `
+                                    <div class="news-column">
+                                        <div class="news-item">
+                                            <h2 class="news-title">${item.Titulo}</h2>
+                                            <p class="news-summary">${item.Tema}</p>
+                                            <div class="news-meta">
+                                                <span class="news-author">Por G1 noticias</span>
+                                                <span class="news-date">${new Date(item.DataPublicacao).toLocaleDateString()}</span>
+                                            </div>
+                                        </div>
+                                    </div>`;
+                            document.querySelector('.news-container').insertAdjacentHTML('beforeend', newsHtml);
+                        });
+                        currentPage++;
+                        if (currentPage * pageSize >= totalCount) {
+                            verMaisBtn.style.display = 'none';
+                        }
+                    } else {
+                        verMaisBtn.style.display = 'none';
+                    }
+                })
+                .catch(error => console.error('Erro ao carregar mais notícias:', error));
+        });
+    });
+</script>
+-->
+<!-- Script de Filtragem de Categorias -->
+
+<script>
+    $(document).ready(function () {
+        $('.menu-item a').click(function (e) {
+            e.preventDefault();
+            $('.menu-item').removeClass('ativo');
+            $(this).parent().addClass('ativo');
+            var categoria = $(this).text().toLowerCase();
+            $('.container-noticia').each(function () {
+                var noticiaCategoria = $(this).data('categoria');
+                if (categoria === 'todas' || noticiaCategoria === categoria) {
+                    $(this).show();
+                } else {
+                    $(this).hide();
+                }
+            });
+        });
+
+        $('.menu-item.ativo a').trigger('click');
+    });
+</script>
