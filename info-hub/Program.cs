@@ -6,6 +6,9 @@ internal class Program
     private static void Main(string[] args)
     {
         var builder = WebApplication.CreateBuilder(args);
+        // Carregar configurações do appsettings.json e variáveis de ambiente
+        builder.Configuration.AddJsonFile("appsettings.json");
+        builder.Configuration.AddEnvironmentVariables();
 
         // Add services to the container.'
         builder.Services.AddControllersWithViews();
@@ -15,6 +18,14 @@ internal class Program
         );
 
         var app = builder.Build();
+
+        // Configure the HTTP request pipeline
+        if (!app.Environment.IsDevelopment())
+        {
+            app.UseExceptionHandler("/Home/Error");
+            // The default HSTS value is 30 days. You may want to change this for production scenarios, see https://aka.ms/aspnetcore-hsts.
+            app.UseHsts();
+        }
 
         // Configure the HTTP request pipeline.
         if (!app.Environment.IsDevelopment())
@@ -30,6 +41,12 @@ internal class Program
         app.UseRouting();
 
         app.UseAuthorization();
+
+        // Configure routes
+        app.MapControllerRoute(
+            name: "search",
+            pattern: "search",
+            defaults: new { controller = "SearchController", action = "Searched" });
 
         app.MapControllerRoute(
             name: "default",

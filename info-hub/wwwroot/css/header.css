@@ -1,206 +1,218 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600&display=swap');
-
-:root {
-    --color-neutral-40: #f5f5f5;
-    --color-neutral-30: #a8a29e;
-    --color-neutral-0: #000000;
-}
-
 * {
-    font-family: 'Inter', sans-serif;
-    margin: 0;
-    padding: 0;
     box-sizing: border-box;
-    letter-spacing: 1px;
 }
 
-/* header / barra preta superior */
-header {
-    width: 100%;
-    background-color: var(--color-neutral-0);
-    color: var(--color-neutral-40);
-    padding: 3px;
-    position: relative; /* Para posicionamento da barra de busca */
-}
-
-#header_content {
-    width: 100%;
-    display: flex;
-    align-items: center; /* Alinha os itens no centro verticalmente */
-    justify-content: space-between; /* Distribui o espa√ßo uniformemente */
-    padding: 3px;
-    padding-left: 80px;
-    background-color: black;
-}
-
-#header_logo {
-    flex: 0 0 auto; /* N√£o encolhe nem cresce */
-}
-
-    #header_logo img {
-        max-width: 100%; /* Garante que a imagem n√£o ultrapasse o cont√™iner */
-        height: auto;
-    }
-
-/* Placeholder da barra de pesquisa */
-.container {
-    flex: 1; /* Permite que ocupe o espa√ßo dispon√≠vel */
-    display: flex;
-    justify-content: flex-end; /* Alinha √† direita */
-    align-items: center;
-}
-
-.mainbox {
-    box-sizing: border-box;
-    position: relative;
-    width: 230px;
-    height: 40px;
-    display: flex;
-    flex-direction: row-reverse;
-    align-items: center;
-    justify-content: center;
-    border-radius: 160px;
-    background-color: white;
-    transition: all 0.3s ease;
-}
-
-.checkbox:focus {
-    border: none;
-    outline: none;
-}
-
-.checkbox:checked {
-    right: 10px;
-}
-
-    .checkbox:checked ~ .mainbox {
-        width: 50px;
-    }
-
-        .checkbox:checked ~ .mainbox .search_input {
-            width: 0;
-            height: 0;
-        }
-
-        .checkbox:checked ~ .mainbox .iconContainer {
-            padding-right: 8px;
-        }
-
-.checkbox {
-    box-sizing: border-box;
-    width: 30px;
-    height: 30px;
-    position: absolute;
-    right: 17px;
-    top: 10px;
-    z-index: 9;
-    cursor: pointer;
-    appearance: none;
-}
-
-.search_input {
-    box-sizing: border-box;
-    height: 100%;
-    width: 170px;
-    background-color: transparent;
-    border: none;
-    outline: none;
-    padding-bottom: 4px;
-    padding-left: 10px;
-    font-size: 1em;
-    color: black;
-    transition: all 0.3s ease;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-}
-
-    .search_input::placeholder {
-        color: rgba(0, 0, 0, 0.776);
-    }
-
-.iconContainer {
-    box-sizing: border-box;
-    padding-top: 5px;
-    width: fit-content;
-    transition: all 0.3s ease;
-}
-
-.search_icon {
-    box-sizing: border-box;
-    fill: black;
-    font-size: 1em;
-}
-
-/* Lista horizontal */
-.lista-horizontal {
-    list-style: none;
-    padding: 0;
-    display: flex;
-    justify-content: center;
-    padding: 3px;
-    position: absolute;
-    top: 35%;
-    left: 50%;
-    transform: translateX(-50%);
-    max-width: 90%;
+body {
     font-size: 14px;
 }
 
-    .lista-horizontal li {
-        margin-right: 30px;
-    }
-
-        .lista-horizontal li:last-child {
-            margin-right: 0;
-        }
-
-.header-link {
-    text-decoration: none;
-    color: white;
-    cursor: pointer;
-    transition: all 0.4s;
+.container-body {
+    width: 100%;
+    height: 2695px;
+    background: rgb(255, 255, 255);
+    opacity: 1;
+    position: absolute;
+    top: 0;
+    left: 0;
+    overflow: hidden;
 }
 
-    .header-link:hover {
-        color: var(--color-neutral-30);
+.container-header {
+    width: 100%;
+    height: 210px;
+    background: rgba(2, 8, 9, 1);
+    opacity: 1;
+    position: absolute;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+}
+
+
+.container-categorias {
+    width: 100%;
+    max-width: 1240px;
+    height: 50px;
+    background: rgba(26, 26, 26, 1);
+    opacity: 1;
+    position: relative;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.container-logo {
+    width: 108px;
+    height: 90px;
+    background: url("../images/v1577_33.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    top: 39px;
+    left: 50%;
+    transform: translateX(-50%);
+    overflow: hidden;
+}
+
+.menu-container {
+    background-color: black; /* Cor de fundo do menu */
+}
+
+.menu {
+    display: flex; /* Ativa o Flexbox para distribuir os itens */
+    list-style: none; /* Remove os marcadores da lista */
+    padding: 0; /* Remove o padding padr„o da lista */
+    margin: 0; /* Remove a margem padr„o da lista */
+    justify-content: center; /* Centraliza os itens do menu */
+}
+
+.menu-item {
+    margin: 0 10px; /* Adiciona espaÁamento entre os itens */
+}
+
+    .menu-item a {
+        display: block; /* Garante que o link ocupe toda a ·rea do item */
+        padding: 15px; /* Adiciona padding ao link */
+        color: white; /* Cor do texto dos links */
+        text-decoration: none; /* Remove a decoraÁ„o dos links */
+        font-family: Georgia;
+        font-size: 16px
+    }
+
+    .menu-item.ativo a {
+        border-bottom: 150px solid #008000; /* Adiciona a borda verde no item ativo */
+        background: rgba(4, 89, 77, 1);
+        opacity: 1;
+    }
+
+
+.search-container {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 750px;
+    margin: 10px auto;
+    display: flex;
+    align-items: center;
+    height: 40px;
+    background: rgba(4, 89, 77, 1);
+    opacity: 1;
+    padding: 10px 0px;
+    position: absolute;
+    top: 60px;
+    transform: translateX(-50%);
+    overflow: hidden;
+    left: 1140px;
+}
+
+form {
+    display: flex;
+    width: 100%;
+}
+
+input[type="text"] {
+    padding: 10px 20px;
+    font-size: 16px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border: 1px solid #084C4F; /* Cor verde escuro */
+    border-radius: 4px 0 0 4px;
+    width: 100%;
+    background-color: #084C4F; /* Fundo verde escuro */
+    color: #f0f0f0;
+    flex: 1;
+}
+
+    input[type="text"]::placeholder {
+        color: #a7c3c0; /* Cor do placeholder */
+    }
+
+button {
+    padding: 10px 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 30px;
+    border: 1px solid #7B2E2E; /* Cor vermelha escura */
+    border-left: none;
+    background-color: #7B2E2E; /* Fundo vermelho escuro */
+    color: white;
+    border-radius: 0 4px 4px 0;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-left: -4px;
+}
+
+    button:hover {
+        background-color: #5a1f1f; /* Efeito hover no bot„o */
     }
 
 /* Responsividade */
-@media screen and (max-width: 768px) {
-    #header_content {
+@media (max-width: 768px) {
+    .container-categorias {
+        width: 100%;
+        top: 180px;
+    }
+
+    .container-logo {
+        top: 10px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    .menu {
         flex-direction: column;
-        align-items: flex-start; /* Alinha os itens ao in√≠cio na horizontal */
+        align-items: center;
     }
 
-    #header_logo {
-        margin-left:;
-        margin-bottom: 10px;
+    .menu-item {
+        margin: 5px 0;
     }
 
-    .container {
-        position: relative;
-        right: auto;
-        top: auto;
+    .search-container {
+        top: 120px;
+    }
+}
+
+@media (max-width: 480px) {
+    .container-header {
+        height: auto;
+        padding-bottom: 20px;
+    }
+
+    .container-categorias {
+        width: 100%;
+        top: 180px;
+        left: 0;
         transform: none;
-        margin-right: 0;
+    }
+
+    .container-logo {
+        top: 10px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    .menu {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .menu-item {
+        margin: 5px 0;
+    }
+
+    .search-container {
+        position: static;
         width: 100%;
+        max-width: none;
+        margin: 10px 0;
     }
 
-    .mainbox {
-        width: 100%;
+    input[type="text"] {
+        width: 70%;
     }
 
-    .checkbox {
-        right: 20px;
+    button {
+        width: 30%;
+        margin-left: 0;
     }
-
-    .lista-horizontal {
-        flex-wrap: wrap;
-        justify-content: flex-start;
-        margin-top: 10px;
-    }
-
-        .lista-horizontal li {
-            margin-right: 10px;
-            margin-bottom: 10px;
-        }
 }

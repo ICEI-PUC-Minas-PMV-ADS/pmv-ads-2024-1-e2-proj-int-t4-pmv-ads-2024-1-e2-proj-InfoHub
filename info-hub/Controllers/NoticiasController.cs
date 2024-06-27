@@ -1,22 +1,43 @@
 ﻿using info_hub.Models;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
+using System.Drawing.Printing;
 
 namespace info_hub.Controllers
 {
     public class NoticiasController(AppDbContext context) : Controller
     {
-        public async Task<IActionResult> Index()
+        public async Task<IActionResult> Index(int page = 1, int pageSize = 6)
         {
-            var news_data = await context.Noticias.ToListAsync();
+            var news_data = await context.Noticias
+                            .OrderByDescending(n => n.DataPublicacao)
+            .Skip((page - 1) * pageSize)
+                            .Take(pageSize)
+                            .ToListAsync();
+            ViewBag.CurrentPage = page;
+            ViewBag.PageSize = pageSize;
+            ViewBag.TotalCount = await context.Noticias.CountAsync();
+
             return View(news_data);
         }
 
+        [HttpGet]
+        public async Task<IActionResult> LoadMore(int page = 1, int pageSize = 6)
+        {
+            var moreNews = await context.Noticias
+                               .OrderByDescending(n => n.DataPublicacao)
+                               .Skip((page - 1) * pageSize)
+                               .Take(pageSize)
+                               .ToListAsync();
+
+            return Json(moreNews);
+        }
 
         public IActionResult Create()
         {
             return View();
         }
+
 
         [HttpPost]
         public async Task<IActionResult> Create(Noticia noticia)
@@ -29,6 +50,152 @@ namespace info_hub.Controllers
             }
             return View(noticia);
         }
+
+        public async Task<IActionResult> Mundo(int page = 1, int pageSize = 6)
+        {
+            var news_data = await context.Noticias
+                            .OrderByDescending(n => n.DataPublicacao)
+            .Skip((page - 1) * pageSize)
+                            .Take(pageSize)
+                            .ToListAsync();
+            ViewBag.CurrentPage = page;
+            ViewBag.PageSize = pageSize;
+            ViewBag.TotalCount = await context.Noticias.CountAsync();
+
+            return View(news_data);
+        }
+
+        public async Task<IActionResult> Economia(int page = 1, int pageSize = 6)
+        {
+            var news_data = await context.Noticias
+                            .OrderByDescending(n => n.DataPublicacao)
+            .Skip((page - 1) * pageSize)
+                            .Take(pageSize)
+                            .ToListAsync();
+            ViewBag.CurrentPage = page;
+            ViewBag.PageSize = pageSize;
+            ViewBag.TotalCount = await context.Noticias.CountAsync();
+
+            return View(news_data);
+        }
+
+
+        public async Task<IActionResult> Tecnologia(int page = 1, int pageSize = 6)
+        {
+            var news_data = await context.Noticias
+                            .OrderByDescending(n => n.DataPublicacao)
+            .Skip((page - 1) * pageSize)
+                            .Take(pageSize)
+                            .ToListAsync();
+            ViewBag.CurrentPage = page;
+            ViewBag.PageSize = pageSize;
+            ViewBag.TotalCount = await context.Noticias.CountAsync();
+
+            return View(news_data);
+        }
+
+        public async Task<IActionResult> Negocios(int page = 1, int pageSize = 6)
+        {
+            var news_data = await context.Noticias
+                            .OrderByDescending(n => n.DataPublicacao)
+            .Skip((page - 1) * pageSize)
+                            .Take(pageSize)
+                            .ToListAsync();
+            ViewBag.CurrentPage = page;
+            ViewBag.PageSize = pageSize;
+            ViewBag.TotalCount = await context.Noticias.CountAsync();
+
+            return View(news_data);
+        }
+
+
+        public async Task<IActionResult> Viagens(int page = 1, int pageSize = 6)
+        {
+            var news_data = await context.Noticias
+                            .OrderByDescending(n => n.DataPublicacao)
+            .Skip((page - 1) * pageSize)
+                            .Take(pageSize)
+                            .ToListAsync();
+            ViewBag.CurrentPage = page;
+            ViewBag.PageSize = pageSize;
+            ViewBag.TotalCount = await context.Noticias.CountAsync();
+
+            return View(news_data);
+        }
+
+
+        public async Task<IActionResult> Clima(int page = 1, int pageSize = 6)
+        {
+            var news_data = await context.Noticias
+                            .OrderByDescending(n => n.DataPublicacao)
+            .Skip((page - 1) * pageSize)
+                            .Take(pageSize)
+                            .ToListAsync();
+            ViewBag.CurrentPage = page;
+            ViewBag.PageSize = pageSize;
+            ViewBag.TotalCount = await context.Noticias.CountAsync();
+
+            return View(news_data);
+        }
+
+        public async Task<IActionResult> Moda(int page = 1, int pageSize = 6)
+        {
+            var news_data = await context.Noticias
+                            .OrderByDescending(n => n.DataPublicacao)
+            .Skip((page - 1) * pageSize)
+                            .Take(pageSize)
+                            .ToListAsync();
+            ViewBag.CurrentPage = page;
+            ViewBag.PageSize = pageSize;
+            ViewBag.TotalCount = await context.Noticias.CountAsync();
+
+            return View(news_data);
+        }
+
+
+        public async Task<IActionResult> Comida(int page = 1, int pageSize = 6)
+        {
+            var news_data = await context.Noticias
+                            .OrderByDescending(n => n.DataPublicacao)
+            .Skip((page - 1) * pageSize)
+                            .Take(pageSize)
+                            .ToListAsync();
+            ViewBag.CurrentPage = page;
+            ViewBag.PageSize = pageSize;
+            ViewBag.TotalCount = await context.Noticias.CountAsync();
+
+            return View(news_data);
+        }
+
+
+        public async Task<IActionResult> Esportes(int page = 1, int pageSize = 6)
+        {
+            var news_data = await context.Noticias
+                            .OrderByDescending(n => n.DataPublicacao)
+            .Skip((page - 1) * pageSize)
+                            .Take(pageSize)
+                            .ToListAsync();
+            ViewBag.CurrentPage = page;
+            ViewBag.PageSize = pageSize;
+            ViewBag.TotalCount = await context.Noticias.CountAsync();
+
+            return View(news_data);
+        }
+
+        public async Task<IActionResult> Politica(int page = 1, int pageSize = 6)
+        {
+            var news_data = await context.Noticias
+                            .OrderByDescending(n => n.DataPublicacao)
+            .Skip((page - 1) * pageSize)
+                            .Take(pageSize)
+                            .ToListAsync();
+            ViewBag.CurrentPage = page;
+            ViewBag.PageSize = pageSize;
+            ViewBag.TotalCount = await context.Noticias.CountAsync();
+
+            return View(news_data);
+        }
+
 
         public async Task<IActionResult> Edit(int? id)
         {

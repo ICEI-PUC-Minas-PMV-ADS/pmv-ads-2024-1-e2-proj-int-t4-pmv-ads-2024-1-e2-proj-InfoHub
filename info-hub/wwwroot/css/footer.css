@@ -18,11 +18,15 @@
 
 main {
     height: 300vh;
+    min-height: 100vh;
+    overflow-y: auto;
+    flex: 1;
 }
 
 footer {
     width: 100%;
     color: var(--color-neutral-40);
+    position: sticky;
 }
 
 

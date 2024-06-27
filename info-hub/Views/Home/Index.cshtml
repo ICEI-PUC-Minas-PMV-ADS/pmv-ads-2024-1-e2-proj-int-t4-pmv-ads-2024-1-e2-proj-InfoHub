@@ -1,64 +1,113 @@
-﻿@{
-    ViewData["Title"] = "Home Page";
+﻿@model IEnumerable<info_hub.Models.Noticia>
+
+<!-- Inclua o CSS personalizado -->
+@{
+    ViewData["Title"] = "Home";
+    Layout = "~/Views/Shared/_Layout.cshtml"; // Certifique-se de que seu layout está configurado corretamente
+}
+
+<link href="https://fonts.googleapis.com/css?family=Georgia&display=swap" rel="stylesheet" />
+<link href="./css/home.css" rel="stylesheet" />
+
+
+<div class="container-background-header-news"></div>
+        
+<div class="container-header-rigth-news">
+    <div class="news-container">
+        <span class="news-title">Mais aeroportos usarão uma abordagem de ‘deslizamento’ mais ecológica para pouso</span>
+        <div class="news-meta">
+            <span class="news-author">Por G1</span>
+            <span class="news-date">Feb. 4, 2023</span>
+        </div>
+
+    </div>
+</div>
+        
+<div class="v1552_266"></div>
+
+
+<div class="container-noticia-01">
+    <img src="https://s2-g1.glbimg.com/qwLkfIkRJlIGhX7-vCb2_xZ5yrI=/0x525:5042x3361/540x304/smart/filters:max_age(3600)/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2024/Z/0/e3C3xHQDeJTmufDiGXPg/2024-06-11t224023z-1119071016-rc2998agltpv-rtrmadp-3-brazil-dailylife.jpg" width="100%" height="100%"/>
+    <span>
+        Democrats Overhaul Party’s Primary Calendar, Upending a Political Tradition
+    </span>
+</div>
+
+<div class="container-noticia-02-background"></div>
+<div class="container-noticia-02">
+    <img src="https://s2-g1.glbimg.com/qwLkfIkRJlIGhX7-vCb2_xZ5yrI=/0x525:5042x3361/540x304/smart/filters:max_age(3600)/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2024/Z/0/e3C3xHQDeJTmufDiGXPg/2024-06-11t224023z-1119071016-rc2998agltpv-rtrmadp-3-brazil-dailylife.jpg" width="100%" height="100%"/>
+    <span>
+        O secretário de Estado Antony J. Blinken cancelou na sexta-feira uma viagem de fim de semana a Pequim depois que um balão espião chinês foi avistado
+    </span>
+</div>
+
+
+<div class="container-noticia-03">
+    <img src="https://s2-g1.glbimg.com/qwLkfIkRJlIGhX7-vCb2_xZ5yrI=/0x525:5042x3361/540x304/smart/filters:max_age(3600)/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2024/Z/0/e3C3xHQDeJTmufDiGXPg/2024-06-11t224023z-1119071016-rc2998agltpv-rtrmadp-3-brazil-dailylife.jpg" width="326" height="240">
+    <span>Balloon’s Journey</span>
+</div>
+
+<span class="container-ultimas-noticias">Últimas notícias><hr/>
+</span>
+
+@for (var i = 0; i < 2; i++)
+{
+    <div class="container-noticia-04">
+        <img src="https://s2-g1.glbimg.com/qwLkfIkRJlIGhX7-vCb2_xZ5yrI=/0x525:5042x3361/540x304/smart/filters:max_age(3600)/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2024/Z/0/e3C3xHQDeJTmufDiGXPg/2024-06-11t224023z-1119071016-rc2998agltpv-rtrmadp-3-brazil-dailylife.jpg" width="100%" height="100%">
+        <span class="titulo">
+            Pervez Musharraf, ex-governante militar do Paquistão, morre aos 79 anos
+        </span>
+        <span class="autor">Por G1</span>
+        <span class="data">Feb. 4, 2023</span>
+    </div>
+
+    <div class="container-noticia-05">
+        <img src="https://s2-g1.glbimg.com/qwLkfIkRJlIGhX7-vCb2_xZ5yrI=/0x525:5042x3361/540x304/smart/filters:max_age(3600)/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2024/Z/0/e3C3xHQDeJTmufDiGXPg/2024-06-11t224023z-1119071016-rc2998agltpv-rtrmadp-3-brazil-dailylife.jpg" width="100%" height="100%">
+        <span class="titulo">
+            Aumentam os temores em torno do caso “catastrófico” de pílulas abortivas à medida que a decisão se aproxima
+        </span>
+        <span class="autor">Por G1</span>
+        <span class="data">Feb. 4, 2023</span>
+    </div>
 }
 
 
-<section class="grid3">
-    <div class="grid3-item background1">
-        <img id="grid3" src="https://img.cancaonova.com/cnimages/canais/uploads/sites/11/2023/09/vitimas-fortes-chuvas-rio-grande-do-sul-ciclone-_-foto-Mauricio-Tonetto-Ulan-Pool-Latin-America-News-Agency-via-Reuters-Connect.png" width="480" height="540">
-        <p>Com nova chuva, Guaíba volta a subir e pode passar dos 5 metros</p>
+<div class="container-noticia-06">
+    <div class="noticia">
+        <span class="titulo">Londres a Istambul de trem: esta aventura ferroviária de 10 dias é o sonho de qualquer viajante</span>
+        <hr class="divider"/>
+        <span class="autor">Por G1</span>
+        <span class="data">Feb. 4, 2023</span>
     </div>
+</div>
 
-    <div class="grid3-item background2">
-        <img id="grid3" src="https://www.cnnbrasil.com.br/wp-content/uploads/sites/12/Reuters_Direct_Media/BrazilOnlineReportDomesticNews/tagreuters.com2023binary_LYNXMPEJAJ00M-FILEDIMAGE-e1700587247322.jpg?w=1220&h=674&crop=1" width="450" height="257">
-        <p>“Vocês não estão sozinhas”, diz Lula em vídeo às mães do Rio Grande do Sul</p>
+<div class="container-noticia-07">
+    <div class="noticia">
+        <span class="titulo">Mais aeroportos usarão uma abordagem de ‘deslizamento’ mais ecológica para pouso</span>
+        <hr class="divider"/>
+        <span class="autor">Por G1</span>
+        <span class="data">Feb. 4, 2023</span>
     </div>
-
-    <div class="grid3-item background3">
-        <img id="grid3" src="https://conteudo.imguol.com.br/c/noticias/b4/2024/05/04/dezenas-de-pessoas-foram-resgatadas-por-bombeiros-agentes-do-exercito-e-da-defesa-civil-alem-de-voluntarios-em-cruzeiro-do-sul-municipio-proximo-a-venancio-aires-no-rio-grande-do-sul-nesta-1714841283121_v2_900x506.jpg">
-        <p>Em barco, repórter da CNN mostra bairros vazios e alagados em Pelotas (RS); assista</p>
-    </div>
-</section>
-
-<div class="linha_horizontal"></div>
-
-<div class="ntcLista newsrow">
-    <img id="ntcLista" src="https://s2-g1.glbimg.com/fQtKHoSG-GY5lcDbhbKVNr1ImiQ=/0x0:5500x3668/1000x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2024/A/L/0wAx0HRSOB7VXQYQ6psA/2024-05-20t151236z-1613748779-rc2cu7atnrfv-rtrmadp-3-brazil-rains.jpg" width="320" height="180">
-    <h1>Água baixa no Guaíba e nas ruas, enquanto Porto Alegre avalia estragos e retoma aulas</h1>
-    <p>Lago Guaíba chegou a 4,25 metros nesta segunda na capital Porto Alegre. Na Lagoa dos Patos, nível baixou a 2,51 metros. Moradores de áreas de risco começaram a voltar para casa na Serra.</p>
-    <h2>Por G1</h2>
-    <h3>Há 2 horas - Rio Grande do Sul</h3>
 </div>
 
-<div class="linha_horizontal"></div>
 
-<div class="ntcLista newsrow">
-    <img id="ntcLista" src="https://s2-g1.glbimg.com/G263qL_nYW2aktuIuWxYx18bhMs=/0x0:800x450/1080x608/smart/filters:max_age(3600)/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2024/F/o/F1OvE3QLaoutAZoDxARg/5d8c7de0-1093-11ef-82e8-cd354766a224.jpg" width="320" height="180">
-    <h1>Auxílio Reconstrução: famílias do RS terão que confirmar dados no Gov.br a partir do dia 27</h1>
-    <p>Na primeira etapa, governo federal vai receber dados das prefeituras sobre áreas afetadas. Lula anunciou PIX de R$ 5,1 mil por família que perdeu bens nas chuvas históricas no estado.</p>
-    <h2>Por G1</h2>
-    <h3>Há 2 horas - Em Política</h3>
+
+<div class="btn-ver-mais">
+    <span>Ver mais</span>
 </div>
+        
+<span class="v1552_368">Notícias populares</span>
 
-<div class="linha_horizontal"></div>
 
-<div class="ntcLista newsrow">
-    <img id="ntcLista" src="https://s2-g1.glbimg.com/UOB1NrpkB_e7vBsdr9CeYkj0bsw=/0x109:1700x1065/1080x608/smart/filters:max_age(3600)/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2023/s/f/1djFgMRcOWzEXHuk9ouA/jogo-caixa.png" width="320" height="180">
-    <h1>Quina: 2 apostas acertam e levam mais de R$ 14 milhões cada</h1>
-    <p>Sorteio ocorreu nesta segunda-feira (20). Duas apostas acertaram os 5 números. Estimativa do prêmio do próximo concurso, que será realizado na terça-feira, (21) é de R$ 700 mil.</p>
-    <h2>Por G1</h2>
-    <h3>Há 2 horas - Loterias</h3>
+<div class="container-noticias-lateral">
+    @for (var i = 0; i < 6; i++)
+    {
+        <div class="container-lateral">
+                <img src="https://s2-g1.glbimg.com/qwLkfIkRJlIGhX7-vCb2_xZ5yrI=/0x525:5042x3361/540x304/smart/filters:max_age(3600)/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2024/Z/0/e3C3xHQDeJTmufDiGXPg/2024-06-11t224023z-1119071016-rc2998agltpv-rtrmadp-3-brazil-dailylife.jpg">
+            <div class="container-noticia-lateral-info">
+                    <span class="titulo">teste</span>
+                    <span class="date">teste</span>
+            </div>
+        </div>
+    }
 </div>
-
-<div class="linha_horizontal"></div>
-
-<div class="ntcLista newsrow">
-    <img id="ntcLista" src="https://s2-g1.glbimg.com/pwkqhhbJMVH0AI6mUZsZiCBpYDM=/0x85:1278x804/1080x608/smart/filters:max_age(3600)/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2024/u/s/33pA4XQBGNsP5cBAUqsA/ivonette-natalia-e-artemio.jpg" width="320" height="180">
-    <h1>Scarlett Johansson diz que OpenAI imitou sua voz no ChatGPT: 'fiquei chocada'</h1>
-    <p>Atriz afirma que foi convidada para licenciar sua voz para o sistema, mas que negou por 'motivos pessoais'. Empresa pausou uso do modelo Sky nesta segunda-feira (20).</p>
-    <h2>Por G1</h2>
-    <h3>Há 2 horas - Loterias</h3>
-</div>
-</div>
-
-<div class="linha_horizontal"></div>

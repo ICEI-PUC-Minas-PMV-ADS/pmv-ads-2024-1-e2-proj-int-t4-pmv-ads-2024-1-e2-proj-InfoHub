@@ -17,8 +17,15 @@ namespace info_hub.Models
         public required string Titulo { get; set; }
 
         [Required(ErrorMessage = "Error! Obrigatório informar a data de publicação")]
-        public required string DataPublicacao { get; set; }
+        public required DateOnly DataPublicacao { get; set; }
+
+        [Required(ErrorMessage = "Error! Obrigatório informar a data de publicação")]
+        public required string Url { get; set; }
+
+        [Required(ErrorMessage = "Error! Obrigatório informar o autor da publicação")]
+        public required string Autor { get; set; }
 
         public ICollection<Tema> Temas { get; set; }
     }
+
 }
