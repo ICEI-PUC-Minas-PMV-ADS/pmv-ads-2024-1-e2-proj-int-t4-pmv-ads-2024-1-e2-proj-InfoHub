@@ -19,10 +19,12 @@
     {
         <div class="news-column">
             <div class="news-item">
-                <h2 class="news-title">@item.Titulo</h2>
+                <a href="@item.Url" class="news-link" target="_blank">
+                    <h2 class="news-title">@item.Titulo</h2>
+                </a>
                 <p class="news-summary">@item.Tema</p>
                 <div class="news-meta">
-                    <span class="news-author">Por G1 noticias</span>
+                    <span class="news-author">@item.Autor</span>
                     <span class="news-date">@item.DataPublicacao</span>
                 </div>
                 <hr />
@@ -46,12 +48,14 @@
         var totalCount = @ViewBag.TotalCount;
 
         var verMaisBtn = document.getElementById('verMaisBtn');
+        console.log("Current item:");
         verMaisBtn.addEventListener('click', function () {
             fetch('/Noticias/LoadMore?page=' + (currentPage + 1) + '&pageSize=' + pageSize)
                 .then(response => response.json())
                 .then(data => {
                     if (data.length > 0) {
                         data.forEach(item => {
+                            console.log("Current item:", item);
                             var newsHtml = `
                                     <div class="news-column">
                                         <div class="news-item">

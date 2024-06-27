@@ -26,16 +26,16 @@
 
             <div class="container-categorias">
                 <ul class="menu">
-                    <li class="menu-item"><a href="#">Política</a></li>
-                    <li class="menu-item ativo"><a href="#">Mundo</a></li>
-                    <li class="menu-item"><a href="#">Economia</a></li>
-                    <li class="menu-item"><a href="#">Tecnologia</a></li>
-                    <li class="menu-item"><a href="#">Negócios</a></li>
-                    <li class="menu-item"><a href="#">Viagens</a></li>
-                    <li class="menu-item"><a href="#">Clima</a></li>
-                    <li class="menu-item"><a href="#">Moda</a></li>
-                    <li class="menu-item"><a href="#">Comida</a></li>
-                    <li class="menu-item"><a href="#">Esporte</a></li>
+                    <li class="menu-item"><a asp-controller="Noticias" asp-action="Politica">Política</a></li>
+                    <li class="menu-item"><a asp-controller="Noticias" asp-action="Mundo">Mundo</a></li>
+                    <li class="menu-item"><a asp-controller="Noticias" asp-action="Economia">Economia</a></li>
+                    <li class="menu-item"><a asp-controller="Noticias" asp-action="Tecnologia">Tecnologia</a></li>
+                    <li class="menu-item"><a asp-controller="Noticias" asp-action="Negocios">Negócios</a></li>
+                    <li class="menu-item"><a asp-controller="Noticias" asp-action="Viagens">Viagens</a></li>
+                    <li class="menu-item"><a asp-controller="Noticias" asp-action="Clima">Clima</a></li>
+                    <li class="menu-item"><a asp-controller="Noticias" asp-action="Moda">Moda</a></li>
+                    <li class="menu-item"><a asp-controller="Noticias" asp-action="Comida">Comida</a></li>
+                    <li class="menu-item"><a asp-controller="Noticias" asp-action="Esportes">Esportes</a></li>
                 </ul>
             </div>
         </div>
@@ -49,45 +49,27 @@
         <!-- Footer / RODAPÉ DA PÁGINA -->
         <div id="footer_content">
             <div id="footer_logo">
-                <a href="@Url.Action("Index", "Home")">
+                <a href="@Url.Action("Index", "Noticias")">
                     <img src="~/logo.png" alt="Logo InfoHub" width="80px">
                 </a>
             </div>
 
             <ul class="footer-list">
-                <li>
-                    <a href="#" class="footer-link">Política</a>
-                </li>
-                <li>
-                    <a href="#" class="footer-link">Mundo</a>
-                </li>
-                <li>
-                    <a href="#" class="footer-link">Economia</a>
-                </li>
-                <li>
-                    <a href="#" class="footer-link">Tecnologia</a>
-                </li>
-                <li>
-                    <a href="#" class="footer-link">Negócios</a>
-                </li>
+                <li><a asp-controller="Noticias" asp-action="Politica" class="footer-link">Política</a></li>
+                <li><a asp-controller="Noticias" asp-action="Mundo" class="footer-link">Mundo</a></li>
+                <li><a asp-controller="Noticias" asp-action="Economia" class="footer-link">Economia</a></li>
+                <li><a asp-controller="Noticias" asp-action="Tecnologia" class="footer-link">Tecnologia</a></li>
+                <li><a asp-controller="Noticias" asp-action="Negocios" class="footer-link">Negócios</a></li>
             </ul>
 
             <ul class="footer-list">
+                <li><a asp-controller="Noticias" asp-action="Viagens" class="footer-link">Viagens</a></li>
+                <li><a asp-controller="Noticias" asp-action="Clima" class="footer-link">Clima</a></li>
+                <li><a asp-controller="Noticias" asp-action="Moda" class="footer-link">Moda</a></li>
+                <li><a asp-controller="Noticias" asp-action="Comida" class="footer-link">Comida</a></li>
+                <li><a asp-controller="Noticias" asp-action="Esportes" class="footer-link">Esportes</a></li>
                 <li>
-                    <a href="#" class="footer-link">Viagem</a>
-                </li>
-                <li>
-                    <a href="#" class="footer-link">Clima</a>
-                </li>
-                <li>
-                    <a href="#" class="footer-link">Moda</a>
-                </li>
-                <li>
-                    <a href="#" class="footer-link">Comida</a>
-                </li>
-                <li>
-                    <a href="#" class="footer-link">Esportes</a>
-                </li>
+                
                 <li>
                     <a href="@Url.Action("Index", "Noticias")" class="footer-link">Desenvolvedor</a>
                 </li>
