@@ -60,7 +60,7 @@ def format_date(date_text: str):
     months = {
         "janeiro": 1,
         "fevereiro": 2,
-        "março": 3,
+        "marÃ§o": 3,
         "abril": 4,
         "maio": 5,
         "junho": 6,
