@@ -18,6 +18,9 @@
 
 main {
     height: 300vh;
+    min-height: 100vh;
+    overflow-y: auto;
+    flex: 1;
 }
 
 footer {
