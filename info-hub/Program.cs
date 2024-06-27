@@ -6,6 +6,9 @@ internal class Program
     private static void Main(string[] args)
     {
         var builder = WebApplication.CreateBuilder(args);
+        // Carregar configurações do appsettings.json e variáveis de ambiente
+        builder.Configuration.AddJsonFile("appsettings.json");
+        builder.Configuration.AddEnvironmentVariables();
 
         // Add services to the container.'
         builder.Services.AddControllersWithViews();
